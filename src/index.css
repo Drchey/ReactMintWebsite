@@ -55,6 +55,15 @@
   );
 }
 
+.bg-forest-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #4a6741 -78.47%,
+    #22311d 91.61%
+  );
+}
+
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
