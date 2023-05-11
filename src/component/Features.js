@@ -6,7 +6,7 @@ const Features = () => {
     <div
       className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 mt-7`}
     >
-      <div className={``}>
+      <div className={`flex-1`}>
         <div
           className={` feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
@@ -45,10 +45,10 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div className={``}>
+      <div className={`flex-1`}>
         <img src={phone} alt="phone" className="w-[400px]" />
       </div>
-      <div className={``}>
+      <div className={`flex-1`}>
         <div
           className={` feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
