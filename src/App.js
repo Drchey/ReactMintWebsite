@@ -1,4 +1,4 @@
-import { Hero, Navbar, Stats } from './component'
+import { Features, Hero, Navbar, Stats } from './component'
 import styles from './style'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
           <Navbar />
         </div>
       </div>
-      <div className={`bg-dimWhite ${styles.flexStart}`}>
+      <div className={`bg-dimWhite  ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
@@ -18,6 +18,7 @@ function App() {
       <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
+          <Features />
         </div>
       </div>
     </div>

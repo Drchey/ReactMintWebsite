@@ -24,6 +24,7 @@ import people02 from './people02.png'
 import people03 from './people03.png'
 import hero from './hero.jpg'
 import logo from './logo.png'
+import phone from './phone.png'
 
 export {
   airbnb,
@@ -52,4 +53,5 @@ export {
   people02,
   people03,
   hero,
+  phone,
 }
