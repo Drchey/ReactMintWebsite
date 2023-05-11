@@ -122,6 +122,12 @@
   width: 30vw;
 }
 
+.sd-card {
+  border: 1px solid #228b22;
+  margin: 10px 0px;
+  width: 100%;
+}
+
 .feedback-card {
   background: transparent;
 }

@@ -1,4 +1,5 @@
 import { Business, Features, Hero, Navbar, Stats } from './component'
+import Security from './component/Security'
 import styles from './style'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Stats />
           <Features />
           <Business />
+          <Security />
         </div>
       </div>
     </div>
