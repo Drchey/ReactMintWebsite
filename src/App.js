@@ -1,4 +1,4 @@
-import { Business, Features, Hero, Navbar, Stats } from './component'
+import { Business, Features, Footer, Hero, Navbar, Stats } from './component'
 import Security from './component/Security'
 import Testimonial from './component/Testimonial'
 import styles from './style'
@@ -24,6 +24,11 @@ function App() {
           <Business />
           <Security />
           <Testimonial />
+        </div>
+      </div>
+      <div className={`bg-dimForest ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Footer />
         </div>
       </div>
     </div>
