@@ -1,4 +1,4 @@
-import { discount, logo, robot } from '../assets'
+import { logo, robot } from '../assets'
 import styles from '../style'
 
 const Hero = () => (
