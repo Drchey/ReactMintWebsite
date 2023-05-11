@@ -1,4 +1,4 @@
-import { Features, Hero, Navbar, Stats } from './component'
+import { Business, Features, Hero, Navbar, Stats } from './component'
 import styles from './style'
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Features />
+          <Business />
         </div>
       </div>
     </div>
