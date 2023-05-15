@@ -25,6 +25,7 @@ import people03 from './people03.png'
 import hero from './hero.jpg'
 import logo from './logo.png'
 import phone from './phone.png'
+import not_found from './not_found.svg'
 
 export {
   airbnb,
@@ -54,4 +55,5 @@ export {
   people03,
   hero,
   phone,
+  not_found,
 }
