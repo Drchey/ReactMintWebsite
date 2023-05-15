@@ -5,6 +5,9 @@ const styles = {
     'font-poppins font-semibold xs:text-[48px] text-[40px] text-dimForest xs:leading-[76.8px] leading-[66.8px] w-full',
   paragraph: 'font-poppins font-normal  text-[18px] leading-[30.8px]',
 
+  headingTitle:
+    'font-poppins font-semibold xs:text-[68px] text-[60px] text-white xs:leading-[86.8px] leading-[86.8px] w-full',
+
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
 

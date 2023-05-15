@@ -8,6 +8,7 @@ import Image from './Image'
 import ProductHeader from './ProductHeader'
 import ProductAbout from './ProductAbout'
 import IdeaAction from './IdeaAction'
+import Background from './Background'
 import Testimonial from './Testimonial'
 import Footer from './Footer'
 
@@ -20,6 +21,7 @@ export {
   ProductHeader,
   ProductAbout,
   IdeaAction,
+  Background,
   Business,
   Security,
   Testimonial,

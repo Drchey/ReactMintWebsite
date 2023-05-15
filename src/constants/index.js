@@ -107,6 +107,27 @@ export const stats = [
   },
 ]
 
+export const contact_data = [
+  {
+    id: 'contact-1',
+    icon: star,
+    title: 'Phone Number',
+    content: '+234 90 390 39 237, + 234 80 359 70 609',
+  },
+  {
+    id: 'contact-2',
+    icon: star,
+    title: 'Email Address',
+    content: 'joeydias@gmail.com',
+  },
+  {
+    id: 'contact-3',
+    icon: star,
+    title: 'GeoLocation',
+    content: '34 Samuel Ladoke Boulevard, Garki',
+  },
+]
+
 // Stats Data for Vac
 
 export const vac_stats = [
