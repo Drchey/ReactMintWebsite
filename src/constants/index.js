@@ -32,6 +32,10 @@ export const navLinks = [
     id: 'clients',
     title: 'Clients',
   },
+  {
+    id: 'contact',
+    title: 'Contact Us',
+  },
 ]
 
 export const features = [
@@ -100,6 +104,26 @@ export const stats = [
     id: 'stats-3',
     title: 'Printed Certificates',
     value: 'N230M+',
+  },
+]
+
+// Stats Data for Vac
+
+export const vac_stats = [
+  {
+    id: 'stats-1',
+    title: 'Partnering Universities',
+    value: '17',
+  },
+  {
+    id: 'stats-2',
+    title: 'Revenue Generated',
+    value: 'N200B+',
+  },
+  {
+    id: 'stats-3',
+    title: 'Verifications',
+    value: '30M+',
   },
 ]
 

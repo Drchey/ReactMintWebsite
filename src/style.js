@@ -28,4 +28,10 @@ export const layout = {
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 }
 
+export const product_layout = {
+  section: `flex md:flex-row flex-col p-[16px]`,
+  sectionInfo: `flex-none w-14 h-14`,
+  sectionInfo2: `flex-initial w-96`,
+}
+
 export default styles
