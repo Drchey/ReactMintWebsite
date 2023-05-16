@@ -255,6 +255,51 @@
   }
 }
 
+.popup-container {
+  transition-property: opacity, transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transform-origin: center;
+}
+
+.scale-0 {
+  transform: scale(0);
+}
+
+.scale-100 {
+  transform: scale(1);
+}
+
+.slide-left-container {
+  transition-property: transform;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+}
+
+.translate-x-0 {
+  transform: translateX(0);
+}
+
+.-translate-x-full {
+  transform: translateX(-100%);
+}
+
+.translate-x-0 {
+  transform: translateX(0);
+}
+
+.-translate-x-right-full {
+  transform: translateX(100%);
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
   filter: blur(123px);

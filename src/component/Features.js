@@ -1,8 +1,9 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { phone } from '../assets'
 import styles from '../style'
 
-const Features = () => {
+const Features = ({ isVisible }) => {
   return (
     <div
       className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 mt-7`}
@@ -49,7 +50,13 @@ const Features = () => {
         </div>
       </div>
       <div className={`flex-1`}>
-        <img src={phone} alt="phone" className="w-[400px]" />
+        <div
+          className={`popup-container ${
+            isVisible ? 'scale-100 opacity-100' : 'scale-0 opacity-0'
+          }`}
+        >
+          <img src={phone} alt="phone" className="w-[400px]" />
+        </div>
       </div>
       <div className={`flex-1`}>
         <div

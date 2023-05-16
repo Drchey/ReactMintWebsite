@@ -1,21 +1,21 @@
-import { clients } from '../constants'
+import { ownership } from '../assets'
 import styles from '../style'
 
 const Testimonial = () => (
-  <section className={`${styles.flexCenter} my-4 bg-dimForest py-9`}>
-    <div className={`${styles.flexCenter} flex-wrap w-full`}>
-      {clients.map((client) => (
-        <div
-          key={client.id}
-          className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-[120px]`}
-        >
-          <img
-            src={client.logo}
-            alt="client"
-            className="sm:w-[192px] w-[100px] object-contain"
-          />
-        </div>
-      ))}
+  <section
+    className={`${styles.flexCenter} flex flex-col my-4 bg-dimWhite py-9`}
+  >
+    <h1
+      className={`${styles.paragraph} text-center uppercase text-gray-600 text-semibold`}
+    >
+      Our OwnerShip Structure
+    </h1>
+    <div className={`${styles.flexCenter}  w-full`}>
+      <img
+        src={ownership}
+        alt="ownership"
+        className="sm:w-fit w-[100%] object-fit"
+      />
     </div>
   </section>
 )
