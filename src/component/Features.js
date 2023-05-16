@@ -17,9 +17,11 @@ const Features = () => {
             <img src="" alt="icon" className="w-[50%] h-[50%] object-contain" />
           </div>
           <div className="flex-1 flex flex-col ml-3">
-            <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
-              Print
-            </h4>
+            <Link to="/currency">
+              <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
+                Currency Prints
+              </h4>
+            </Link>
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
               ipsa.

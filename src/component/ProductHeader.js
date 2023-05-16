@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../style'
 import { Link } from 'react-router-dom'
 
-const ProductHeader = () => (
+const ProductHeader = ({ title }) => (
   <div class={`flex mt-5`}>
     <div class="flex-none w-44">
       <h2 className={styles.heading2}> VAC </h2>
@@ -11,9 +11,7 @@ const ProductHeader = () => (
       <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
     </div>
     <div className={`flex-initial w-84 ...`}>
-      <h2 className={`${styles.heading2}`}>
-        Verification & Authentication of Certificates
-      </h2>
+      <h2 className={`${styles.heading2}`}>{title}</h2>
       <p className={`${styles.paragraph}`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cumque hic
         distinctio quod ullam nulla fugit saepe esse nisi obcaecati pariatur

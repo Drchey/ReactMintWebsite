@@ -1,12 +1,13 @@
 import React from 'react'
 import styles, { layout } from '../style'
 
-const ProductAbout = () => (
+const ProductAbout = ({ title }) => (
   <div className={`${layout.section} flex flex-row`}>
     <div className={layout.sectionImg}>
       <h1 className={styles.heading2}>
-        {' " '} The Ultimate Solution for
-        <br className="sm:block hidden" /> for Credential Verification {' " '}
+        {/* {' " '} The Ultimate Solution for
+        <br className="sm:block hidden" /> for Credential Verification {' " '} */}
+        {' " '} {title} {' " '}
       </h1>
     </div>
     <div className={layout.sectionInfo}>

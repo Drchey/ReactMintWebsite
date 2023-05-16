@@ -7,6 +7,8 @@ import Security from './Security'
 import Image from './Image'
 import ProductHeader from './ProductHeader'
 import ProductAbout from './ProductAbout'
+import CurrencyHeader from './CurrencyHeader'
+import CurrencyAbout from './CurrencyAbout'
 import IdeaAction from './IdeaAction'
 import Background from './Background'
 import Testimonial from './Testimonial'
@@ -20,6 +22,8 @@ export {
   Image,
   ProductHeader,
   ProductAbout,
+  CurrencyHeader,
+  CurrencyAbout,
   IdeaAction,
   Background,
   Business,
