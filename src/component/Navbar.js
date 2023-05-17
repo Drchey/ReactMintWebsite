@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { navLinks } from '../constants'
 import { close, logo, menu } from '../assets'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
@@ -16,7 +17,7 @@ const Navbar = () => {
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-forest font-semibold mr-10`}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <Link to={`/${nav.link}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>

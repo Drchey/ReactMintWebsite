@@ -27,6 +27,13 @@ import logo from './logo.png'
 import phone from './phone.png'
 import not_found from './not_found.svg'
 import ownership from './ownership1.png'
+import chairman from './chairman.jpeg'
+import md from './md.jpg'
+import edcs from './edcs.jpg'
+import ed_ops from './ed_ops.jpg'
+import ed_ops_lagos from './ed_ops_lagos.jpg'
+import ed_sd from './edsd.jpg'
+import adviser from './adviser.jpg'
 
 export {
   airbnb,
@@ -58,4 +65,11 @@ export {
   phone,
   not_found,
   ownership,
+  chairman,
+  md,
+  edcs,
+  ed_ops,
+  ed_ops_lagos,
+  ed_sd,
+  adviser,
 }

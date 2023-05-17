@@ -35,7 +35,10 @@ const VACProduct = () => {
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <ProductAbout />
+          <ProductAbout
+            title="The Ultimate Solution for
+        for Credential Verification"
+          />
 
           <IdeaAction header="The Scope" />
         </div>

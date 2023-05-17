@@ -4,6 +4,7 @@ import VACProduct from './screens/VACProduct'
 import Contact from './screens/Contact'
 import NotFound from './screens/NotFound'
 import CurrencyProduct from './screens/CurrencyProduct'
+import Team from './component/Team'
 
 const App = () => (
   <Router>
@@ -12,6 +13,7 @@ const App = () => (
       <Route path="/vac" element={<VACProduct />} />
       <Route path="/currency" element={<CurrencyProduct />} />
       <Route path="/contactus" element={<Contact />} />
+      <Route path="/teams" element={<Team />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </Router>
