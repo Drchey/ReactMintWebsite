@@ -21,6 +21,7 @@ import {
   ed_sd,
   adviser,
 } from '../assets'
+import { layout } from '../style'
 
 export const navLinks = [
   {
@@ -30,9 +31,9 @@ export const navLinks = [
   },
 
   {
-    id: 'product',
-    link: 'product',
-    title: 'Products',
+    id: 'service',
+    link: 'services',
+    title: 'Our Services',
   },
   {
     id: 'contact',
@@ -45,10 +46,60 @@ export const navLinks = [
     link: 'history',
     title: 'History',
   },
+
   {
     id: 'board',
     link: 'teams',
     title: 'Our Board',
+  },
+]
+
+export const services = [
+  {
+    id: 'service-1',
+    class: layout.serviceSection,
+    title: 'Currency Production',
+    context: `The MINT produces Nigeria's Naira Notes. The MINT has been in charge of the production of local currency notes since they were introduced in 1965. It does this on behalf of the Central Bank of Nigeria. The naira note is an enabler of Nigeria's physical economy. It is the country's official unit of exchange and store of value. It is also a national symbol.These facts warrant the protection of the naira against counterfeiting. Nigeria's monetary regulators want to guarantee the integrity of the Nigerian currency, and they take steps to secure the notes. Thousands of counterfeit naira notes are captured and recovered from circulation every year.Currency imitators try to counterfeit notes by using scanning and printing techniques with varying resolutions. Most fake currencies can be detected with the naked eye. A fraction will only be found out with the use of light-based examination and authenticating machines.We Ensure the Security of Naira Notes.For decades, the MINT has produced Nigeria's naira notes. The notes are among the most secure in the world, with features that are almost impossible to replicate outside of our production system`,
+  },
+
+  {
+    id: 'service-2',
+    class: layout.serviceSectionReverse,
+    title: 'Certificates Print',
+    context:
+      'The Mint produces all certificates, particularly academic, birth, death, and marriage certificates. These certificates are printed with security features embedded that prevent forgery, cloning, or counterfeiting',
+  },
+
+  {
+    id: 'service-3',
+    class: layout.serviceSection,
+    title: 'SmartCard Perso Bureau',
+    context:
+      'The Mint produces all certificates, particularly academic, birth, death, and marriage certificates. These certificates are printed with security features embedded that prevent forgery, cloning, or counterfeiting',
+  },
+
+  {
+    id: 'service-4',
+    class: layout.serviceSectionReverse,
+    title: 'Verification and Authentication of Certificates (VAC) Solution',
+    context:
+      'In conjunction with higher institutions of learning in Nigeria, we assist in verifying the authenticity of certificates presented by graduates of tertiary institutions and professional bodies. We also assist graduates in transmitting transcripts securely from their alma mater to end-users anywhere in the world',
+  },
+
+  {
+    id: 'service-5',
+    class: layout.serviceSection,
+    title: 'Quick Response (QR) Technology in Security',
+    context:
+      'In conjunction with higher institutions of learning in Nigeria, we assist in verifying the authenticity of certificates presented by graduates of tertiary institutions and professional bodies. We also assist graduates in transmitting transcripts securely from their alma mater to end-users anywhere in the world',
+  },
+
+  {
+    id: 'service-6',
+    class: layout.serviceSectionReverse,
+    title: 'Digital Tax Stamp Solution',
+    context:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vitae magnam et quis aliquid itaque incidunt voluptas natus quae? Tempora placeat, hic ad quia sapiente unde itaque quidem quisquam reprehenderit.',
   },
 ]
 
