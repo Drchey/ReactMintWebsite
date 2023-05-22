@@ -218,23 +218,23 @@ export const footerLinks = [
     title: 'Useful Links',
     links: [
       {
-        name: 'Content',
-        link: 'https://www.hoobank.com/content/',
+        name: 'About Us',
+        link: '',
       },
       {
-        name: 'How it Works',
-        link: 'https://www.hoobank.com/how-it-works/',
+        name: 'Our Services',
+        link: 'services',
       },
       {
-        name: 'Create',
-        link: 'https://www.hoobank.com/create/',
+        name: 'Our Team',
+        link: 'team',
       },
       {
-        name: 'Explore',
-        link: 'https://www.hoobank.com/explore/',
+        name: 'Explore Our History',
+        link: 'history',
       },
       {
-        name: 'Terms & Services',
+        name: 'Our Privacy Policy',
         link: 'https://www.hoobank.com/terms-and-services/',
       },
     ],
@@ -243,24 +243,16 @@ export const footerLinks = [
     title: 'Community',
     links: [
       {
-        name: 'Help Center',
-        link: 'https://www.hoobank.com/help-center/',
+        name: 'Contact Us',
+        link: 'contactus',
       },
       {
-        name: 'Partners',
+        name: 'VAC',
         link: 'https://www.hoobank.com/partners/',
       },
       {
         name: 'Suggestions',
-        link: 'https://www.hoobank.com/suggestions/',
-      },
-      {
-        name: 'Blog',
-        link: 'https://www.hoobank.com/blog/',
-      },
-      {
-        name: 'Newsletters',
-        link: 'https://www.hoobank.com/newsletters/',
+        link: 'contactus',
       },
     ],
   },
@@ -268,12 +260,8 @@ export const footerLinks = [
     title: 'Partner',
     links: [
       {
-        name: 'Our Partner',
-        link: 'https://www.hoobank.com/our-partner/',
-      },
-      {
-        name: 'Become a Partner',
-        link: 'https://www.hoobank.com/become-a-partner/',
+        name: 'Become a Partner With Us',
+        link: 'contactus',
       },
     ],
   },
@@ -298,7 +286,7 @@ export const socialMedia = [
   {
     id: 'social-media-4',
     icon: linkedin,
-    link: 'https://www.linkedin.com/',
+    link: 'https://ng.linkedin.com/company/nspmplc',
   },
 ]
 
