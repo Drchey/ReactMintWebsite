@@ -6,10 +6,7 @@ import styles, { layout } from '../style'
 export const OurService = () => (
   <>
     {services.map((service) => (
-      <section
-        key={service.id}
-        className={`${layout.serviceSection} mt-[45px]`}
-      >
+      <section key={service.id} className={`${layout.serviceSection}`}>
         <div className={service.class}>
           <div className={layout.serviceSectionImg}>
             <div className={`slide-left-container`}>
@@ -49,7 +46,7 @@ const Service = () => (
       </div>
     </div>
 
-    <div className={`bg-dimWhite my-18  ${styles.flexStart}`}>
+    <div className={`bg-dimWhite my-18  ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <OurService />
       </div>

@@ -1,9 +1,21 @@
+import { useState } from 'react'
 import { boards } from '../constants'
 import styles from '../style'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
-const Team = () => {
+const Team = ({ id }) => {
+  const [expandedState, setExpandedState] = useState({ [id]: false })
+
+  const toggleExpansion = () => {
+    setExpandedState((prevState) => ({
+      ...prevState,
+      [id]: !prevState[id],
+    }))
+  }
+
+  const isExpanded = expandedState[id]
+
   return (
     <div className="bg-dimWhite w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -18,7 +30,7 @@ const Team = () => {
           >
             Meet Our Board of Directors
           </h2>
-          <p className={`${styles.paragraph} font-bold`}>
+          <p className={`${styles.paragraph} text-center  font-bold`}>
             The board of directors led by the chairman is responsible for
             providing the overall strategic direction for the company.
           </p>
@@ -30,6 +42,7 @@ const Team = () => {
           <div className="flex flex-col">
             {boards.map((board, index) => (
               <div
+                id={index}
                 key={index}
                 className="flex md:flex-row flex-col items-center justify-between border-gray-600 border-2 p-[30px] mb-5 rounded-[20px]"
               >
@@ -42,7 +55,24 @@ const Team = () => {
                   <h1 className="mb-3 uppercase text-uppercase md:text-[22px] font-semibold text-[18px] text-dimForest">
                     {board.name} : {board.title}
                   </h1>
-                  <p className="flex-84 font-poppins">{board.content}</p>
+
+                  {board.content.length > 400 ? (
+                    <p className="flex-84 font-poppins">
+                      {board.content.slice(0, 400)}{' '}
+                      <span
+                        className="hover:underline hover:text-blue-500 cursor-pointer"
+                        onClick={toggleExpansion}
+                      >
+                        {isExpanded ? (
+                          <span>... Read More</span>
+                        ) : (
+                          <span> ...Read Less </span>
+                        )}
+                      </span>
+                    </p>
+                  ) : (
+                    <p className="flex-84 font-poppins">{board.content}</p>
+                  )}
                 </div>
               </div>
             ))}
