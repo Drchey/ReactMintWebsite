@@ -29,15 +29,13 @@ const Hero = () => (
         managed and operated by Nigerians
       </div>
 
-      <div className={`${styles.paragraph} mt-5`}>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
-        minus?s
-      </div>
-
       <div className="flex flex-1 mt-6">
-        <button className="bg-dimForest p-4 w-[150px] h-[70px] text-white border-none rounded-[20px] font-bold">
-          Get Started
-        </button>
+        <a
+          href="#division"
+          className="bg-dimForest p-4 w-[150px] h-[70px] text-white text-center border-none rounded-[20px] font-bold"
+        >
+          Our Divisions
+        </a>
       </div>
     </div>
 

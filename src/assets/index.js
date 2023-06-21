@@ -34,6 +34,10 @@ import ed_ops from './ed_ops.jpg'
 import ed_ops_lagos from './ed_ops_lagos.jpg'
 import ed_sd from './edsd.jpg'
 import adviser from './adviser.jpg'
+import oldkobo from './oldkobo.jpg'
+import mint_features from './mint_features.png'
+import justme from './justme.jpg'
+import lagosquarters from './lagosquarters.png'
 
 export {
   airbnb,
@@ -72,4 +76,8 @@ export {
   ed_ops_lagos,
   ed_sd,
   adviser,
+  oldkobo,
+  mint_features,
+  justme,
+  lagosquarters,
 }

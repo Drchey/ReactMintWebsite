@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { contact_data } from '../constants'
 import styles from '../style'
 import { send } from '../assets'
+import SurveyModal from './SurveyModal'
 
 export const Form = () => (
   <div>
@@ -48,71 +49,91 @@ export const Form = () => (
   </div>
 )
 
-const ContactForm = () => (
-  <section className="min-h-[100vh] p-[30px] flex flex-wrap align-center justify-center">
-    <div className="flex-2">
-      <div className="flex-col mt-2">
-        {contact_data.map((contact, index) => (
-          <div className="shadow-md ring-2 ring-gray-200 h-[100px] mb-5 flex justify-center items-center p-[12px]">
+const ContactForm = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleModal = () => {
+    setIsOpen(!isOpen)
+  }
+
+  const openModal = () => {
+    setIsOpen(true)
+  }
+
+  return (
+    <section className="min-h-[100vh] p-[30px] flex flex-wrap align-center justify-center">
+      <div className="flex-2">
+        <div className="flex-col mt-2">
+          {contact_data.map((contact, index) => (
+            <div
+              key={index}
+              className="shadow-md ring-2 ring-gray-200 h-[100px] mb-5 flex justify-center items-center p-[12px]"
+            >
+              <div
+                className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
+              >
+                <img
+                  src={contact.icon}
+                  alt="icon"
+                  className="w-[50%] h-[50%] object-contain"
+                />
+              </div>
+              <div className="flex-1 flex flex-col ml-3">
+                <h4 className="font-poppins font-semibold text-gray-600 text-[17px] leading-[23px] mb-2">
+                  {contact.title}
+                </h4>
+                <p className="font-poppins font-normal text-gray-600 text-[15px] leading-[23px] mb-1">
+                  {contact.content}
+                </p>
+              </div>
+            </div>
+          ))}
+
+          <div className='className="shadow-md p-3 ring-2 ring-gray-200 h-[100px] mb-5 flex justify-center items-center p-[12px]"'>
             <div
               className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
             >
               <img
-                src={contact.icon}
+                src={send}
                 alt="icon"
                 className="w-[50%] h-[50%] object-contain"
               />
             </div>
-            <div className="flex-1 flex flex-col ml-3">
+            <div
+              className="flex-1 flex flex-col ml-3 cursor-pointer"
+              onClick={openModal}
+            >
               <h4 className="font-poppins font-semibold text-gray-600 text-[17px] leading-[23px] mb-2">
-                {contact.title}
+                Fill In Our Survey Form
               </h4>
               <p className="font-poppins font-normal text-gray-600 text-[15px] leading-[23px] mb-1">
-                {contact.content}
+                Help Us to Help You
               </p>
             </div>
-          </div>
-        ))}
 
-        <div className='className="shadow-md p-3 ring-2 ring-gray-200 h-[100px] mb-5 flex justify-center items-center p-[12px]"'>
-          <div
-            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
-          >
-            <img
-              src={send}
-              alt="icon"
-              className="w-[50%] h-[50%] object-contain"
-            />
-          </div>
-          <div className="flex-1 flex flex-col ml-3">
-            <h4 className="font-poppins font-semibold text-gray-600 text-[17px] leading-[23px] mb-2">
-              Fill In Our Survey Form
-            </h4>
-            <p className="font-poppins font-normal text-gray-600 text-[15px] leading-[23px] mb-1">
-              Help Us to Help You
-            </p>
+            <SurveyModal isOpen={isOpen} toggleModal={toggleModal} />
           </div>
         </div>
       </div>
-    </div>
-    <div className="flex-1">
-      <div className="flex-col mt-2 md:ml-4">
-        <div className="shadow-md ring-2 ring-gray-200 min-h-[100px] mb-5 flex flex-col justify-start  p-[12px]">
-          <div className="mb-5">
-            <h3 className={`${styles.heading2} text-dimForest `}>
-              {' '}
-              Send Us A Message!
-            </h3>
-            <p className={`${styles.paragraph} text-gray-500`}>
-              How may we assist You
-            </p>
-          </div>
+      <div className="flex-1">
+        <div className="flex-col mt-2 md:ml-4">
+          <div className="shadow-md ring-2 ring-gray-200 min-h-[100px] mb-5 flex flex-col justify-start  p-[12px]">
+            <div className="mb-5">
+              <h3 className={`${styles.heading2} text-dimForest `}>
+                {' '}
+                Send Us A Message!
+              </h3>
+              <p className={`${styles.paragraph} text-gray-500`}>
+                How may we assist You
+              </p>
+            </div>
 
-          <Form />
+            <Form />
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-)
+    </section>
+  )
+}
 
 export default ContactForm

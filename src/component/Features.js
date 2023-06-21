@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { phone } from '../assets'
+import { mint_features } from '../assets'
 import styles from '../style'
 
 const Features = ({ isVisible }) => {
@@ -53,13 +53,13 @@ const Features = ({ isVisible }) => {
           </div>
         </div>
       </div>
-      <div className={`flex-1`}>
+      <div className={`flex-1 sm:block hidden`}>
         <div
           className={`popup-container ${
             isVisible ? 'scale-100 opacity-100' : 'scale-0 opacity-0'
           }`}
         >
-          <img src={phone} alt="phone" className="w-[400px]" />
+          <img src={mint_features} alt="mint features" className="w-[400px]" />
         </div>
       </div>
       <div className={`flex-1`}>

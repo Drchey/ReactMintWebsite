@@ -5,9 +5,10 @@ import {
   Footer,
   Hero,
   Navbar,
+  Section,
   Security,
   Stats,
-  Testimonial,
+  // Testimonial,
 } from '../component'
 
 import styles from '../style'
@@ -45,10 +46,12 @@ const Home = () => {
       <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
+
           <Features isVisible={isVisible} />
+          <Section link="/currency" />
           <Business isVisible={isVisible} />
           <Security isVisible={isVisible} />
-          <Testimonial />
+          {/* <Testimonial />  */}
         </div>
       </div>
       <div className={`bg-dimForest ${styles.paddingX} ${styles.flexStart}`}>

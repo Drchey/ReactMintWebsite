@@ -28,16 +28,17 @@ const Footer = () => (
             </h4>
             <ul className="list-none mt-4">
               {footerLink.links.map((link, index) => (
-                <Link to={`/${link.link}`}>
-                  <li
-                    key={link.name}
-                    className={` font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer
+                <div key={index}>
+                  <Link to={`/${link.link}`}>
+                    <li
+                      className={` font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer
                     ${index !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'}
                   `}
-                  >
-                    {link.name}
-                  </li>
-                </Link>
+                    >
+                      {link.name}
+                    </li>
+                  </Link>
+                </div>
               ))}
             </ul>
           </div>
@@ -53,7 +54,7 @@ const Footer = () => (
         {socialMedia.map((social, index) => (
           <Link to={social.link} target="_blank">
             <img
-              key={social.id}
+              key={index}
               src={social.icon}
               alt={social.id}
               className={`w-[21px] h-[21px] object-contain cursor-pointer ${

@@ -3,6 +3,7 @@ import { boards } from '../constants'
 import styles from '../style'
 import Footer from './Footer'
 import Navbar from './Navbar'
+import Testimonial from './Testimonial'
 
 const Team = ({ id }) => {
   const [expandedState, setExpandedState] = useState({ [id]: false })
@@ -77,6 +78,12 @@ const Team = ({ id }) => {
               </div>
             ))}
           </div>
+        </div>
+      </div>
+
+      <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Testimonial />
         </div>
       </div>
       <div

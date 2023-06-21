@@ -12,7 +12,7 @@ const Background = ({
   <section className="md:flex-row flex-col flex  bg-teal-900 mt-5 relative">
     <img src={img} alt="" className={classImg} />
     <div className={classContext}>
-      <div class="text-white text-center">
+      <div className="text-white text-center">
         <h1 className={styles.headingTitle}>{title}</h1>
         <p className={`${styles.paragraph} text-white mt-4`}>{context}</p>
 

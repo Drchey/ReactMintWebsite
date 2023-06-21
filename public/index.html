@@ -40,4 +40,11 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    function changeTab(tabIndex) {
+      const panels = document.querySelectorAll('.tab-panel')
+      panels.forEach((panel) => panel.classList.add('hidden'))
+      document.getElementById(`tab${tabIndex}`).classList.remove('hidden')
+    }
+  </script>
 </html>

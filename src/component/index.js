@@ -12,7 +12,12 @@ import CurrencyAbout from './CurrencyAbout'
 import IdeaAction from './IdeaAction'
 import Background from './Background'
 import Testimonial from './Testimonial'
+import SurveyModal from './SurveyModal'
+import SurveryForm from './SurveryForm'
+import Section from './Section'
+import HistoryBackground from './HistoryBackground'
 import Footer from './Footer'
+import Widget from './Widget'
 
 export {
   Navbar,
@@ -30,4 +35,9 @@ export {
   Security,
   Testimonial,
   Footer,
+  SurveryForm,
+  SurveyModal,
+  Section,
+  Widget,
+  HistoryBackground,
 }

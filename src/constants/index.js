@@ -20,6 +20,8 @@ import {
   ed_ops_lagos,
   ed_sd,
   adviser,
+  oldkobo,
+  justme,
 } from '../assets'
 import { layout } from '../style'
 
@@ -290,6 +292,103 @@ export const socialMedia = [
   },
 ]
 
+export const digital_division = [
+  {
+    id: 'division-1',
+    links: [
+      {
+        name: 'Verification and Authentication of Certificates (VAC)',
+        link: 'vac',
+        content:
+          'In conjunction with higher institutions of learning in Nigeria, we assist in verifying and authenticating the genuineness of certificates presented by graduates of tertiary institutions and professional bodies. We also assist graduates in transmitting transcripts securely from their alma mater to end-users anywhere in the world',
+      },
+      {
+        name: 'Track and Trace Solutions',
+        link: 'track_trace',
+        content:
+          'We offer track and trace solutions for your products with improved safety that eliminates fakes from the supply chain. Also, a track and trace solution can conveniently monitor your products throughout their lifecycle. This solution ensures efficiency in service delivery and curbs the challenges of revenue loss due to product counterfeiting',
+      },
+    ],
+  },
+]
+
+export const conventional_division = [
+  {
+    id: 'division-1',
+    links: [
+      {
+        name: 'Certificates',
+        content:
+          'The Mint produces all certificates, particularly academic, birth, death, and marriage certificates. These certificates are printed with security features embedded that prevent forgery, cloning, or counterfeiting.',
+        link: 'certificates',
+      },
+
+      {
+        name: 'Secured LetterHead',
+        content:
+          'Letterhead papers are sensitive office documents that should be secured to protect communication flow within and outside an organization. The Mint secured letterheads help you achieve this goal.',
+        link: 'letterhead',
+      },
+
+      {
+        name: 'Examination Papers',
+        content:
+          'With our state-of-the-art press, The Mint prints randomized examination papers that can be personalized to each candidate. Randomization can be which be achieved at high volume print and eliminates examination malpractice on site.',
+        link: 'examination',
+      },
+
+      {
+        name: 'Revenue Receipts',
+        content:
+          'As a highly sensitive document for generating revenue for public and private sector organizations, our revenue receipts can be printed on customized paper embedded with various customized overt, covert, and forensic security features. These features minimize and eliminate any form of malpractice that may arise.',
+        link: 'receipts',
+      },
+
+      {
+        name: 'Stamps',
+        content:
+          'The Mint produces highly secured and traceable stamps embedded with different characteristics, which authenticity and origin can be ascertained.',
+        link: 'stamps',
+      },
+
+      {
+        name: 'Electoral Materials',
+        content:
+          'The Mint produces election materials for the Independent National Electoral Commission and the Independent Electoral Commission in various states in Nigeria. Our prints can be location specific to local/ward voting units. This feature helps eliminate or minimize cross-border malpractices.',
+        link: 'electoral',
+      },
+
+      {
+        name: 'Labels',
+        content:
+          'Labels (like stickers) can be used to show information about contents, prevent tampering, or show usage. Firefighters, police, and airline operators all use security labels to prevent indiscriminate usage of their equipment or instrument.',
+        link: 'labels',
+      },
+
+      {
+        name: 'Professional Seals',
+        content:
+          'NSPM produces secure and traceable seals that provide authentication, approval, and credibility of the documents when affixed.',
+        link: 'seals',
+      },
+
+      {
+        name: 'Real Estate Documents',
+        content:
+          'NSPM prints real estate documents on the finest security papers, which are embedded with modern security features that prevent forgery and make fakes easy to detect. These documents include a certificate of occupancy, right of occupancy, deeds of assignment, etc',
+        link: 'real_estate',
+      },
+
+      {
+        name: 'Shipping Documents',
+        content:
+          'Shipping documents are printed with modern security features that distinguish Mint products from ingenuine documents and also prevent tampering and counterfeiting. These include bill of lading, waybill, certificate of origin, etc.',
+        link: 'shipping_docs',
+      },
+    ],
+  },
+]
+
 export const clients = [
   {
     id: 'client-1',
@@ -366,5 +465,67 @@ export const boards = [
     name: 'PROFESSOR THOMAS ONYISI ODOZI',
     content:
       'Currently the Senior Technical Adviser to the Governor, Central Bank of Nigeria, on NSPM Plc , he holds a PhD. Industrial Chemistry, University of Lagos, Nigeria, M.Sc, Industrial Chemistry, Synthesized Nylon 3 for Liquid Crystal Display, Atlanta University, Atlanta, USA , B.Sc Chemistry, Southern University, Louisiana,USA. He was the Former GM (Security Documents) of NSPM, and directly responsible then to the MD/CE of NSPM, Plc on matters related to technology adoption, adaptation and its relevance to NSPM, Plc viability. Besides, he had held some adhoc functions in various capacities at different levels. Among these, the Current Chairman of the African Banknote Security Documents Printers Association’s Technical Committee, sits on the Executive Membership Committee of the Association, and a plethora of other administrative functions. Professor Odozi is a constant face in the Security Print Industry and has through devotion of duty and diligence carved a niche for himself not only in this hybrid discipline as a professional, but also in other facets of life.',
+  },
+]
+
+export const history = [
+  {
+    id: 'history-1',
+    header_logo: oldkobo,
+    placeholder:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus error praesentium, quis commodi ea distinctio illo culpa sequi architecto.',
+    year: '1963',
+  },
+  {
+    id: 'history-1',
+    header_logo: oldkobo,
+    placeholder:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus error praesentium, quis commodi ea distinctio illo culpa sequi architecto.',
+    year: '1963',
+  },
+  {
+    id: 'history-2',
+    header_logo: oldkobo,
+    placeholder:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus error praesentium, quis commodi ea distinctio illo culpa sequi architecto.',
+    year: '1963',
+  },
+  {
+    id: 'history-3',
+    header_logo: oldkobo,
+    placeholder:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus error praesentium, quis commodi ea distinctio illo culpa sequi architecto.',
+    year: '1963',
+  },
+]
+
+export const past_exec = [
+  {
+    id: 'history-1',
+    header_logo: justme,
+    placeholder:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus error praesentium, quis commodi ea distinctio illo culpa sequi architecto.',
+    year: '1963',
+  },
+  {
+    id: 'history-1',
+    header_logo: justme,
+    placeholder:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus error praesentium, quis commodi ea distinctio illo culpa sequi architecto.',
+    year: '1963',
+  },
+  {
+    id: 'history-2',
+    header_logo: justme,
+    placeholder:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus error praesentium, quis commodi ea distinctio illo culpa sequi architecto.',
+    year: '1963',
+  },
+  {
+    id: 'history-3',
+    header_logo: justme,
+    placeholder:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim possimus error praesentium, quis commodi ea distinctio illo culpa sequi architecto.',
+    year: '1963',
   },
 ]
