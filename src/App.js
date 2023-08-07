@@ -10,6 +10,11 @@ import DataCenter from './screens/DataCenter'
 import Certificates from './screens/Certificates'
 import ScrollToTop from './animations/ScrollToTop'
 import History from './screens/History'
+import HistoryData from './screens/History_Data'
+import SecurityPrints from './screens/SecurityPrints'
+import CurrencyPrints from './screens/CurrencyPrints'
+import Partners from './screens/Partners'
+import StructureData from './screens/StructureData'
 
 const App = () => {
   return (
@@ -25,6 +30,11 @@ const App = () => {
         <Route path="/history" element={<History />} />
         <Route path="/teams" element={<Team />} />
         <Route path="/services" element={<Service />} />
+        <Route path="/history_structure" element={<StructureData />} />
+        <Route path="/history_sharedcapital" element={<HistoryData />} />
+        <Route path="security_prints" element={<SecurityPrints />} />
+        <Route path="currency_service" element={<CurrencyPrints />} />
+        <Route path="our_partners" element={<Partners />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

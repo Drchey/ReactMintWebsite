@@ -38,6 +38,23 @@ import oldkobo from './oldkobo.jpg'
 import mint_features from './mint_features.png'
 import justme from './justme.jpg'
 import lagosquarters from './lagosquarters.png'
+import money from './Money.png'
+import db from './db.png'
+import certificate from './cert.png'
+import verify from './verify.png'
+import secure from './secured.png'
+import access from './access.png'
+import trust from './trust.png'
+import dropdown from './dropdown.png'
+import up_arrow from './up-arrow.png'
+import down_arrow from './down-arrow.png'
+import sp1 from './sp1.jpg'
+import sp2 from './sp2.jpg'
+import sp3 from './sp3.jpeg'
+import sp3_1 from './sp3.jpg'
+import cbn from './cbn.png'
+import sharedc1 from './sharedc1.jpg'
+import sharedc2 from './sharedc2.jpg'
 
 export {
   airbnb,
@@ -70,8 +87,12 @@ export {
   not_found,
   ownership,
   chairman,
+  dropdown,
   md,
   edcs,
+  db,
+  verify,
+  certificate,
   ed_ops,
   ed_ops_lagos,
   ed_sd,
@@ -80,4 +101,17 @@ export {
   mint_features,
   justme,
   lagosquarters,
+  money,
+  secure,
+  trust,
+  access,
+  up_arrow,
+  down_arrow,
+  sp1,
+  sp2,
+  sp3,
+  sp3_1,
+  cbn,
+  sharedc1,
+  sharedc2,
 }

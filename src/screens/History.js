@@ -78,7 +78,7 @@ export const TabSlider = () => {
           onClick={() => changeTab(1)}
         >
           <h3
-            className={`${styles.heading3}transition delay-150 ease-in-out  hover:text-[48px]`}
+            className={`${styles.heading3}transition delay-150 ease-in-out   hover:text-[18px]`}
           >
             Currency
           </h3>
@@ -88,7 +88,7 @@ export const TabSlider = () => {
           onClick={() => changeTab(2)}
         >
           <h3
-            className={`${styles.heading3}transition delay-150 ease-in  hover:text-[48px] `}
+            className={`${styles.heading3}transition delay-150 ease-in  hover:text-[18px] `}
           >
             Executives
           </h3>

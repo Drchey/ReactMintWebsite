@@ -1,0 +1,148 @@
+import React from 'react'
+import { Footer, Navbar } from '../component'
+import styles, { layout } from '../style'
+import { hero, sharedc1, sharedc2 } from '../assets'
+
+const HistoryHeader = () => (
+  <div className={`bg-dimWhite  ${styles.flexStart}`}>
+    <div className={`${styles.boxWidth}`}>
+      <img
+        src={hero}
+        className={`w-full h-[55vh] object-center object-fit object-fill`}
+        alt=""
+      />
+    </div>
+  </div>
+)
+
+const HistoryIntro = ({ title, context }) => (
+  <div className={`flex flex-col items-center px-7 justify-center my-10`}>
+    <h1
+      className={`font-semibold space-x-3 text-forest text-center text-[30px] font-poppins p-2 my-8`}
+    >
+      {title}
+    </h1>
+    <p className="text-center italic text-[21px] font-light">{context}</p>
+  </div>
+)
+
+const StructureData = () => {
+  return (
+    <div className="bg-dimWhite w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
+      <HistoryHeader />
+      <HistoryIntro
+        title=" Tracing the History of Collective Investment and Collaboration"
+        context="
+          Shared Capital, doesn't only signify the financial contributions but also the collective belief in 
+          the NSPM Plc's Businesses and Ventures. From Inception to date,
+           the financial synergy and contribution among exterior companies has
+            been the cornerstone of our growth and has been a catalyst towards 
+            our continuous transformation as a company in the Nigerian Space.
+          "
+      />
+
+      <div className={layout.serviceSection}>
+        <section className={`${layout.serviceSection}`}>
+          <div className={`${layout.serviceSectionReverse} `}>
+            <div className={`w-1/2`}>
+              <div className={`slide-left-container group`}>
+                <img
+                  src={sharedc2}
+                  alt=""
+                  className={`${styles.imgCard} h-[60vh] object-contain`}
+                />
+              </div>
+            </div>
+            <div className={`w-1/2`}>
+              <p
+                className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
+                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
+                Facere nihil magni velit ex.
+              </p>
+
+              <p
+                className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
+                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
+                Facere nihil magni velit ex.
+              </p>
+
+              <p
+                className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
+                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
+                Facere nihil magni velit ex.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div className={layout.serviceSection}>
+        <section className={`${layout.serviceSection}`}>
+          <div className={`${layout.serviceSection} `}>
+            <div className={`w-1/2`}>
+              <div className={`slide-left-container group`}>
+                <img
+                  src={sharedc1}
+                  alt=""
+                  className={`${styles.imgCard} h-[60vh] object-contain`}
+                />
+              </div>
+            </div>
+            <div className={`w-1/2`}>
+              <p
+                className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
+                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
+                Facere nihil magni velit ex.
+              </p>
+
+              <p
+                className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
+                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
+                Facere nihil magni velit ex.
+              </p>
+
+              <p
+                className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
+                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
+                Facere nihil magni velit ex.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div
+        className={`bg-dimForest mt-12 ${styles.paddingX} ${styles.flexStart}`}
+      >
+        <div className={`${styles.boxWidth}`}>
+          <Footer />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default StructureData

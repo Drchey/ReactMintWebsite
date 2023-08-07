@@ -10,8 +10,8 @@ import {
   binance,
   coinbase,
   dropbox,
-  send,
-  shield,
+  // send,
+  // shield,
   star,
   chairman,
   md,
@@ -22,6 +22,9 @@ import {
   adviser,
   oldkobo,
   justme,
+  secure,
+  access,
+  trust,
 } from '../assets'
 import { layout } from '../style'
 
@@ -34,9 +37,27 @@ export const navLinks = [
 
   {
     id: 'service',
-    link: 'services',
     title: 'Our Services',
+    dropdown: true,
+    historyLinks: [
+      {
+        id: 'service-1',
+        title: 'Currency Mint',
+        link: 'currency_service',
+      },
+      {
+        id: 'service-2',
+        title: 'Security Prints',
+        link: 'security_prints',
+      },
+      {
+        id: 'service-3',
+        title: 'Our Partners',
+        link: 'our_partners',
+      },
+    ],
   },
+
   {
     id: 'contact',
     link: 'contactus',
@@ -45,14 +66,31 @@ export const navLinks = [
 
   {
     id: 'history',
-    link: 'history',
     title: 'History',
+    dropdown: true,
+    historyLinks: [
+      {
+        id: 'history-1',
+        title: 'Holding Structure',
+        link: 'history_structure',
+      },
+      {
+        id: 'history-2',
+        title: 'Shared Capital',
+        link: 'history_sharedcapital',
+      },
+      {
+        id: 'history-3',
+        title: 'Currency History',
+        link: 'history',
+      },
+    ],
   },
 
   {
-    id: 'board',
+    id: 'management',
     link: 'teams',
-    title: 'Our Board',
+    title: 'Our Team',
   },
 ]
 
@@ -108,24 +146,24 @@ export const services = [
 export const features = [
   {
     id: 'feature-1',
-    icon: star,
-    title: 'Rewards',
+    icon: secure,
+    title: 'Security',
     content:
-      'The best credit cards offer some tantalizing combinations of promotions and prizes',
+      'With the potential to generate most up-to-date security features,  We take proactive steps make sure your information is secured.',
   },
   {
     id: 'feature-2',
-    icon: shield,
-    title: '100% Secured',
+    icon: access,
+    title: 'Accessibility',
     content:
-      'We take proactive steps make sure your information and transactions are secure.',
+      'We have Set Up a Tier II Data Center, with an Uptime of 99%. You Data is Accessible to you where you need it. When you need it.',
   },
   {
     id: 'feature-3',
-    icon: send,
-    title: 'Balance Transfer',
+    icon: trust,
+    title: 'Trust',
     content:
-      'A balance transfer credit card can save you a lot of money in interest charges.',
+      'We have built a circle of trust working with Ministries, Universities and the Central Bank of Nigeria among others.',
   },
 ]
 

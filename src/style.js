@@ -24,14 +24,17 @@ const styles = {
   marginX: 'sm:mx-16 mx-6',
   marginY: 'sm:my-16 my-6',
 
+  imgCard:
+    'cursor-pointer w-full transition-transform  duration-300 ease-in-out transform-gpu group-hover:scale-105',
+
   hero: '',
 }
 
 export const layout = {
   section: `flex md:flex-row flex-col ${styles.paddingY}`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
-  serviceSection: `flex md:flex-row flex-col sm:px-12 px-3`,
-  serviceSectionReverse: `flex md:flex-row-reverse flex-col-reverse ${styles.paddingY}`,
+  serviceSection: `flex sm:flex-row flex-col sm:px-4 px-2 items-center`,
+  serviceSectionReverse: `flex md:flex-row-reverse flex-col items-center ${styles.paddingY}`,
   serviceSectionImg: ` w-1/3`,
   serviceSectionInfo: `w-2/3`,
 

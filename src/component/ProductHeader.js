@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from '../style'
 import { Link } from 'react-router-dom'
+import { money } from '../assets'
 
 const ProductHeader = ({ title, content1, content2, link }) => (
-  <div className={`flex mt-5`}>
+  <div className={`flex sm:flex-row flex-col mt-5`}>
     <div className="flex-none w-44">
-      <h2 className={styles.heading2}> VAC </h2>
+      <h2 className={styles.heading2}>
+        <img src={money} className="" alt="" />
+      </h2>
 
       <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
     </div>

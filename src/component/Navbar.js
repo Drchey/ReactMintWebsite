@@ -1,10 +1,20 @@
 import { useState } from 'react'
 import { navLinks } from '../constants'
-import { close, logo, menu } from '../assets'
+import { close, down_arrow, logo, menu, up_arrow } from '../assets'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
+  const [showNav, setshowNav] = useState(false)
+  const [showServices, setshowServices] = useState(false)
+
+  const handleHistoryClick = () => {
+    setshowNav(!showNav)
+  }
+
+  const handleServiceClick = () => {
+    setshowServices(!showServices)
+  }
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <img
@@ -17,11 +27,87 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-poppins font-normal  cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-forest font-semibold mr-10`}
           >
-            <Link to={`/${nav.link}`}>{nav.title}</Link>
+            {nav.dropdown ? (
+              <div>
+                <div className="flex flex-row items-center justify-between">
+                  <div> {nav.title} </div>
+                  {nav.title === 'History' && nav.dropdown ? (
+                    <img
+                      src={showNav ? up_arrow : down_arrow}
+                      onMouseEnter={
+                        nav.title === 'History' ? handleHistoryClick : null
+                      }
+                      className="width-[12px]"
+                      alt="dropdown"
+                    />
+                  ) : null}
+
+                  {nav.dropdown && nav.title === 'Our Services' ? (
+                    <img
+                      src={showServices ? up_arrow : down_arrow}
+                      onMouseEnter={
+                        nav.title === 'Our Services' ? handleServiceClick : null
+                      }
+                      // onMouseLeave={
+                      //   nav.title === 'Our Services' ? handleServiceClick : null
+                      // }
+                      className="width-[12px]"
+                      alt="dropdown"
+                    />
+                  ) : null}
+                </div>
+
+                {showServices && nav.title === 'Our Services' ? (
+                  <div
+                    onMouseLeave={handleServiceClick}
+                    className={`p-6 bg-forest-gradient z-10 absolute rounded ease-in-out ${
+                      showNav ? 'animate_dropdown' : ''
+                    }`}
+                  >
+                    <ul className="list-none flex flex-col items-left flex-1">
+                      {nav.historyLinks.map((nav, index) => (
+                        <li
+                          key={nav.id}
+                          className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-[17px] ${
+                            index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
+                          } text-forest hover:text-dimWhite mr-1`}
+                        >
+                          <Link to={`/${nav.link}`}>{nav.title}</Link>{' '}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+
+                {showNav && nav.title === 'History' ? (
+                  <div
+                    onMouseLeave={handleHistoryClick}
+                    className={`p-6 bg-forest-gradient z-10 absolute rounded ease-in-out ${
+                      showNav ? 'animate_dropdown' : ''
+                    }`}
+                  >
+                    <ul className="list-none flex flex-col items-left flex-1">
+                      {nav.historyLinks.map((nav, index) => (
+                        <li
+                          key={nav.id}
+                          className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-[17px] ${
+                            index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
+                          } text-forest hover:text-dimWhite mr-1`}
+                        >
+                          <Link to={`/${nav.link}`}>{nav.title}</Link>{' '}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+              </div>
+            ) : (
+              <Link to={`/${nav.link}`}>{nav.title} </Link>
+            )}
           </li>
         ))}
       </ul>
@@ -47,7 +133,7 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
                 } text-forest mr-10`}
               >
-                <Link to={`/${nav.link}`}>{nav.title}</Link>
+                <Link to={`/${nav.link}`}>{nav.title}</Link> <span>=</span>
               </li>
             ))}
           </ul>

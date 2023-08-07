@@ -16,16 +16,19 @@ const Section = () => {
       <div className="flex md:flex-row flex-col items-center justify-between  ">
         <Widget
           title="Currency Production"
+          info="We print the Nigerian Currency (Naira) on behalf of the Nigerian Central Bank."
           hasModal={false}
           link={'currency'}
         />
         <Widget
           title="Conventional Security Prints"
+          info="Stamps, Labels, Certificates, Real Estate Documents, Shipping Documents etc ."
           type="security"
           hasModal={true}
         />
         <Widget
           title="Digital Security Solutions"
+          info="Advanced Security Features on Digitalized Certificates, Identity Management Solutions, QR codes among others."
           type="digital"
           hasModal={true}
         />

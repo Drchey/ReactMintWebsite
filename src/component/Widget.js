@@ -29,10 +29,10 @@ export const Modal = ({ isOpen, toggleModal1, toggleModal2, title }) => {
                     {divisionIndex.links.map((link, index) => (
                       <span>
                         <div
-                          className={` feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+                          className={` feature-card flex sm:flex-row flex-col p-6 rounded-[20px] "mb-6": "mb-0`}
                         >
                           <div
-                            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
+                            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue  `}
                           >
                             <img
                               src={star}
@@ -96,7 +96,7 @@ export const Modal = ({ isOpen, toggleModal1, toggleModal2, title }) => {
   )
 }
 
-const Widget = ({ title, hasModal, link, type }) => {
+const Widget = ({ title, info, hasModal, link, type }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleModal1 = () => {
@@ -117,10 +117,7 @@ const Widget = ({ title, hasModal, link, type }) => {
         </p>
       </div>
       <div className="flex-2 ">
-        <p className={`${styles.paragraph} mb-5`}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos,
-          dolorem.
-        </p>
+        <p className={`${styles.paragraph} mb-5`}>{info}</p>
 
         {!hasModal ? (
           <Link

@@ -1,4 +1,4 @@
-import { close, send } from '../assets'
+import { close } from '../assets'
 import SurveryForm from './SurveryForm'
 
 const SurveyModal = ({ isOpen, toggleModal }) => {

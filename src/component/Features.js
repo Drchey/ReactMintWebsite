@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { mint_features } from '../assets'
+import { certificate, db, mint_features, money, verify } from '../assets'
 import styles from '../style'
 
 const Features = ({ isVisible }) => {
@@ -10,12 +10,16 @@ const Features = ({ isVisible }) => {
     >
       <div className={`flex-1`}>
         <div
-          className={` feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+          className={` feature-card min-h-[60px] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
           <div
             className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
           >
-            <img src="" alt="icon" className="w-[50%] h-[50%] object-contain" />
+            <img
+              src={money}
+              alt="icon"
+              className="w-[50%] h-[50%] object-contain"
+            />
           </div>
           <div className="flex-1 flex flex-col ml-3">
             <Link to="/currency">
@@ -31,12 +35,16 @@ const Features = ({ isVisible }) => {
         </div>
 
         <div
-          className={` feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+          className={` feature-card min-h-[60px] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
           <div
             className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
           >
-            <img src="" alt="icon" className="w-[50%] h-[50%] object-contain" />
+            <img
+              src={db}
+              alt="icon"
+              className="w-[50%] h-[50%] object-contain"
+            />
           </div>
           <div className="flex-1 flex flex-col ml-3">
             <Link to="/datacenter">
@@ -53,23 +61,31 @@ const Features = ({ isVisible }) => {
           </div>
         </div>
       </div>
-      <div className={`flex-1 sm:block hidden`}>
+      <div className={`flex-2 sm:block hidden`}>
         <div
           className={`popup-container ${
             isVisible ? 'scale-100 opacity-100' : 'scale-0 opacity-0'
           }`}
         >
-          <img src={mint_features} alt="mint features" className="w-[400px]" />
+          <img
+            src={mint_features}
+            alt="mint features"
+            className="w-[300px] p-2"
+          />
         </div>
       </div>
       <div className={`flex-1`}>
         <div
-          className={` feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+          className={`feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
           <div
             className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
           >
-            <img src="" alt="icon" className="w-[50%] h-[50%] object-contain" />
+            <img
+              src={verify}
+              alt="icon"
+              className="w-[50%] h-[50%] object-contain"
+            />
           </div>
           <div className="flex-1 flex flex-col ml-3">
             <Link to="/vac">
@@ -79,8 +95,8 @@ const Features = ({ isVisible }) => {
             </Link>
 
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-              ipsa.
+              Provisioning a Real-time solution for verifying certificates and
+              transcripts.
             </p>
           </div>
         </div>
@@ -91,7 +107,11 @@ const Features = ({ isVisible }) => {
           <div
             className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
           >
-            <img src="" alt="icon" className="w-[50%] h-[50%] object-contain" />
+            <img
+              src={certificate}
+              alt="icon"
+              className="w-[50%] h-[50%] object-contain"
+            />
           </div>
           <div className="flex-1 flex flex-col ml-3">
             <Link to="/certificates">
@@ -101,8 +121,8 @@ const Features = ({ isVisible }) => {
             </Link>
 
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-              ipsa.
+              Security Features for Certificates for Professional bodies,
+              commissions and ministries alike.
             </p>
           </div>
         </div>

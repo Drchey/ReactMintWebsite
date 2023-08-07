@@ -17,11 +17,11 @@ export const Message = () => (
         <ul className="list-none mt-6">
           <li>
             Check the URL: Make sure the URL you entered is correct and doesn't
-            contain any typos or errors. Search our site: Use the search bar
-            above to search for the content you're looking for. Go to our
+            contain any typos or errors. Search our site: Use the navigation bar
+            above to search for the content you're looking for.
           </li>
 
-          <li>
+          <li className="my-4">
             Go to Our Home Page: Click on the logo or the home button to go back
             to our homepage and start browsing from there.
           </li>
@@ -30,7 +30,7 @@ export const Message = () => (
           please contact us and we'll be happy to help. In the meantime, why not
           check out one of our popular page
         </p>
-        <p className="mt-4">
+        <p className="mt-4 text-forest">
           <Link to="/vac">Verification & Authentication of Certificates</Link>
         </p>
         <p className="mt-6">

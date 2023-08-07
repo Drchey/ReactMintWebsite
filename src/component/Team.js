@@ -58,7 +58,7 @@ const Team = ({ id }) => {
                   </h1>
 
                   {board.content.length > 400 ? (
-                    <p className="flex-84 font-poppins">
+                    <p className="flex-84 text-justify font-poppins">
                       {board.content.slice(0, 400)}{' '}
                       <span
                         className="hover:underline hover:text-blue-500 cursor-pointer"
