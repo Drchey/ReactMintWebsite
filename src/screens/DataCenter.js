@@ -8,7 +8,7 @@ import {
   ProductAbout,
   ProductHeader,
 } from '../component'
-import { hero } from '../assets'
+import { data_center, data_center_2, db } from '../assets'
 
 const DataCenter = () => {
   return (
@@ -22,6 +22,7 @@ const DataCenter = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <ProductHeader
+            image_type={db}
             title="Tier II Data Center"
             content1="The Nigerian Security Printing and Minting is Completing a state-of-the-art data center  designed to meet the standard of a Tier II scalable to a Tier 3 in a very near future.In today's growing digital economy, 
            we are strategically positioned to collaborate with private and public sector companies to meet their goals for digital security and transformation. "
@@ -34,7 +35,7 @@ const DataCenter = () => {
         className={`bg-dimWhite  ${styles.flexStart} ${styles.paddingX} mt-7`}
       >
         <div className={`${styles.boxWidth}`}>
-          <Image logo={hero} alt="vac" />
+          <Image logo={data_center} alt="vac" />
         </div>
       </div>
 
@@ -46,6 +47,7 @@ const DataCenter = () => {
           />
 
           <IdeaAction
+            image_type={data_center_2}
             header="Disaster Recovery"
             content="In line with the need for a  Disaster Recovery Planning Approach (DRP), We are providing an offsite cloud service to ensure that companies within Nigeria adequately prepare and mitigate business downtime, data damage and maintain business uptime."
             content2="All these Needs come at a cost, hence the necessity for a Data Center Service with marginalized cost."

@@ -1,12 +1,11 @@
 import React from 'react'
 import styles, { layout } from '../style'
-import { bill } from '../assets'
-import { vac_stats } from '../constants'
 
-const IdeaAction = ({ header, content, content2 }) => (
+const IdeaAction = ({ header, content, content2, image_type }) => (
   <div className={`${layout.section} flex flex-row mb-5`}>
-    <div className={layout.sectionImg}>
-      <img src={bill} alt="" />
+    <div className={`${layout.sectionImg} group`}>
+      {}
+      <img src={image_type} alt="" className={`${styles.imgCard} px-4`} />
     </div>
     <div className={layout.sectionInfo}>
       <h1 className={`${styles.heading2} uppercase text-gradient`}>{header}</h1>

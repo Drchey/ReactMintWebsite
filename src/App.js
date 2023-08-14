@@ -15,10 +15,22 @@ import SecurityPrints from './screens/SecurityPrints'
 import CurrencyPrints from './screens/CurrencyPrints'
 import Partners from './screens/Partners'
 import StructureData from './screens/StructureData'
+import { useEffect, useState } from 'react'
+import Preloader from './component/Preloader'
 
 const App = () => {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLoading(false)
+    }, 1500)
+
+    return () => clearTimeout(timeout)
+  }, [])
   return (
     <Router>
+      {loading && <Preloader />}
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />

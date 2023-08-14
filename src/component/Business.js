@@ -1,15 +1,15 @@
 import styles, { layout } from '../style'
-import { bill } from '../assets'
+import { currency_5 } from '../assets'
 
 const Business = ({ isVisible }) => (
   <div className={layout.section}>
     <div className={layout.sectionImg}>
       <div
-        className={` slide-left-container ${
+        className={` slide-left-container group ${
           isVisible ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        <img src={bill} alt="business" />
+        <img src={currency_5} className={styles.imgCard} alt="business" />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />

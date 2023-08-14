@@ -9,8 +9,9 @@ const Section = () => {
           OUR DIVISIONS
         </h2>
         <p className="text-gray-600 text-[20px]">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sed
-          reiciendis unde quis odit!
+          With a vision and a collaborative spirit, our divisions synergize to
+          create a holistic approach to addressing challenges and seizing
+          opportunities.
         </p>
       </div>
       <div className="flex md:flex-row flex-col items-center justify-between  ">
@@ -28,7 +29,7 @@ const Section = () => {
         />
         <Widget
           title="Digital Security Solutions"
-          info="Advanced Security Features on Digitalized Certificates, Identity Management Solutions, QR codes among others."
+          info="Security Features on Digitalized Certificates, Identity  Solutions, QR codes etc."
           type="digital"
           hasModal={true}
         />

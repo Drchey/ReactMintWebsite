@@ -33,7 +33,7 @@ const styles = {
 export const layout = {
   section: `flex md:flex-row flex-col ${styles.paddingY}`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
-  serviceSection: `flex sm:flex-row flex-col sm:px-4 px-2 items-center`,
+  serviceSection: `flex sm:flex-row flex-col sm:px-4  px-1 items-center`,
   serviceSectionReverse: `flex md:flex-row-reverse flex-col items-center ${styles.paddingY}`,
   serviceSectionImg: ` w-1/3`,
   serviceSectionInfo: `w-2/3`,

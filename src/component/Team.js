@@ -81,11 +81,6 @@ const Team = ({ id }) => {
         </div>
       </div>
 
-      <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Testimonial />
-        </div>
-      </div>
       <div
         className={`bg-dimForest mt-[70px] ${styles.paddingX} ${styles.flexStart}`}
       >

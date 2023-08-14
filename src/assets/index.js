@@ -55,6 +55,14 @@ import sp3_1 from './sp3.jpg'
 import cbn from './cbn.png'
 import sharedc1 from './sharedc1.jpg'
 import sharedc2 from './sharedc2.jpg'
+import sample_hero from './sample_hero.png'
+import currency_1 from './currency_1.jpg'
+import currency_4 from './currency_4.jpg'
+import currency_5 from './currency_5.jpg'
+import currency_6 from './currency_6.jpg'
+import partners_1 from './partners_1.jpg'
+import data_center from './data_center.png'
+import data_center_2 from './data_center_2.png'
 
 export {
   airbnb,
@@ -114,4 +122,12 @@ export {
   cbn,
   sharedc1,
   sharedc2,
+  sample_hero,
+  currency_1,
+  currency_4,
+  currency_5,
+  partners_1,
+  currency_6,
+  data_center,
+  data_center_2,
 }

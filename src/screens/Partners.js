@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import { Footer, Navbar } from '../component'
-import { sp1 } from '../assets'
+import { partners_1 } from '../assets'
 
 const Partners = () => {
   return (
@@ -17,7 +17,7 @@ const Partners = () => {
       >
         <div className="flex-1 ml-4 group">
           <img
-            src={sp1}
+            src={partners_1}
             alt=""
             className={`${styles.imgCard} h-[50vh] object-cover`}
           />
@@ -54,37 +54,36 @@ const Partners = () => {
             Transforming Concepts to Visual Prints
           </h6>
           <p className={`${styles.paragraph} text-justify`}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ipsa
-            ex tempore beatae, perspiciatis iure tempora accusantium incidunt
-            commodi, soluta illo quasi maxime ipsum, eos deserunt aliquam odit
-            quas quisquam totam non sapiente repudiandae alias? Vero voluptates
-            dolor tempora quidem adipisci sint.
+            With a seamless blend of innovation and craftsmanship, we take
+            abstract ideas and transform them into tangible, intricate currency
+            designs that hold both aesthetic beauty and unparalleled security
+            features.
           </p>
           <p className={`${styles.paragraph} text-justify mt-3`}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ipsa
-            ex tempore beatae, perspiciatis iure tempora accusantium incidunt
-            commodi, soluta illo quasi maxime ipsum, eos deserunt aliquam odit
-            quas quisquam totam non sapiente repudiandae alias? Vero voluptates
-            dolor tempora quidem adipisci sint.
+            Our commitment to customer trust drives us to employ the highest
+            standards of security and quality in every banknote we produce. By
+            blending innovation with time-honored craftsmanship, we establish a
+            bond of reliability with our partners and customers, assuring them
+            that their currencies are not just pieces of paper, but
+            representations of a strong, trustworthy economy.
           </p>
         </section>
 
         <section className="my-12 mt-10">
           <h6 className={`${styles.heading3} uppercase`}>Knowledge Sharing</h6>
           <p className={`${styles.paragraph} text-justify`}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ipsa
-            ex tempore beatae, perspiciatis iure tempora accusantium incidunt
-            commodi, soluta illo quasi maxime ipsum, eos deserunt aliquam odit
-            quas quisquam totam non sapiente repudiandae alias? Vero voluptates
-            dolor tempora quidem adipisci sint.
+            . In a world where information evolves rapidly, we believe in the
+            power of disseminating insights for collective growth. At our core,
+            we are not just a company; we are a hub of intellectual exchange.
+            With an unwavering commitment to openness, we foster an environment
+            where ideas flow freely, transcending boundaries and hierarchies.
           </p>
           <p className={`text-justify my-4 ${styles.paragraph}`}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
-            corporis quos expedita modi similique labore explicabo quasi
-            assumenda, autem ullam minus earum excepturi, aliquid dolores,
-            numquam quisquam fugiat? Hic commodi et aspernatur deserunt nulla?
-            Officia, tempore illo iure quae iste ad quo consequuntur animi
-            voluptates a blanditiis rerum labore aperiam!
+            Just as we transform concepts into visual prints, we transform
+            knowledge into a dynamic force that fuels evolution. By embracing
+            the art of knowledge sharing, we contribute not only to individual
+            development but also to the enrichment of industries and societies
+            at large.
           </p>
         </section>
       </div>

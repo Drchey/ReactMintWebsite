@@ -87,30 +87,39 @@ const SecurityPrints = () => {
       <div className={layout.serviceSection}>
         <section className={`${layout.serviceSection}`}>
           <div className={`${layout.serviceSectionReverse} `}>
-            <div className={layout.serviceSectionImg}>
+            <div className={`w-1/2`}>
               <div className={`slide-left-container group`}>
-                <img src={sp3_1} alt="" className={styles.imgCard} />
+                <img src={sp3_1} alt="" className={`${styles.imgCard} p-3`} />
               </div>
             </div>
-            <div className={layout.serviceSectionInfo}>
+            <div className={`w-1/2`}>
               <p
                 className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
+                The Nigerian Security Printing & Minting has done lots of
+                research with leading experts in the printing field to ensure
+                that product workflow is seamless and sustainable. We assure our
+                customers of high-end quality prints while ensuring that our
+                print process is waste free and sustainable.
               </p>
 
               <p
                 className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
+                The production process in the security document division usually
+                starts with the highly skilled and innovative graphic artists
+                who are not only fully conversant with the latest techniques and
+                materials to counteract forgery and adulteration, but are aware
+                of the current capabilities of criminals. This knowledge
+                combined with information on the latest international
+                counterfeiting methods enable our designers to continually
+                upgrade the security features and materials to ensure that our
+                products are constantly ahead of potential counterfeiters. The
+                company uses modern local letter-assembly facilities to add the
+                require text matter to these designs. The MINT attaches to the
+                security and integrity of its products.
               </p>
-
+              {/* 
               <p
                 className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
               >
@@ -118,13 +127,13 @@ const SecurityPrints = () => {
                 molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
                 aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
                 Facere nihil magni velit ex.
-              </p>
+              </p> */}
             </div>
           </div>
         </section>
       </div>
 
-      <div className={`${layout.serviceSection} px-2 my-5 `}>
+      <div className={`${layout.serviceSection} px-2 my-5  `}>
         <div className={`${styles.paragraph} text-justify mx-2 my-5`}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas amet eum
           deleniti rem, possimus sit voluptatibus nemo accusantium id animi eius

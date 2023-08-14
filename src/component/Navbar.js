@@ -125,7 +125,9 @@ const Navbar = () => {
             toggle ? 'flex' : 'hidden'
           } p-6 bg-forest-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] rounded-xl z-20`}
         >
-          <ul className="list-none flex flex-col justify-end items-center flex-1">
+          {/* Try Here */}
+
+          <ul className="list-none flex flex-col justify-end items-right flex-1">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
@@ -133,10 +135,102 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
                 } text-forest mr-10`}
               >
-                <Link to={`/${nav.link}`}>{nav.title}</Link> <span>=</span>
+                {nav.dropdown ? (
+                  <div>
+                    <div className="flex flex-row items-center justify-between">
+                      <div> {nav.title} </div>
+                      {nav.title === 'History' && nav.dropdown ? (
+                        <img
+                          src={showNav ? up_arrow : down_arrow}
+                          onClick={
+                            nav.title === 'History' ? handleHistoryClick : null
+                          }
+                          className="width-[12px]"
+                          alt="dropdown"
+                        />
+                      ) : null}
+
+                      {nav.dropdown && nav.title === 'Our Services' ? (
+                        <img
+                          src={showServices ? up_arrow : down_arrow}
+                          onClick={
+                            nav.title === 'Our Services'
+                              ? handleServiceClick
+                              : null
+                          }
+                          // onMouseLeave={
+                          //   nav.title === 'Our Services' ? handleServiceClick : null
+                          // }
+                          className="width-[12px]"
+                          alt="dropdown"
+                        />
+                      ) : null}
+                    </div>
+
+                    {showServices && nav.title === 'Our Services' ? (
+                      <div
+                        onMouseLeave={handleServiceClick}
+                        className={`p-6 bg-forest-gradient z-10 absolute rounded ease-in-out ${
+                          showNav ? 'animate_dropdown' : ''
+                        }`}
+                      >
+                        <ul className="list-none flex flex-col items-left flex-1">
+                          {nav.historyLinks.map((nav, index) => (
+                            <li
+                              key={nav.id}
+                              className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-[17px] ${
+                                index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
+                              } text-forest hover:text-dimWhite mr-1`}
+                            >
+                              <Link to={`/${nav.link}`}>{nav.title}</Link>{' '}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
+
+                    {showNav && nav.title === 'History' ? (
+                      <div
+                        onMouseLeave={handleHistoryClick}
+                        className={`p-6 bg-forest-gradient z-10 absolute rounded ease-in-out ${
+                          showNav ? 'animate_dropdown' : ''
+                        }`}
+                      >
+                        <ul className="list-none flex flex-col items-left flex-1">
+                          {nav.historyLinks.map((nav, index) => (
+                            <li
+                              key={nav.id}
+                              className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-[17px] ${
+                                index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
+                              } text-forest hover:text-dimWhite mr-1`}
+                            >
+                              <Link to={`/${nav.link}`}>{nav.title}</Link>{' '}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
+                  </div>
+                ) : (
+                  <Link to={`/${nav.link}`}>{nav.title} </Link>
+                )}
               </li>
             ))}
           </ul>
+          {/* <ul className="list-none flex flex-col justify-end items-center flex-1">
+            {navLinks.map((nav, index) => (
+              <li
+                key={nav.id}
+                className={`font-poppins font-normal cursor-pointer text-[16px] ${
+                  index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
+                } text-forest mr-10`}
+              >
+                <Link to={`/${nav.link}`}>
+                  {nav.title} {nav.dropdown ? '=' : null}
+                </Link>
+              </li>
+            ))}
+          </ul> */}
         </div>
       </div>
     </nav>
