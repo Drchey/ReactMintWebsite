@@ -2,7 +2,7 @@ import { hero_image, lines, sample_hero } from '../assets'
 import styles from '../style'
 
 const Hero = () => (
-  <section className="md:flex-row flex-col flex   mt-5 mb-7">
+  <section className="md:flex-row flex-col flex   mt-5 mb-10">
     <div
       className={`flex flex-col flex-1 ${styles.flexStart} flex-col xl:pl-10 sm:px-16 px-6`}
     >
@@ -15,11 +15,11 @@ const Hero = () => (
         </p>
       </div>
       <div className="relative">
+        {/* <img src={lines} alt="" className="absolute left-10" /> */}
         <h1 className="font-bold md:text-[70px] text-[20px] ">
           WELCOME TO THE NIGERIAN <br className="sm:block hidden" />
           <span className="text-forest"> MINT</span>
         </h1>
-        <img src={lines} alt="" className="absolute top-0 " />
       </div>
 
       <div className={`${styles.paragraph} mt-5`}>
@@ -30,9 +30,7 @@ const Hero = () => (
         managed and operated by Nigerians
       </div>
 
-      <div>
-        <img src={lines} alt="" />
-      </div>
+      <div>{/* <img src={lines} alt="" /> */}</div>
 
       <div className="flex flex-1 mt-6">
         <a

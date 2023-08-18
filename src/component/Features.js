@@ -14,7 +14,7 @@ import styles from '../style'
 const Features = ({ isVisible }) => {
   return (
     <div
-      className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 mt-12`}
+      className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 mt-12 z-10`}
     >
       <div className={`flex-1`}>
         <div
@@ -31,6 +31,7 @@ const Features = ({ isVisible }) => {
           </div>
           <div className="flex-1 flex flex-col ml-3">
             <Link to="/currency">
+              {' '}
               <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
                 Currency Prints
               </h4>
