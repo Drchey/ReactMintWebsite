@@ -1,6 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { certificate, db, mint_features, money, verify } from '../assets'
+import {
+  certificate,
+  db,
+  mint_features,
+  money,
+  signature,
+  smartcard,
+  verify,
+} from '../assets'
 import styles from '../style'
 
 const Features = ({ isVisible }) => {
@@ -28,8 +36,7 @@ const Features = ({ isVisible }) => {
               </h4>
             </Link>
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-              ipsa.
+              We Print certificates for the Nigerian Federation.
             </p>
           </div>
         </div>
@@ -57,6 +64,32 @@ const Features = ({ isVisible }) => {
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
               A primary Data Center with the aim of investing in technology
               infrastructures across the nation.
+            </p>
+          </div>
+        </div>
+
+        <div
+          className={`feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+        >
+          <div
+            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
+          >
+            <img
+              src={smartcard}
+              alt="icon"
+              className="w-[50%] h-[50%] object-contain"
+            />
+          </div>
+          <div className="flex-1 flex flex-col ml-3">
+            <Link to="/smartcard">
+              <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
+                SmartCard
+              </h4>
+            </Link>
+
+            <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
+              Personalize payment and smartcard for the planned launch of a
+              Nigerian card scheme
             </p>
           </div>
         </div>
@@ -97,6 +130,32 @@ const Features = ({ isVisible }) => {
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
               Provisioning a Real-time solution for verifying certificates and
               transcripts.
+            </p>
+          </div>
+        </div>
+
+        <div
+          className={`feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+        >
+          <div
+            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
+          >
+            <img
+              src={signature}
+              alt="icon"
+              className="w-[50%] h-[50%] object-contain"
+            />
+          </div>
+          <div className="flex-1 flex flex-col ml-3">
+            <Link to="/stamps">
+              <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
+                Digital Stamps
+              </h4>
+            </Link>
+
+            <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
+              Provide a modern and efficient way to authenticate documents and
+              add a layer of security to digital files.
             </p>
           </div>
         </div>

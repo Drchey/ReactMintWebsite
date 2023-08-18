@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import { Footer, Navbar } from '../component'
-import { partners_nspm } from '../assets'
+import { lines, partners_nspm } from '../assets'
 
 const Partners = () => {
   return (
@@ -29,9 +29,10 @@ const Partners = () => {
       >
         <div className="flex flex-col items-center justify-center">
           <div
-            className={`${styles.paragraph} text-[34px] text-center my-5 text-forest font-semibold`}
+            className={`${styles.paragraph} text-[34px] text-center my-5 text-forest font-semibold relative`}
           >
             Building Confidence with Our Valued Partners
+            <img src={lines} alt="" className="absolute" />
           </div>
 
           <div

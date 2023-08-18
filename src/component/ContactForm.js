@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { contact_data } from '../constants'
 import styles from '../style'
 import { send } from '../assets'
+import Swal from 'sweetalert'
 import SurveyModal from './SurveyModal'
-import sendEmail from '../functions/sendEmail'
 
 export const Form = () => {
   const [formData, setFormData] = useState({
@@ -22,71 +22,77 @@ export const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Use Formspree to send the message
-    const form = document.getElementById('contact-form')
-    form.submit()
-    alert('SENT SUCCESSFULLY!')
+    // // Use Formspree to send the message
+    // const form = document.getElementById('contact-form')
+    // form.submit()
+    Swal('Email Sent', 'We have Taken in your Feedback. Thank You', 'success')
   }
   return (
-    <form
-      id="contact-form"
-      className="max-w-md w-full mx-auto p-6"
-      action="https://formspree.io/derichey9@gmail.com"
-      method="POST"
-    >
-      <input
-        className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
-        type="text"
-        placeholder="Enter your Company name"
-        id="name"
-        name="name"
-        value={formData.name}
-        onChange={handleInputChange}
-      />
-
-      <select
-        id="name"
-        name="company_type"
-        value={formData.company_type}
-        onChange={handleInputChange}
-        className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
+    <div>
+      <form
+        id="contact-form"
+        // className="max-w-md w-full mx-auto p-6"
+        action="/contact"
+        method="GET"
       >
-        <option value="" className="">
-          Choose ...
-        </option>
-        <option value="govt" className="">
-          Government
-        </option>
-        <option value="" className="">
-          Academic Institution
-        </option>
-        <option value="" className="">
-          Security Agency
-        </option>
-        <option value="" className="">
-          Financial
-        </option>
-      </select>
+        <input
+          className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
+          type="text"
+          placeholder="Enter your Company name"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleInputChange}
+        />
 
-      <textarea
-        id="name"
-        name="message"
-        value={formData.message}
-        onChange={handleInputChange}
-        cols="10"
-        rows="10"
-        className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
-        placeholder="Tell Us How we Can Serve You"
-      ></textarea>
+        <select
+          id="name"
+          name="company_type"
+          value={formData.company_type}
+          onChange={handleInputChange}
+          className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
+        >
+          <option value="" className="">
+            Choose ...
+          </option>
+          <option value="govt" className="">
+            Government Agencies
+          </option>
+          <option value="" className="">
+            Academic Institution
+          </option>
+          <option value="" className="">
+            Security Agency
+          </option>
+          <option value="" className="">
+            Financial Institution
+          </option>
 
-      <button
-        className="bg-dimForest mt-10 p-1  z-19 h-[60px] px-9 text-white border-none  font-bold"
-        onClick={handleSubmit}
-        type="submit"
-      >
-        Send
-      </button>
-    </form>
+          <option value="" className="">
+            Manufacturing
+          </option>
+        </select>
+
+        <textarea
+          id="name"
+          name="message"
+          value={formData.message}
+          onChange={handleInputChange}
+          cols="10"
+          rows="10"
+          className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
+          placeholder="Tell Us How we Can Serve You"
+        ></textarea>
+
+        <button
+          className="bg-dimForest mt-10 p-1  z-19 h-[60px] px-9 text-white border-none  font-bold"
+          onClick={handleSubmit}
+          type="submit"
+        >
+          Send
+        </button>
+      </form>
+    </div>
   )
 }
 

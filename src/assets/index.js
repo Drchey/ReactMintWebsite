@@ -87,6 +87,14 @@ import lines from './lines.svg'
 // import guilloche1 from './guilloche_1.svg'
 import guilloche2 from './guilloche_2.svg'
 // import guilloche3 from './guilloche_3.svg'
+import standard_vac from './standard_vac.jpg'
+import smartcard from './smartcard_png.png'
+import signature from './digital_png.png'
+import cannon from './cannon_replace.png'
+import shop_floor from './shop_floor.png'
+import banknote from './Screenshot (219).png'
+import smartcard_background from './smart_cardbackground.jpg'
+import stamps from './stamps.jpg'
 
 export {
   airbnb,
@@ -177,5 +185,13 @@ export {
   // guilloche1,
   guilloche2,
   // guilloche3,
-  lines
+  lines,
+  standard_vac,
+  smartcard,
+  signature,
+  cannon,
+  shop_floor,
+  banknote,
+  smartcard_background,
+  stamps,
 }

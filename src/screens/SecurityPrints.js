@@ -1,7 +1,7 @@
 import React from 'react'
 import styles, { layout } from '../style'
 import { Footer, Navbar } from '../component'
-import { sp1, sp2, sp3_1 } from '../assets'
+import { cannon, shop_floor, sp2 } from '../assets'
 
 const SecurityPrints = () => {
   return (
@@ -28,7 +28,7 @@ const SecurityPrints = () => {
           </p>
         </div>
         <div className="flex-1 ml-4 group">
-          <img src={sp1} alt="" className={styles.imgCard} />
+          <img src={shop_floor} alt="" className={styles.imgCard} />
         </div>
       </div>
 
@@ -86,7 +86,7 @@ const SecurityPrints = () => {
           <div className={`${layout.serviceSectionReverse} `}>
             <div className={`w-1/2`}>
               <div className={`slide-left-container group`}>
-                <img src={sp3_1} alt="" className={`${styles.imgCard} p-3`} />
+                <img src={cannon} alt="" className={`${styles.imgCard} p-3`} />
               </div>
             </div>
             <div className={`w-1/2`}>

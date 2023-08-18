@@ -221,19 +221,19 @@ export const contact_data = [
     id: 'contact-1',
     icon: star,
     title: 'Phone Number',
-    content: '+234 90 390 39 237, + 234 80 359 70 609',
+    content: '+234 90 622 746 56, + 234 91 393 628 27',
   },
   {
     id: 'contact-2',
     icon: star,
     title: 'Email Address',
-    content: 'joeydias@gmail.com',
+    content: 'business.sales@mintnigeria.com',
   },
   {
     id: 'contact-3',
     icon: star,
     title: 'GeoLocation',
-    content: '34 Samuel Ladoke Boulevard, Garki',
+    content: '160 Samuel Ladoke Boulevard, Garki 2, Abuja',
   },
 ]
 

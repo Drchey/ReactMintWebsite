@@ -98,11 +98,10 @@ const CurrencyPrints = () => {
             </div>
             <div className={`w-1/2`}>
               <p className={`${styles.paragraph} text-justify max-w-full my-5`}>
-                The banknotes production facilities consist of the most
-                up-to-date machines available in the industry. Our high-tech
-                electronically controlled machines, sophisticated inks and
-                highly skilled personnel all go to show that we keep pace with
-                the most current trend in the industry world-wide.
+                We have the most up-to-date machines available in the industry.
+                Our high-tech electronically controlled machines, sophisticated
+                inks and highly skilled personnel all go to show that we keep
+                pace with the most current trend in the industry world-wide.
               </p>
 
               <p

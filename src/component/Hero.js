@@ -1,4 +1,4 @@
-import { logo, sample_hero } from '../assets'
+import { lines, sample_hero } from '../assets'
 import styles from '../style'
 
 const Hero = () => (
@@ -7,18 +7,19 @@ const Hero = () => (
       className={`flex flex-col flex-1 ${styles.flexStart} flex-col xl:pl-10 sm:px-16 px-6`}
     >
       <div className="flex flex-row items-center py-6 px-4 bg-dimForest rounded-[10px] mb-2">
-        <img src={logo} alt="discount" className="w-[32px] h-[32px]" />
+        {/* <img src={logo} alt="discount" className="w-[32px] h-[32px]" /> */}
         <p className={`${styles.paragraph} ml-2`}>
           <span className="text-white">
             Nigerian Security Printing & Minting Plc
           </span>
         </p>
       </div>
-      <div>
+      <div className="relative">
         <h1 className="font-bold md:text-[70px] text-[20px] ">
           WELCOME TO THE NIGERIAN <br className="sm:block hidden" />
           <span className="text-forest"> MINT</span>
         </h1>
+        <img src={lines} alt="" className="absolute top-0 " />
       </div>
 
       <div className={`${styles.paragraph} mt-5`}>
@@ -27,6 +28,10 @@ const Hero = () => (
         It was established in 1963 by the government of the Federal Republic of
         Nigeria in partnership with De La Rue of the U.K The company is wholly
         managed and operated by Nigerians
+      </div>
+
+      <div>
+        <img src={lines} alt="" />
       </div>
 
       <div className="flex flex-1 mt-6">

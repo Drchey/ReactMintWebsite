@@ -1,13 +1,20 @@
 import React from 'react'
 import styles, { layout } from '../style'
 
-const IdeaAction = ({ header, content, content2, image_type }) => (
+const IdeaAction = ({
+  header,
+  header_2,
+  content,
+  content2,
+  image_type,
+  isInit,
+}) => (
   <div className={`${layout.section} flex flex-row mb-5`}>
-    <div className={`${layout.sectionImg} group`}>
-      {}
-      <img src={image_type} alt="" className={`${styles.imgCard} px-4`} />
-    </div>
-    <div className={layout.sectionInfo}>
+    {/* <h4 className={`${styles.heading2} uppercase text-gradient text-left`}>
+      {header_2}
+    </h4> */}
+
+    <div className={`${layout.sectionInfo} text-justify`}>
       <h1 className={`${styles.heading2} uppercase text-gradient`}>{header}</h1>
       <p className={styles.paragraph}>{content}</p>
       <p className={`${styles.paragraph} mt-4`}>{content2}</p>

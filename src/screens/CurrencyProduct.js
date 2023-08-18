@@ -8,7 +8,7 @@ import {
   ProductAbout,
   ProductHeader,
 } from '../component'
-import { hero } from '../assets'
+import { cp_3 } from '../assets'
 
 const CurrencyProduct = () => {
   return (
@@ -36,21 +36,14 @@ const CurrencyProduct = () => {
         className={`bg-dimWhite  ${styles.flexStart} ${styles.paddingX} mt-7`}
       >
         <div className={`${styles.boxWidth}`}>
-          <Image logo={hero} alt="vac" />
+          <Image logo={cp_3} alt="vac" />
         </div>
       </div>
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <ProductAbout
-            title="We take Security Seriously"
-            content={`
-            The banknotes production facilities consist of the most up-to-date machines available in the industry. Our high-tech electronically controlled machines, sophisticated inks and highly skilled personnel all go to show that we keep pace with the most current trend in the industry world-wide. To support our operations and satisfy our clients’ individual demands, The MINT manufactures its offset and intaglio printing plates here in Nigeria while the sophisticated production machines and key raw materials are imported from diversified but highly reliable dealers overseas.
-            `}
-          />
-
-          <IdeaAction
-            header="Locally Sourced Raw Materials"
+            title="We Source Raw Materials locally"
             content={`
             Part of our expansion strategy is to source raw materials locally as a logical first step,
              and this initiative inspired the establishment of an indigenous company in partnership with 
@@ -62,6 +55,13 @@ const CurrencyProduct = () => {
                 (NSPM Plc) and the willingness of SICPA S. A. of Switzerland to go into a joint venture arrangement 
                 for the manufacture of security and commercial printing inks in Nigeria. 
             The Tawada Limited has since commenced production of high-quality security inks.
+            `}
+          />
+
+          <IdeaAction
+            header="Locally Sourced Raw Materials"
+            content={`
+            The banknotes production facilities consist of the most up-to-date machines available in the industry. Our high-tech electronically controlled machines, sophisticated inks and highly skilled personnel all go to show that we keep pace with the most current trend in the industry world-wide. To support our operations and satisfy our clients’ individual demands, The MINT manufactures its offset and intaglio printing plates here in Nigeria while the sophisticated production machines and key raw materials are imported from diversified but highly reliable dealers overseas.
             `}
           />
         </div>

@@ -18,6 +18,8 @@ import CurrencyPrints from './screens/CurrencyPrints'
 import Partners from './screens/Partners'
 import StructureData from './screens/StructureData'
 import Preloader from './component/Preloader'
+import SmartCard from './screens/SmartCard'
+import DigitalStamps from './screens/DigitalStamps'
 
 const App = () => {
   const [loading, setLoading] = useState(true)
@@ -39,6 +41,8 @@ const App = () => {
         <Route path="/currency" element={<CurrencyProduct />} />
         <Route path="/certificates" element={<Certificates />} />
         <Route path="/datacenter" element={<DataCenter />} />
+        <Route path="/smartcard" element={<SmartCard />} />
+        <Route path="/stamps" element={<DigitalStamps />} />
         <Route path="/contactus" element={<Contact />} />
         <Route path="/history" element={<History />} />
         <Route path="/teams" element={<Team />} />

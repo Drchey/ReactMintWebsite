@@ -23,7 +23,7 @@ const Certificates = () => {
         <div className={`${styles.boxWidth}`}>
           <ProductHeader
             title="Certificate Print "
-            content1={`The Mint produces all certificates, particularly academic, birth, death, and marriage certificates. These certificates are printed with security features embedded that prevent forgery, cloning, or counterfeiting.`}
+            content1={`Here, we specialize in transforming your achievements into stunning works of art. Our collection of certificate prints offers a unique way to commemorate your milestones, whether it's a graduation, certification, or special recognition.We understand that your certificates hold immense value, and that's why we've curated a selection of high-quality materials and exquisite designs to showcase them with elegance.`}
           />
         </div>
       </div>
@@ -40,11 +40,14 @@ const Certificates = () => {
         <div className={`${styles.boxWidth}`}>
           <ProductAbout
             title="Printing For Over 120 Academic Institutions In Nigeria"
-            content="We have Scaled to over ................. lorem ipsum dolor emet init dolo iciinde"
+            content="Each print is meticulously crafted to capture the essence of your accomplishment, ensuring that your hard-earned achievements are celebrated in a visually captivating manner. With a focus on precision and attention to detail, our certificate prints reflect the dedication and effort you've put into your endeavors. Browse through our gallery to discover a range of customizable options that allow you to add a personal touch to your prints. Elevate your certificates to the next level of sophistication and proudly display your success with our Certificate Prints collection."
           />
 
           <IdeaAction
             header="Security Features"
+            header_2="Skilled & Innovation is in our DNA"
+            isInit=""
+            image_type="image_null"
             content={`We have high skilled and innovative graphic artists who are not only conversant with the latest techniques and materials to counteract forgery and adulteration, we are fully aware of the current capabilities of criminals and as thus our products are constantly ahead of potential counterfeiters. We use modern local letter assembly facilities to add the required text matter to these designs.The Resultant are then produced on a variety of sheet-fed wet or dry to four colours at once with the capability of printing on both the front and the back of the sheet simultaneously. The numbering of the documents which in itself is a complex operation, involving the need for absolute accuracy, is available in a variety of styles. Finishing is carried out in controlled conditions in line with the importance The MINT attaches to the security and integrity of its products.`}
           />
         </div>

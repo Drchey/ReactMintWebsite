@@ -8,7 +8,7 @@ import {
   IdeaAction,
   Footer,
 } from '../component'
-import { hero } from '../assets'
+import { hero, standard_vac } from '../assets'
 
 const VACProduct = () => {
   return (
@@ -36,7 +36,7 @@ const VACProduct = () => {
         className={`bg-dimWhite  ${styles.flexStart} ${styles.paddingX} mt-7`}
       >
         <div className={`${styles.boxWidth}`}>
-          <Image logo={hero} alt="vac" />
+          <Image logo={standard_vac} alt="vac" />
         </div>
       </div>
 
@@ -50,7 +50,7 @@ const VACProduct = () => {
 
           <IdeaAction
             header="Real-Time Access"
-            content={`We have ensured that your inquisitions are handled and forwarded to you in real time. hence, no need to wait weeks upon weeks for feedback!.`}
+            content={`We have ensured that your inquisitions are handled and forwarded to you in real time. hence, no need to wait weeks upon weeks for feedback. Whether you're an employer seeking to verify candidate credentials, a lending institution confirming financial information, or a background screening agency validating records, our cutting-edge technology offers a swift and reliable solution. Say goodbye to manual verification delays and welcome the convenience of a streamlined online process`}
           />
         </div>
       </div>
