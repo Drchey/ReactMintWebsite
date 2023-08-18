@@ -95,6 +95,7 @@ import shop_floor from './shop_floor.png'
 import banknote from './Screenshot (219).png'
 import smartcard_background from './smart_cardbackground.jpg'
 import stamps from './stamps.jpg'
+import hero_image from './2.png'
 
 export {
   airbnb,
@@ -194,4 +195,5 @@ export {
   banknote,
   smartcard_background,
   stamps,
+  hero_image,
 }
