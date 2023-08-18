@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import { Footer, Navbar } from '../component'
-import { partners_1 } from '../assets'
+import { partners_nspm } from '../assets'
 
 const Partners = () => {
   return (
@@ -17,7 +17,7 @@ const Partners = () => {
       >
         <div className="flex-1 ml-4 group">
           <img
-            src={partners_1}
+            src={partners_nspm}
             alt=""
             className={`${styles.imgCard} h-[50vh] object-cover`}
           />
@@ -35,15 +35,15 @@ const Partners = () => {
           </div>
 
           <div
-            className={`${styles.paragraph} md:text-[20px] text-[16px] md:text-center text-justify  px-5 my-5 font-extralight italic`}
+            className={` md:text-[20px] text-[16px]  md:text-center text-justify  px-5 my-5 font-light italic`}
           >
-            Over the Past 50 Years, The Nigerian Security Printing & Minting Plc
-            has forged enduring bonds with organizations with a foundation of
-            transparency, integrity & shared goals. We have taken pride in the
-            trust our partners place on us. We continue to collaborate and
+            "Over the Past 50 Years, The Nigerian Security Printing & Minting
+            Plc has forged enduring bonds with organizations with a foundation
+            of transparency, integrity & shared goals. We have taken pride in
+            the trust our partners place on us. We continue to collaborate and
             partner with emerging and long-standing institution through
             open-communication, a shared pursuit of excellence & envisioned
-            impact in the Nigerian market space.
+            impact in the Nigerian market space."
           </div>
         </div>
       </div>

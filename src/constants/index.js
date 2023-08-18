@@ -13,18 +13,22 @@ import {
   // send,
   // shield,
   star,
-  chairman,
+  // chairman,
   md,
   edcs,
   ed_ops,
   ed_ops_lagos,
   ed_sd,
-  adviser,
+  // adviser,
   oldkobo,
   justme,
   secure,
   access,
   trust,
+  acting_cbn,
+  aisha_board,
+  edward_board,
+  obiora_board,
 } from '../assets'
 import { layout } from '../style'
 
@@ -449,12 +453,46 @@ export const clients = [
 export const boards = [
   {
     id: 'board-1',
-    logo: chairman,
-    title: 'chairman',
-    name: 'Mr. Godwin Emefiele',
+    logo: acting_cbn,
+    is_cbn: true,
+
+    title: 'Acting Chairman, Board of Directors',
+    name: 'Mr. Folashodun Adebisi Shonubi',
     content:
       'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
   },
+  {
+    id: 'board-1-1',
+    logo: aisha_board,
+    title: 'Deputy Governor, Financial System Stability Directorate',
+    name: 'Mrs. Aishah N, Ahmad',
+    is_cbn: true,
+
+    content:
+      'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
+  },
+
+  {
+    id: 'board-1-2',
+    logo: edward_board,
+    title: 'Deputy Governor, Corporate Services Directorate',
+    name: 'Mr. Edward L. Adamu',
+    is_cbn: true,
+    content:
+      'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
+  },
+
+  {
+    id: 'board-1-3',
+    logo: obiora_board,
+    is_cbn: true,
+
+    title: 'Acting Chairman, Board of Directors',
+    name: 'Deputy Governor, Economic Policy Directorate',
+    content:
+      'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
+  },
+
   {
     id: 'board-2',
     logo: md,
@@ -496,14 +534,14 @@ export const boards = [
     content:
       'Mr. Tunji Kazeem is a seasoned Financial Executive with a wealth of experience spanning several years working in global financial institutions such as Citigroup, Standard and Poor’s and the Nigerian Stock Exchange. He was appointed the Executive Director (Security Documents) at the Nigerian Security Printing and Minting, where he currently works as a member of the Executive Management overseeing all the activities of the Mint and driving the company’s digital transformational agenda. Mr. Kazeem holds a Bachelor’s degree in Economics and Accounting from Rutgers University and an MBA from Columbia Business School. He has also attended several leadership, business management and strategy courses.',
   },
-  {
-    id: 'board-7',
-    logo: adviser,
-    title: 'SENIOR TECHNICAL ADVISER TO CBN GOVERNOR',
-    name: 'PROFESSOR THOMAS ONYISI ODOZI',
-    content:
-      'Currently the Senior Technical Adviser to the Governor, Central Bank of Nigeria, on NSPM Plc , he holds a PhD. Industrial Chemistry, University of Lagos, Nigeria, M.Sc, Industrial Chemistry, Synthesized Nylon 3 for Liquid Crystal Display, Atlanta University, Atlanta, USA , B.Sc Chemistry, Southern University, Louisiana,USA. He was the Former GM (Security Documents) of NSPM, and directly responsible then to the MD/CE of NSPM, Plc on matters related to technology adoption, adaptation and its relevance to NSPM, Plc viability. Besides, he had held some adhoc functions in various capacities at different levels. Among these, the Current Chairman of the African Banknote Security Documents Printers Association’s Technical Committee, sits on the Executive Membership Committee of the Association, and a plethora of other administrative functions. Professor Odozi is a constant face in the Security Print Industry and has through devotion of duty and diligence carved a niche for himself not only in this hybrid discipline as a professional, but also in other facets of life.',
-  },
+  // {
+  //   id: 'board-7',
+  //   logo: adviser,
+  //   title: 'SENIOR TECHNICAL ADVISER TO CBN GOVERNOR',
+  //   name: 'PROFESSOR THOMAS ONYISI ODOZI',
+  //   content:
+  //     'Currently the Senior Technical Adviser to the Governor, Central Bank of Nigeria, on NSPM Plc , he holds a PhD. Industrial Chemistry, University of Lagos, Nigeria, M.Sc, Industrial Chemistry, Synthesized Nylon 3 for Liquid Crystal Display, Atlanta University, Atlanta, USA , B.Sc Chemistry, Southern University, Louisiana,USA. He was the Former GM (Security Documents) of NSPM, and directly responsible then to the MD/CE of NSPM, Plc on matters related to technology adoption, adaptation and its relevance to NSPM, Plc viability. Besides, he had held some adhoc functions in various capacities at different levels. Among these, the Current Chairman of the African Banknote Security Documents Printers Association’s Technical Committee, sits on the Executive Membership Committee of the Association, and a plethora of other administrative functions. Professor Odozi is a constant face in the Security Print Industry and has through devotion of duty and diligence carved a niche for himself not only in this hybrid discipline as a professional, but also in other facets of life.',
+  // },
 ]
 
 export const history = [

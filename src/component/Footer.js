@@ -17,7 +17,7 @@ const Footer = () => (
         <p
           className={`${styles.paragraph} mt-4 max-w-[310px] text-white text-center`}
         >
-          New Way to make Payment Easy Reliable & Secured.
+          Transforming the Way We Visualize Security Prints in Nigeria.
         </p>
       </div>
       <div className="flex-[1.5] w-full flex flex-row justify-between md:mt-0 mt-10">

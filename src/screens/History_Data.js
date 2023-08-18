@@ -1,13 +1,13 @@
 import React from 'react'
 import styles, { layout } from '../style'
-import { hero, sharedc1, sharedc2 } from '../assets'
+import { cbn_2, hand, hand_1 } from '../assets'
 import { Footer, Navbar } from '../component'
 
 const HistoryHeader = () => (
   <div className={`bg-dimWhite  ${styles.flexStart}`}>
     <div className={`${styles.boxWidth}`}>
       <img
-        src={hero}
+        src={cbn_2}
         className={`w-full h-[55vh] object-center object-fit object-fill`}
         alt=""
       />
@@ -48,7 +48,7 @@ const HistoryData = () => {
             <div className={`w-1/2`}>
               <div className={`slide-left-container group`}>
                 <img
-                  src={sharedc2}
+                  src={hand_1}
                   alt=""
                   className={`${styles.imgCard} h-[60vh] object-contain`}
                 />
@@ -100,7 +100,7 @@ const HistoryData = () => {
             <div className={`w-1/2`}>
               <div className={`slide-left-container group`}>
                 <img
-                  src={sharedc1}
+                  src={hand}
                   alt=""
                   className={`${styles.imgCard} h-[60vh] object-contain`}
                 />

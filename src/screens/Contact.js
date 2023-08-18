@@ -19,8 +19,8 @@ const Contact = () => {
             title="Contact Us"
             context="Kindly get in touch with us for any business proposals, enquires, comments or suggestions."
             btn="Contact Us"
-            classContext={`absolute top-0 left-0 z-3 w-full h-full flex justify-center items-center bg-teal-800 opacity-80`}
-            classBtn={`bg-dimWhite mt-20 p-4 w- z-19[150px] h-[70px] px-9 text-forest cursor-none  border-none  font-bold`}
+            classContext={`absolute top-0 left-0 z-3 w-full h-full flex justify-center items-center bg-gray-600 opacity-80`}
+            classBtn={`bg-dimWhite mt-20 p-4 w- z-19[150px] h-[90px] px-9 text-forest cursor-none  border-none  font-bold`}
           />
         </div>
       </div>

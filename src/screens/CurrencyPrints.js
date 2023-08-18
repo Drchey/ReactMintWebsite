@@ -1,8 +1,7 @@
 import React from 'react'
 import { Footer, Navbar } from '../component'
 import styles, { layout } from '../style'
-import { currency_1, currency_4, currency_5 } from '../assets'
-// import { sp1, sp2, sp3_1 } from '../assets'
+import { cp_2, cp_3, mint_building } from '../assets'
 
 const CurrencyPrints = () => {
   return (
@@ -17,7 +16,11 @@ const CurrencyPrints = () => {
         className={`${styles.boxWidth} flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
       >
         <div className="flex-1 ml-4 group">
-          <img src={currency_1} alt="" className={styles.imgCard} />
+          <img
+            src={mint_building}
+            alt=""
+            className={`${styles.imgCard} h-[89%]`}
+          />
         </div>
 
         <div className="flex-1 px-3">
@@ -51,37 +54,34 @@ const CurrencyPrints = () => {
       <div className={layout.serviceSection}>
         <section className={`${layout.serviceSection}`}>
           <div className={`${layout.serviceSection} `}>
-            <div className={layout.serviceSectionImg}>
+            <div className={`w-1/2`}>
               <div className={`slide-left-container group`}>
-                <img src={currency_5} alt="" className={styles.imgCard} />
+                <img src={cp_2} alt="" className={styles.imgCard} />
               </div>
             </div>
-            <div className={layout.serviceSectionInfo}>
+            <div className={`w-1/2`}>
               <p
                 className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
+                Our banknote facilities are a testament to our commitment to
+                technological advancement and the safeguarding of economies.
+                Utilizing the latest printing techniques, we create currency
+                notes that are not only visually captivating but also
+                exceptionally resistant to counterfeiting. Our dedicated teams
+                of experts ensure that every banknote leaving our facilities
+                meets the stringent standards of authenticity and integrity.
               </p>
 
               <p
                 className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
-              </p>
-
-              <p
-                className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
-              >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
+                At the heart of our facilities lies a fusion of innovation and
+                tradition. Our engraving techniques, color mastery, and
+                intricate designs capture the essence of cultural heritage while
+                staying ahead of emerging threats in currency security. From
+                holographic features to microprinting, we employ a range of
+                security measures to ensure the trustworthiness of the currency
+                we produce.
               </p>
             </div>
           </div>
@@ -91,45 +91,28 @@ const CurrencyPrints = () => {
       <div className={layout.serviceSection}>
         <section className={`${layout.serviceSection}`}>
           <div className={`${layout.serviceSectionReverse} `}>
-            <div className={layout.serviceSectionImg}>
+            <div className={`w-1/2`}>
               <div className={`slide-left-container group`}>
-                <img
-                  src={currency_4}
-                  alt=""
-                  className={`${styles.imgCard} px-4`}
-                />
+                <img src={cp_3} alt="" className={`${styles.imgCard} px-4`} />
               </div>
             </div>
-            <div className={layout.serviceSectionInfo}>
+            <div className={`w-1/2`}>
               <p className={`${styles.paragraph} text-justify max-w-full my-5`}>
                 The banknotes production facilities consist of the most
                 up-to-date machines available in the industry. Our high-tech
                 electronically controlled machines, sophisticated inks and
                 highly skilled personnel all go to show that we keep pace with
-                the most current trend in the industry world-wide. To support
-                our operations and satisfy our clients’ individual demands, The
-                MINT manufactures its offset and intaglio printing plates here
-                in Nigeria while the sophisticated production machines and key
-                raw materials are imported from diversified but highly reliable
-                dealers overseas.
-              </p>
-
-              <p
-                className={`${styles.paragraph} text-justify  max-w-full my-5`}
-              >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
+                the most current trend in the industry world-wide.
               </p>
 
               <p
                 className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
+                To support our operations and satisfy our clients’ individual
+                demands, The MINT manufactures its offset and intaglio printing
+                plates here in Nigeria while the sophisticated production
+                machines and key raw materials are imported from diversified but
+                highly reliable dealers overseas.
               </p>
             </div>
           </div>

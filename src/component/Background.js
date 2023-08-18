@@ -9,7 +9,7 @@ const Background = ({
   classBtn,
   classContext,
 }) => (
-  <section className="md:flex-row flex-col flex  bg-teal-900 mt-5 relative">
+  <section className="md:flex-row flex-col flex bg-teal-500 mt-5 relative">
     <img src={img} alt="" className={classImg} />
     <div className={classContext}>
       <div className="text-white text-center">

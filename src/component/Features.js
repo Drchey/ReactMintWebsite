@@ -6,7 +6,7 @@ import styles from '../style'
 const Features = ({ isVisible }) => {
   return (
     <div
-      className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 mt-7`}
+      className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 mt-12`}
     >
       <div className={`flex-1`}>
         <div
@@ -70,7 +70,7 @@ const Features = ({ isVisible }) => {
           <img
             src={mint_features}
             alt="mint features"
-            className="w-[300px] p-2"
+            className="w-[300px] p-2 animate-pulse"
           />
         </div>
       </div>

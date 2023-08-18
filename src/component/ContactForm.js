@@ -3,51 +3,92 @@ import { contact_data } from '../constants'
 import styles from '../style'
 import { send } from '../assets'
 import SurveyModal from './SurveyModal'
+import sendEmail from '../functions/sendEmail'
 
-export const Form = () => (
-  <div>
-    <input
-      className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
-      type="text"
-      placeholder="Enter your Company name"
-    />
+export const Form = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    company_type: '',
+    message: '',
+  })
 
-    <select
-      name=""
-      id=""
-      className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
+  const handleInputChange = (e) => {
+    const { name, value } = e.target
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }))
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    // Use Formspree to send the message
+    const form = document.getElementById('contact-form')
+    form.submit()
+    alert('SENT SUCCESSFULLY!')
+  }
+  return (
+    <form
+      id="contact-form"
+      className="max-w-md w-full mx-auto p-6"
+      action="https://formspree.io/derichey9@gmail.com"
+      method="POST"
     >
-      <option value="" className="">
-        Choose ...
-      </option>
-      <option value="govt" className="">
-        Government
-      </option>
-      <option value="" className="">
-        Academic Institution
-      </option>
-      <option value="" className="">
-        Security Agency
-      </option>
-      <option value="" className="">
-        Financial
-      </option>
-    </select>
+      <input
+        className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
+        type="text"
+        placeholder="Enter your Company name"
+        id="name"
+        name="name"
+        value={formData.name}
+        onChange={handleInputChange}
+      />
 
-    <textarea
-      name=""
-      id=""
-      cols="10"
-      rows="10"
-      className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
-      placeholder="Tell Us How we Can Serve You"
-    ></textarea>
+      <select
+        id="name"
+        name="company_type"
+        value={formData.company_type}
+        onChange={handleInputChange}
+        className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
+      >
+        <option value="" className="">
+          Choose ...
+        </option>
+        <option value="govt" className="">
+          Government
+        </option>
+        <option value="" className="">
+          Academic Institution
+        </option>
+        <option value="" className="">
+          Security Agency
+        </option>
+        <option value="" className="">
+          Financial
+        </option>
+      </select>
 
-    <button className="bg-dimForest mt-10 p-1  z-19 h-[60px] px-9 text-white border-none  font-bold">
-      Send
-    </button>
-  </div>
-)
+      <textarea
+        id="name"
+        name="message"
+        value={formData.message}
+        onChange={handleInputChange}
+        cols="10"
+        rows="10"
+        className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
+        placeholder="Tell Us How we Can Serve You"
+      ></textarea>
+
+      <button
+        className="bg-dimForest mt-10 p-1  z-19 h-[60px] px-9 text-white border-none  font-bold"
+        onClick={handleSubmit}
+        type="submit"
+      >
+        Send
+      </button>
+    </form>
+  )
+}
 
 const ContactForm = () => {
   const [isOpen, setIsOpen] = useState(false)

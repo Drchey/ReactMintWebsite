@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from '../style'
-import { close, currency_4, currency_5, currency_6, star } from '../assets'
+import { close, star } from '../assets'
 import { conventional_division, digital_division } from '../constants'
 export const Modal = ({ isOpen, toggleModal1, toggleModal2, title }) => {
   return (
@@ -96,23 +96,24 @@ export const Modal = ({ isOpen, toggleModal1, toggleModal2, title }) => {
   )
 }
 
-const Widget = ({ title, info, hasModal, link, type }) => {
+const Widget = ({ title, info, hasModal, link, type, image }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleModal1 = () => {
     setIsOpen(!isOpen)
-    console.log(isOpen)
   }
 
   const toggleModal2 = () => {
     setIsOpen(!isOpen)
-    console.log(isOpen)
   }
 
   return (
     <div className="feature-card p-6 sm:mx-1 mx-0x h-[500px] rounded-[20px] item-center justify-center flex flex-col  ease-in duration-400">
-      <div className="flex relative h-[90%]">
-        <img src={currency_6} className="w-full object-contain my-1" alt="" />
+      <div className="flex relative h-auto">
+        <div className="relative item-center h-auto w-full rounded">
+          <img src={image} className="object-fit h-[300px]  my-1" alt="" />
+          <div className="absolute inset-0 bg-gray-700 hover:bg-gray-800 duration-300 opacity-50"></div>
+        </div>
 
         <p className="absolute bottom-5 p-3 text-white font-semibold text-[20px]">
           {title}

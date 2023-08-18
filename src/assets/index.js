@@ -63,6 +63,30 @@ import currency_6 from './currency_6.jpg'
 import partners_1 from './partners_1.jpg'
 import data_center from './data_center.png'
 import data_center_2 from './data_center_2.png'
+import info from './info.png'
+import currency_min from './trans_currency.png'
+import division_1 from './division_img_1.png'
+import division_2 from './division-img-2.png'
+import division_3 from './division_img_3.png'
+import mint_building from './mint_building.jpg'
+import cp_2 from './cp_2.jpg'
+import cp_3 from './cp_3.png'
+import cbn_building from './CBN.jpg'
+import gallery_1 from './gallery.jpg'
+import gallery_2 from './gallery_2.jpg'
+import acting_cbn from './acting_cbn.jpg'
+import edward_board from './edward_board.jpg'
+import aisha_board from './aisha_board.jpg'
+import obiora_board from './Obiora_board.jpg'
+import partners_nspm from './partners_nspm.jpg'
+import hand from './hands.jpg'
+import hand_1 from './hands-1.jpg'
+import cbn_2 from './cbn_2.jpg'
+import untitled from './untitled.png'
+import lines from './lines.svg'
+// import guilloche1 from './guilloche_1.svg'
+import guilloche2 from './guilloche_2.svg'
+// import guilloche3 from './guilloche_3.svg'
 
 export {
   airbnb,
@@ -130,4 +154,28 @@ export {
   currency_6,
   data_center,
   data_center_2,
+  info,
+  currency_min,
+  division_1,
+  division_2,
+  division_3,
+  mint_building,
+  cp_3,
+  cp_2,
+  cbn_building,
+  gallery_1,
+  gallery_2,
+  acting_cbn,
+  obiora_board,
+  aisha_board,
+  edward_board,
+  partners_nspm,
+  hand,
+  hand_1,
+  cbn_2,
+  untitled,
+  // guilloche1,
+  guilloche2,
+  // guilloche3,
+  lines
 }

@@ -2,7 +2,7 @@ import { logo, sample_hero } from '../assets'
 import styles from '../style'
 
 const Hero = () => (
-  <section className="md:flex-row flex-col flex   mt-5">
+  <section className="md:flex-row flex-col flex   mt-5 mb-7">
     <div
       className={`flex flex-col flex-1 ${styles.flexStart} flex-col xl:pl-10 sm:px-16 px-6`}
     >

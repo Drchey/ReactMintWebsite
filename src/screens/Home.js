@@ -7,7 +7,6 @@ import {
   Navbar,
   Section,
   Security,
-  Stats,
   // Testimonial,
 } from '../component'
 
@@ -45,12 +44,12 @@ const Home = () => {
 
       <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats />
+          {/* <Stats /> */}
 
           <Features isVisible={isVisible} />
           <Section link="/currency" />
-          <Business isVisible={isVisible} />
-          <Security isVisible={isVisible} />
+          <Business />
+          <Security />
           {/* <Testimonial />  */}
         </div>
       </div>

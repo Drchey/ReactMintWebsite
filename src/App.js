@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+
 import Home from './screens/Home'
 import VACProduct from './screens/VACProduct'
 import Contact from './screens/Contact'
@@ -15,7 +17,6 @@ import SecurityPrints from './screens/SecurityPrints'
 import CurrencyPrints from './screens/CurrencyPrints'
 import Partners from './screens/Partners'
 import StructureData from './screens/StructureData'
-import { useEffect, useState } from 'react'
 import Preloader from './component/Preloader'
 
 const App = () => {

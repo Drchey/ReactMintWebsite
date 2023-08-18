@@ -56,28 +56,25 @@ const SecurityPrints = () => {
               <p
                 className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
+                Equipped with the Advanced Machinery and team of Skilled and
+                Devoted Engineers, we stay ahead of evolving threats by
+                consistently innovating our security features. Our R&D teams
+                tirelessly explore new technologies, ensuring that our clients
+                benefit from the latest advancements in anti-counterfeiting
+                solutions. Beyond just protection, our security features are a
+                testament to our commitment to maintaining trust in an
+                interconnected world.
               </p>
 
               <p
                 className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
-              </p>
-
-              <p
-                className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
-              >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
+                Whether it's secure identification documents, or valuable
+                certificates, our printing with security features stands as a
+                resolute shield against fraudulent activities. Explore the realm
+                where intricate designs marry impenetrable protection, a
+                testament to our dedication to fortifying the reliability of
+                printed materials in an ever-evolving landscape.
               </p>
             </div>
           </div>
@@ -131,20 +128,6 @@ const SecurityPrints = () => {
             </div>
           </div>
         </section>
-      </div>
-
-      <div className={`${layout.serviceSection} px-2 my-5  `}>
-        <div className={`${styles.paragraph} text-justify mx-2 my-5`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas amet eum
-          deleniti rem, possimus sit voluptatibus nemo accusantium id animi eius
-          error sed reprehenderit a omnis, laudantium itaque veritatis tempora.
-        </div>
-
-        <div className={`${styles.paragraph} mx-2 text-justify my-5`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas amet eum
-          deleniti rem, possimus sit voluptatibus nemo accusantium id animi eius
-          error sed reprehenderit a omnis, laudantium itaque veritatis tempora.
-        </div>
       </div>
 
       <div className={`bg-dimForest ${styles.paddingX} ${styles.flexStart}`}>
