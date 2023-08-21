@@ -487,8 +487,8 @@ export const boards = [
     logo: obiora_board,
     is_cbn: true,
 
-    title: 'Acting Chairman, Board of Directors',
-    name: 'Deputy Governor, Economic Policy Directorate',
+    name: 'Dr. Kingsley Obiora',
+    title: 'Deputy Governor, Economic Policy Directorate',
     content:
       'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
   },
