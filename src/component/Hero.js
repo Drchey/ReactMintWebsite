@@ -1,4 +1,4 @@
-import { hero_image, lines, sample_hero } from '../assets'
+import { hero_image } from '../assets'
 import styles from '../style'
 
 const Hero = () => (
@@ -35,7 +35,7 @@ const Hero = () => (
       <div className="flex flex-1 mt-6">
         <a
           href="#division"
-          className="bg-dimForest p-4 w-[150px] h-[70px] text-white text-center border-none rounded-[20px] font-bold"
+          className="bg-dimForest p-4 w-[150px] h-[70px] text-white text-center border-none rounded-[20px] font-bold sm:flex hidden"
         >
           Our Divisions
         </a>

@@ -32,7 +32,7 @@ export const Modal = ({ isOpen, toggleModal1, toggleModal2, title }) => {
                           className={` feature-card flex sm:flex-row flex-col p-6 rounded-[20px] "mb-6": "mb-0`}
                         >
                           <div
-                            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue  `}
+                            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue  sm:flex hidden`}
                           >
                             <img
                               src={star}
@@ -65,7 +65,7 @@ export const Modal = ({ isOpen, toggleModal1, toggleModal2, title }) => {
                           className={` feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
                         >
                           <div
-                            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
+                            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue none`}
                           >
                             <img
                               src={star}

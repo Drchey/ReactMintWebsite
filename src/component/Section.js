@@ -33,7 +33,7 @@ const Section = () => {
         <Widget
           title="Digital Security Solutions"
           image={division_3}
-          info="Security Features on Digitalized Certificates, Identity  Solutions, QR codes etc."
+          info="Security Features on Digitalized Certificates, Identity Solutions, QR codes etc."
           type="digital"
           hasModal={true}
         />
