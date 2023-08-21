@@ -123,7 +123,7 @@ const Features = ({ isVisible }) => {
             />
           </div>
           <div className="flex-1 flex flex-col ml-3">
-            <Link to="/certificate">
+            <Link to="/certificates">
               {' '}
               <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
                 Certificate Prints
