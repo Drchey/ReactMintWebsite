@@ -1,5 +1,5 @@
 import styles, { layout } from '../style'
-import { untitled } from '../assets'
+import { lines, untitled } from '../assets'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -12,6 +12,7 @@ const Business = () => {
     <div className={layout.section}>
       <div className={layout.sectionImg}>
         <div className={`group relative`}>
+          <img src={lines} className="absolute top-0 left-0" alt="" />
           <img
             src={untitled}
             className={`px-1 h-[100%] `}

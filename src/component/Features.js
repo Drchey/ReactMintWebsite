@@ -104,7 +104,7 @@ const Features = ({ isVisible }) => {
           <img
             src={mint_features}
             alt="mint features"
-            className="w-[300px] p-2 animate-pulse"
+            className="w-[300px] p-2"
           />
         </div>
       </div>

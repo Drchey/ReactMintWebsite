@@ -98,6 +98,18 @@ import stamps from './stamps.jpg'
 import hero_image from './2.png'
 import picture from './pic.png'
 
+// Gilloche Patterns
+import guilloche_1 from './guilloche/1.svg'
+import guilloche_2 from './guilloche/2.svg'
+import guilloche_3 from './guilloche/3.svg'
+import guilloche_4 from './guilloche/4.svg'
+import guilloche_5 from './guilloche/5.svg'
+import guilloche_6 from './guilloche/6.svg'
+import guilloche_7 from './guilloche/7.svg'
+import guilloche_8 from './guilloche/8.svg'
+import guilloche_9 from './guilloche/9.svg'
+import guilloche_10 from './guilloche/10.svg'
+
 export {
   airbnb,
   bill,
@@ -197,5 +209,15 @@ export {
   smartcard_background,
   stamps,
   hero_image,
-  picture
+  picture,
+  guilloche_1,
+  guilloche_2,
+  guilloche_3,
+  guilloche_4,
+  guilloche_5,
+  guilloche_6,
+  guilloche_7,
+  guilloche_8,
+  guilloche_9,
+  guilloche_10,
 }

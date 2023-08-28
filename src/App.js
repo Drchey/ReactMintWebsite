@@ -20,6 +20,7 @@ import StructureData from './screens/StructureData'
 import Preloader from './component/Preloader'
 import SmartCard from './screens/SmartCard'
 import DigitalStamps from './screens/DigitalStamps'
+import ConsentCookies from './component/ConsentCookies'
 
 const App = () => {
   const [loading, setLoading] = useState(true)
@@ -35,6 +36,7 @@ const App = () => {
     <Router>
       {loading && <Preloader />}
       <ScrollToTop />
+      <ConsentCookies />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/vac" element={<VACProduct />} />

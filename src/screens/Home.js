@@ -11,6 +11,7 @@ import {
 } from '../component'
 
 import styles from '../style'
+import { guilloche_9 } from '../assets'
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -30,19 +31,22 @@ const Home = () => {
   }, [])
 
   return (
-    <div className="bg-dimWhite w-full overflow-hidden">
+    <div className="bg-dimDark w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
-      <div className={`bg-dimWhite  ${styles.flexStart}`}>
+      <div className={`bg-dimWhite ${styles.flexStart} relative`}>
         <div className={`${styles.boxWidth}`}>
+          <img src={guilloche_9} alt="" className="fixed z-[-2] opacity-100" />
           <Hero />
         </div>
       </div>
 
-      <div className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart}`}>
+      <div
+        className={`bg-dimWhite ${styles.paddingX} ${styles.flexStart} relative`}
+      >
         <div className={`${styles.boxWidth}`}>
           {/* <Stats /> */}
 

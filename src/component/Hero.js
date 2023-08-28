@@ -1,8 +1,8 @@
-import { hero_image, picture } from '../assets'
+import { lines, picture } from '../assets'
 import styles from '../style'
 
 const Hero = () => (
-  <section className="md:flex-row flex-col flex   mt-5 mb-10">
+  <section className="md:flex-row flex-col flex relative  mt-5 mb-10">
     <div
       className={`flex flex-col flex-1 ${styles.flexStart} flex-col xl:pl-10 sm:px-16 px-6`}
     >
@@ -15,7 +15,7 @@ const Hero = () => (
         </p>
       </div>
       <div className="relative">
-        {/* <img src={lines} alt="" className="absolute left-10" /> */}
+        <img src={lines} alt="" className="absolute left-0 z-[-1]" />
         <h1 className="font-bold md:text-[70px] text-[20px] ">
           WELCOME TO THE NIGERIAN <br className="sm:block hidden" />
           <span className="text-forest"> MINT</span>
@@ -46,7 +46,7 @@ const Hero = () => (
       <img
         src={picture}
         alt=""
-        className="w-[100%] h-[100%] relative z-4 object-cover"
+        className="w-[140%] h-[100%] relative z-4 object-cover"
       />
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
