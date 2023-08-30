@@ -110,6 +110,12 @@ import guilloche_8 from './guilloche/8.svg'
 import guilloche_9 from './guilloche/9.svg'
 import guilloche_10 from './guilloche/10.svg'
 
+/*** G_4 */
+import g_1 from './guilloche/g-1.svg'
+import g_2 from './guilloche/g-2.svg'
+import g_3 from './guilloche/g-3.svg'
+import g_4 from './guilloche/g-4.svg'
+
 export {
   airbnb,
   bill,
@@ -220,4 +226,8 @@ export {
   guilloche_8,
   guilloche_9,
   guilloche_10,
+  g_1,
+  g_2,
+  g_3,
+  g_4,
 }

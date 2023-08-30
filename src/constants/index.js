@@ -221,7 +221,10 @@ export const contact_data = [
     id: 'contact-1',
     icon: star,
     title: 'Phone Number',
-    content: '+234 90 622 746 56, + 234 91 393 628 27',
+    is_both: true,
+    lagos_office: '+234 90 622 746 56 ',
+    abuja_office: '+ 234 91 393 628 27',
+    
   },
   {
     id: 'contact-2',
@@ -233,7 +236,10 @@ export const contact_data = [
     id: 'contact-3',
     icon: star,
     title: 'GeoLocation',
-    content: '160 Samuel Ladoke Boulevard, Garki 2, Abuja',
+    is_both: true,
+    lagos_office:
+      'P.O. Box 3053, 26 Ahmadu Bello Way, Victoria Island 106104, Lagos',
+    abuja_office: '160 Samuel Ladoke Boulevard, Garki 2, Abuja',
   },
 ]
 

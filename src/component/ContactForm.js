@@ -114,7 +114,7 @@ const ContactForm = () => {
           {contact_data.map((contact, index) => (
             <div
               key={index}
-              className="shadow-md ring-2 ring-gray-200 h-[100px] mb-5 flex justify-center items-center p-[12px]"
+              className="shadow-md ring-2 ring-gray-200 min-h-[100px] mb-5 flex justify-center items-center p-[12px]"
             >
               <div
                 className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
@@ -129,9 +129,28 @@ const ContactForm = () => {
                 <h4 className="font-poppins font-semibold text-gray-600 text-[17px] leading-[23px] mb-2">
                   {contact.title}
                 </h4>
-                <p className="font-poppins font-normal text-gray-600 text-[15px] leading-[23px] mb-1">
-                  {contact.content}
-                </p>
+
+                {contact.is_both ? (
+                  <div>
+                    <div>
+                      <h6 className="font-semibold  text-gray-500 ">
+                        Lagos Office:
+                      </h6>
+                      <p className="font-light">{contact.lagos_office}</p>
+                    </div>
+
+                    <div>
+                      <h6 className="font-semibold  text-gray-500 ">
+                        Abuja Office:
+                      </h6>
+                      <p className="font-light">{contact.abuja_office}</p>
+                    </div>
+                  </div>
+                ) : (
+                  <p className="font-poppins font-normal text-gray-600 text-[15px] leading-[23px] mb-1">
+                    {contact.content}
+                  </p>
+                )}
               </div>
             </div>
           ))}
