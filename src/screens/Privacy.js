@@ -96,7 +96,7 @@ const Privacy = () => {
             It is the Policy of NSPM Plc to establish, implement, maintain and
             continually improve the controls on Information Security to meet
             regulatory requirements and best practices in all operations to
-            ensure that
+            ensure that:
           </p>
 
           <FeatureCard
