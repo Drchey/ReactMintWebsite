@@ -1,6 +1,6 @@
 import { Footer, Navbar } from '../component'
 import styles from '../style'
-import { g_5, partners_nspm, star } from '../assets'
+import { g_5, privacy, star } from '../assets'
 import { features } from '../constants'
 
 const FeatureCard = ({ title, content, index }) => (
@@ -36,7 +36,7 @@ const Privacy = () => {
       >
         <div className="flex-1 ml-4 group">
           <img
-            src={partners_nspm}
+            src={privacy}
             alt=""
             className={`${styles.imgCard} h-[50vh] object-cover`}
           />

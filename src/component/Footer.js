@@ -32,15 +32,31 @@ const Footer = () => (
             <ul className="list-none mt-4">
               {footerLink.links.map((link, index) => (
                 <div key={index}>
-                  <Link to={`/${link.link}`}>
-                    <li
-                      className={` font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer
+                  {!link.tab ? (
+                    <Link to={`/${link.link}`}>
+                      <li
+                        className={` font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-white cursor-pointer
                     ${index !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'}
                   `}
+                      >
+                        {link.name}
+                      </li>
+                    </Link>
+                  ) : (
+                    <a
+                      href={link.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      {link.name}
-                    </li>
-                  </Link>
+                      <li
+                        className={` font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-white cursor-pointer
+                    ${index !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'}
+                  `}
+                      >
+                        {link.name}
+                      </li>
+                    </a>
+                  )}
                 </div>
               ))}
             </ul>

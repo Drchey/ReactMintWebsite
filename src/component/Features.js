@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import {
   certificate,
   db,
-  mint_features,
+  feature_img,
   money,
   signature,
   smartcard,
@@ -102,7 +102,7 @@ const Features = ({ isVisible }) => {
           }`}
         >
           <img
-            src={mint_features}
+            src={feature_img}
             alt="mint features"
             className="w-[300px] p-2"
           />

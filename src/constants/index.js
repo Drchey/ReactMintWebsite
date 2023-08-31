@@ -267,13 +267,10 @@ export const footerLinks = [
     title: 'Useful Links',
     links: [
       {
-        name: 'About Us',
-        link: '',
+        name: 'Our Values',
+        link: 'our_values',
       },
-      {
-        name: 'Our Services',
-        link: 'services',
-      },
+
       {
         name: 'Our Team',
         link: 'team',
@@ -284,7 +281,8 @@ export const footerLinks = [
       },
       {
         name: 'Our Privacy Policy',
-        link: 'https://www.hoobank.com/terms-and-services/',
+
+        link: 'privacy',
       },
     ],
   },
@@ -297,7 +295,8 @@ export const footerLinks = [
       },
       {
         name: 'VAC',
-        link: 'https://www.hoobank.com/partners/',
+        tab: true,
+        link: 'https://www.authenticatehub.com',
       },
       {
         name: 'Suggestions',
@@ -309,8 +308,8 @@ export const footerLinks = [
     title: 'Partner',
     links: [
       {
-        name: 'Become a Partner With Us',
-        link: 'contactus',
+        name: 'Our Partnership',
+        link: 'our_partners',
       },
     ],
   },

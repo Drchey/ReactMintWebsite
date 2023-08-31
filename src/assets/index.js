@@ -84,6 +84,7 @@ import hand_1 from './hands-1.jpg'
 import cbn_2 from './cbn_2.jpg'
 import untitled from './untitled.png'
 import lines from './lines.svg'
+import feature_img from './feature_img.png'
 // import guilloche1 from './guilloche_1.svg'
 import guilloche2 from './guilloche_2.svg'
 // import guilloche3 from './guilloche_3.svg'
@@ -97,7 +98,7 @@ import smartcard_background from './smart_cardbackground.jpg'
 import stamps from './stamps.jpg'
 import hero_image from './2.png'
 import picture from './pic.png'
-import money_2 from './money_2.png'
+import money_2 from './currency_2.png'
 
 // Gilloche Patterns
 import guilloche_1 from './guilloche/1.svg'
@@ -117,6 +118,8 @@ import g_2 from './guilloche/g-2.svg'
 import g_3 from './guilloche/g-3.svg'
 import g_4 from './guilloche/g-4.svg'
 import g_5 from './guilloche/g-5.svg'
+
+import privacy from './privacy_policy_two.jpg'
 
 export {
   airbnb,
@@ -207,6 +210,7 @@ export {
   untitled,
   // guilloche1,
   guilloche2,
+  feature_img,
   // guilloche3,
   lines,
   standard_vac,
@@ -234,4 +238,5 @@ export {
   g_3,
   g_4,
   g_5,
+  privacy,
 }

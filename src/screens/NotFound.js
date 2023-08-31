@@ -28,7 +28,7 @@ export const Message = () => (
         </ul>
         <p className="text-gray-600 mt-7">
           please contact us and we'll be happy to help. In the meantime, why not
-          check out one of our popular page
+          check out one of our popular pages
         </p>
         <p className="mt-4 text-forest">
           <Link to="/vac">Verification & Authentication of Certificates</Link>
