@@ -2,7 +2,7 @@ import { boards } from '../constants'
 import styles from '../style'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import { info, lines } from '../assets'
+import { lines } from '../assets'
 // import { useState } from 'react'
 
 const Team = () => {
@@ -23,11 +23,6 @@ const Team = () => {
       </div>
       <div className={`bg-dimWhite  ${styles.flexStart}`}>
         <div className="flex flex-col relative">
-          <img
-            src={lines}
-            className="opacity-100 absolute top-0 left-0"
-            alt=""
-          />
           <h2
             className={`${styles.heading2} text-center uppercase mt-3 text-gray-500 md:text-[35px] text-[24px]`}
           >
@@ -40,7 +35,8 @@ const Team = () => {
           </p>
         </div>
       </div>
-      <div className={`bg-dimWhite justify-center items-start mt-9`}>
+      <div className={`bg-dimWhite justify-center items-start mt-9 relative`}>
+        <img src={lines} className="absolute h-full w-full opacity-60" alt="" />
         <div className="p-6">
           <div className="grid md:grid-cols-3 grid-cols-1 gap-4 cursor-pointer ">
             {boards.map((board, index) => (

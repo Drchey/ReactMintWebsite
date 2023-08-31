@@ -43,80 +43,90 @@ const SecurityPrints = () => {
           </div>
         </div>
       </div>
+      <div
+        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
+      >
+        <div className={layout.serviceSection}>
+          <section className={`${layout.serviceSection}`}>
+            <div className={`${layout.serviceSection} `}>
+              <div className={layout.serviceSectionImg}>
+                <div className={`slide-left-container group`}>
+                  <img src={sp2} alt="" className={styles.imgCard} />
+                </div>
+              </div>
+              <div className={layout.serviceSectionInfo}>
+                <p
+                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
+                >
+                  Equipped with the Advanced Machinery and team of Skilled and
+                  Devoted Engineers, we stay ahead of evolving threats by
+                  consistently innovating our security features. Our R&D teams
+                  tirelessly explore new technologies, ensuring that our clients
+                  benefit from the latest advancements in anti-counterfeiting
+                  solutions. Beyond just protection, our security features are a
+                  testament to our commitment to maintaining trust in an
+                  interconnected world.
+                </p>
 
-      <div className={layout.serviceSection}>
-        <section className={`${layout.serviceSection}`}>
-          <div className={`${layout.serviceSection} `}>
-            <div className={layout.serviceSectionImg}>
-              <div className={`slide-left-container group`}>
-                <img src={sp2} alt="" className={styles.imgCard} />
+                <p
+                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
+                >
+                  Whether it's secure identification documents, or valuable
+                  certificates, our printing with security features stands as a
+                  resolute shield against fraudulent activities. Explore the
+                  realm where intricate designs marry impenetrable protection, a
+                  testament to our dedication to fortifying the reliability of
+                  printed materials in an ever-evolving landscape.
+                </p>
               </div>
             </div>
-            <div className={layout.serviceSectionInfo}>
-              <p
-                className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
-              >
-                Equipped with the Advanced Machinery and team of Skilled and
-                Devoted Engineers, we stay ahead of evolving threats by
-                consistently innovating our security features. Our R&D teams
-                tirelessly explore new technologies, ensuring that our clients
-                benefit from the latest advancements in anti-counterfeiting
-                solutions. Beyond just protection, our security features are a
-                testament to our commitment to maintaining trust in an
-                interconnected world.
-              </p>
-
-              <p
-                className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
-              >
-                Whether it's secure identification documents, or valuable
-                certificates, our printing with security features stands as a
-                resolute shield against fraudulent activities. Explore the realm
-                where intricate designs marry impenetrable protection, a
-                testament to our dedication to fortifying the reliability of
-                printed materials in an ever-evolving landscape.
-              </p>
-            </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
-
-      <div className={layout.serviceSection}>
-        <section className={`${layout.serviceSection}`}>
-          <div className={`${layout.serviceSectionReverse} `}>
-            <div className={`w-1/2`}>
-              <div className={`slide-left-container group`}>
-                <img src={cannon} alt="" className={`${styles.imgCard} p-3`} />
+      <div
+        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
+      >
+        <div className={layout.serviceSection}>
+          <section className={`${layout.serviceSection}`}>
+            <div className={`${layout.serviceSectionReverse} `}>
+              <div className={`w-1/2`}>
+                <div className={`slide-left-container group`}>
+                  <img
+                    src={cannon}
+                    alt=""
+                    className={`${styles.imgCard} p-3`}
+                  />
+                </div>
               </div>
-            </div>
-            <div className={`w-1/2`}>
-              <p
-                className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
-              >
-                The Nigerian Security Printing & Minting has done lots of
-                research with leading experts in the printing field to ensure
-                that product workflow is seamless and sustainable. We assure our
-                customers of high-end quality prints while ensuring that our
-                print process is waste free and sustainable.
-              </p>
+              <div className={`w-1/2`}>
+                <p
+                  className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
+                >
+                  The Nigerian Security Printing & Minting has done lots of
+                  research with leading experts in the printing field to ensure
+                  that product workflow is seamless and sustainable. We assure
+                  our customers of high-end quality prints while ensuring that
+                  our print process is waste free and sustainable.
+                </p>
 
-              <p
-                className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
-              >
-                The production process in the security document division usually
-                starts with the highly skilled and innovative graphic artists
-                who are not only fully conversant with the latest techniques and
-                materials to counteract forgery and adulteration, but are aware
-                of the current capabilities of criminals. This knowledge
-                combined with information on the latest international
-                counterfeiting methods enable our designers to continually
-                upgrade the security features and materials to ensure that our
-                products are constantly ahead of potential counterfeiters. The
-                company uses modern local letter-assembly facilities to add the
-                require text matter to these designs. The MINT attaches to the
-                security and integrity of its products.
-              </p>
-              {/* 
+                <p
+                  className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
+                >
+                  The production process in the security document division
+                  usually starts with the highly skilled and innovative graphic
+                  artists who are not only fully conversant with the latest
+                  techniques and materials to counteract forgery and
+                  adulteration, but are aware of the current capabilities of
+                  criminals. This knowledge combined with information on the
+                  latest international counterfeiting methods enable our
+                  designers to continually upgrade the security features and
+                  materials to ensure that our products are constantly ahead of
+                  potential counterfeiters. The company uses modern local
+                  letter-assembly facilities to add the require text matter to
+                  these designs. The MINT attaches to the security and integrity
+                  of its products.
+                </p>
+                {/* 
               <p
                 className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
               >
@@ -125,9 +135,10 @@ const SecurityPrints = () => {
                 aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
                 Facere nihil magni velit ex.
               </p> */}
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
 
       <div className={`bg-dimForest ${styles.paddingX} ${styles.flexStart}`}>

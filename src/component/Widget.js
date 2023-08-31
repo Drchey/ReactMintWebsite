@@ -108,7 +108,7 @@ const Widget = ({ title, info, hasModal, link, type, image }) => {
   }
 
   return (
-    <div className="feature-card p-6 sm:mx-1 mx-0x h-[500px] rounded-[20px] item-center justify-center flex flex-col  ease-in duration-400">
+    <div className="feature-card p-6 sm:mx-1  mx-0x h-[500px] rounded-[20px] item-center justify-center flex flex-col  ease-in duration-400">
       <div className="flex relative h-auto">
         <div className="relative item-center h-auto w-full rounded">
           <img src={image} className="object-fit h-[300px]  my-1" alt="" />

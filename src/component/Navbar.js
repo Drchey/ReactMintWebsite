@@ -20,7 +20,7 @@ const Navbar = () => {
       <img
         src={logo}
         alt="logo"
-        className="w-[124px] h-[32px] object-contain"
+        className="w-[124px] h-[42px] object-contain"
       />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

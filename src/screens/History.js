@@ -225,7 +225,7 @@ const History = () => {
         <div className="flex-1">
           <hr className="w-[100%] h-[20px] bg-teal-700 p-2" />
           <h2 className={`${styles.headingTitle} text-gradient uppercase mt-5`}>
-            Discover The History of <br /> The Nigerian Mint
+            Discover The History of <br /> The Nigerian Currency
           </h2>
           <p className={`${styles.paragraph} mt-2`}>
             Our history is a journey of innovation, growth, and transformative
@@ -257,7 +257,7 @@ const History = () => {
       </div>
 
       <div
-        className={`${styles.boxWidth}  ${styles.paddingX} ${styles.flexStart}`}
+        className={`${styles.boxWidth}  ${styles.paddingX} ${styles.flexCenter}`}
       >
         <CurrenyHistory />
         {/* <TabSlider /> */}

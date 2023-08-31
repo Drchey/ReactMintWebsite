@@ -1,5 +1,5 @@
 import styles, { layout } from '../style'
-import { lines, untitled } from '../assets'
+import { g_1, g_2, g_3, g_4, money_2 } from '../assets'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -12,12 +12,17 @@ const Business = () => {
     <div className={layout.section}>
       <div className={layout.sectionImg}>
         <div className={`group relative`}>
-          <img src={lines} className="absolute top-0 left-0" alt="" />
           <img
-            src={untitled}
-            className={`px-1 h-[100%] `}
+            src={money_2}
+            className={`px-1 object-cover h-[130%] `}
             alt="business"
             data-aos="fade-right"
+          />
+
+          <img
+            src={g_3}
+            className={`absolute top-0 right-90 opacity-100 z-[-1]`}
+            alt="business"
           />
 
           {/* <div className="absolute inset-0  opacity-100"></div> */}
@@ -27,7 +32,7 @@ const Business = () => {
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" /> */}
         </div>
       </div>
-      <div className={layout.sectionInfo}>
+      <div className={`${layout.sectionInfo}`}>
         <h2 className={styles.heading2}>
           No1 Security Prints in <br className="sm:block hidden" /> Nigeria
         </h2>

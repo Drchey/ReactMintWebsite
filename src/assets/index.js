@@ -38,7 +38,7 @@ import oldkobo from './oldkobo.jpg'
 import mint_features from './mint_features.png'
 import justme from './justme.jpg'
 import lagosquarters from './lagosquarters.png'
-import money from './Money.png'
+import money from './money.png'
 import db from './db.png'
 import certificate from './cert.png'
 import verify from './verify.png'
@@ -97,6 +97,7 @@ import smartcard_background from './smart_cardbackground.jpg'
 import stamps from './stamps.jpg'
 import hero_image from './2.png'
 import picture from './pic.png'
+import money_2 from './money_2.png'
 
 // Gilloche Patterns
 import guilloche_1 from './guilloche/1.svg'
@@ -115,6 +116,7 @@ import g_1 from './guilloche/g-1.svg'
 import g_2 from './guilloche/g-2.svg'
 import g_3 from './guilloche/g-3.svg'
 import g_4 from './guilloche/g-4.svg'
+import g_5 from './guilloche/g-5.svg'
 
 export {
   airbnb,
@@ -145,6 +147,7 @@ export {
   hero,
   phone,
   not_found,
+  money_2,
   ownership,
   chairman,
   dropdown,
@@ -230,4 +233,5 @@ export {
   g_2,
   g_3,
   g_4,
+  g_5,
 }

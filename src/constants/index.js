@@ -222,9 +222,8 @@ export const contact_data = [
     icon: star,
     title: 'Phone Number',
     is_both: true,
-    lagos_office: '+234 90 622 746 56 ',
-    abuja_office: '+ 234 91 393 628 27',
-    
+    lagos_office: '+234 90 622 74 656',
+    abuja_office: '+234 91 393 62 827',
   },
   {
     id: 'contact-2',

@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { sp1 } from '../assets'
+import { g_4, sp1 } from '../assets'
 import { features } from '../constants'
 import styles, { layout } from '../style'
 import AOS from 'aos'
@@ -33,7 +33,12 @@ const Security = ({ isVisible }) => {
   }, [])
   return (
     <div className={layout.section}>
-      <div className={`${layout.sectionImg} flex-col`}>
+      <div className={`${layout.sectionImg} flex-col relative`}>
+        <img
+          src={g_4}
+          className="w-[200%] h-[200%] object-contain absolute top-30 left-0 opacity-60"
+          alt=""
+        />
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}

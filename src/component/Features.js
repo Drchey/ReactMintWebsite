@@ -37,7 +37,7 @@ const Features = ({ isVisible }) => {
               </h4>
             </Link>
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
-              We Print certificates for the Nigerian Federation.
+              We Print the Naira for the Nigerian Federation.
             </p>
           </div>
         </div>

@@ -33,13 +33,13 @@ const Home = () => {
   return (
     <div className="bg-dimDark w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.boxWidth} relative`}>
           <Navbar />
+          <img src={guilloche_9} alt="" className="fixed z-[-2] opacity-90" />
         </div>
       </div>
       <div className={`bg-dimWhite ${styles.flexStart} relative`}>
         <div className={`${styles.boxWidth}`}>
-          <img src={guilloche_9} alt="" className="fixed z-[-2] opacity-100" />
           <Hero />
         </div>
       </div>
