@@ -21,6 +21,7 @@ import Preloader from './component/Preloader'
 import SmartCard from './screens/SmartCard'
 import DigitalStamps from './screens/DigitalStamps'
 import ConsentCookies from './component/ConsentCookies'
+import Privacy from './screens/Privacy'
 
 const App = () => {
   const [loading, setLoading] = useState(true)
@@ -36,7 +37,7 @@ const App = () => {
     <Router>
       {loading && <Preloader />}
       <ScrollToTop />
-      <ConsentCookies />
+      {window.location.pathname !== '/privacy' && <ConsentCookies />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/vac" element={<VACProduct />} />
@@ -54,6 +55,7 @@ const App = () => {
         <Route path="security_prints" element={<SecurityPrints />} />
         <Route path="currency_service" element={<CurrencyPrints />} />
         <Route path="our_partners" element={<Partners />} />
+        <Route path="privacy" element={<Privacy />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
