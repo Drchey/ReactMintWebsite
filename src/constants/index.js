@@ -40,6 +40,25 @@ export const navLinks = [
   },
 
   {
+    id: 'values',
+    title: 'Our Values',
+    dropdown: true,
+    historyLinks: [
+      {
+        id: 'values-1',
+        title: 'Our Values',
+        link: 'values',
+      },
+
+      {
+        id: 'values-2',
+        title: 'Our Partners',
+        link: 'our_partners',
+      },
+    ],
+  },
+
+  {
     id: 'service',
     title: 'Our Services',
     dropdown: true,
@@ -53,11 +72,6 @@ export const navLinks = [
         id: 'service-2',
         title: 'Security Prints',
         link: 'security_prints',
-      },
-      {
-        id: 'service-3',
-        title: 'Our Partners',
-        link: 'our_partners',
       },
     ],
   },

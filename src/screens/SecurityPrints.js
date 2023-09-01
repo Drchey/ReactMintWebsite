@@ -1,7 +1,39 @@
 import React from 'react'
 import styles, { layout } from '../style'
 import { Footer, Navbar } from '../component'
-import { cannon, shop_floor, sp2 } from '../assets'
+import { cannon, g_5, shop_floor, sp2, star, video } from '../assets'
+import { features } from '../constants'
+
+const VideoPlayer = () => (
+  <div className="w-full max-w-screen-lg mx-auto mt-8">
+    <video controls className="w-full">
+      <source src={video} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+)
+
+const FeatureCard = ({ title, content, index }) => (
+  <div
+    className={` sd-card flex flex-row p-6 rounded-[20px] items-center w-[80%] ${
+      index !== features.length - 1
+    } ? "mb-6": "mb-0 `}
+  >
+    <div
+      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
+    >
+      <img src={star} alt="icon" className="w-[50%] h-[50%] object-contain" />
+    </div>
+    <div className="flex-1 flex flex-col ml-3">
+      <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
+        {title}
+      </h4>
+      <p className="font-poppins font-normal text-gray-700 text-[18px] text-justify leading-[23px] mb-1">
+        {content}
+      </p>
+    </div>
+  </div>
+)
 
 const SecurityPrints = () => {
   return (
@@ -18,7 +50,7 @@ const SecurityPrints = () => {
         <div className="flex-1">
           <hr className="w-[100%] h-[20px] bg-teal-700 p-2" />
           <h2 className={`${styles.heading2} text-gradient uppercase mt-5`}>
-            Explore Our Collection of High-Quality Security Prints
+            Explore Our Collection of High-Quality Security DOCUMENTS
           </h2>
           <p className={`${styles.paragraph} mt-2 text-justify p-2`}>
             From Intricate Patterns to cutting-edge features and technologies,
@@ -32,6 +64,8 @@ const SecurityPrints = () => {
         </div>
       </div>
 
+      {/* Background  */}
+
       <div
         className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
       >
@@ -39,17 +73,120 @@ const SecurityPrints = () => {
           <div
             className={`${styles.paragraph} text-[34px] text-center text-forest font-semibold`}
           >
-            Crafted to Boost Confidence & Security
+            Tracing our Threads
           </div>
         </div>
       </div>
+      <div className={`${styles.boxWidth}  ${styles.flexCenter}`}>
+        <div className={layout.serviceSection}>
+          <section className={`${layout.serviceSection}`}>
+            <div className={``}>
+              {/* <div className={layout.serviceSectionImg}>
+                <div className={`slide-left-container group`}>
+                  <img src={sp2} alt="" className={styles.imgCard} />
+                </div>
+              </div> */}
+              <div className={``}>
+                <p
+                  className={`${styles.paragraph} text-justify md:px-8 px-1 max-w-full my-1`}
+                >
+                  The Nigerian Security Printing & Minting Plc began full
+                  production of Security Documents in the year 1965 as the
+                  largest Non-banknote Specialist outfit in West Africa. It is
+                  Saddled with the Responsibility of Producing Highly Secured
+                  Documents for the Nigerian Government, Private Organizations,
+                  and Academic Institutions at Large. In Other to counter the
+                  tide of high rate counterfeiting of security documents by
+                  commercial printers and forgers.
+                </p>
+
+                <p
+                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
+                >
+                  The use of Ink-based and watermark paper solutions has been
+                  threatened by fraudsters hence the need to fortify our
+                  documents with features that enable deployments of anti-copy,
+                  anti-scan designs. Whether it's secure identification
+                  documents, or valuable certificates, our printing with
+                  security features stands as a resolute shield against
+                  fraudulent activities. Explore the realm where intricate
+                  designs marry impenetrable protection, a testament to our
+                  dedication to fortifying the reliability of printed materials
+                  in an ever-evolving landscape.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      {/* Competition */}
+
       <div
         className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
       >
+        <div className="flex flex-col items-center justify-center">
+          <div
+            className={`${styles.paragraph} text-[34px] text-center text-forest font-semibold`}
+          >
+            Our Competitive Edge
+          </div>
+        </div>
+      </div>
+      <div className={`${styles.boxWidth}  ${styles.flexCenter}`}>
         <div className={layout.serviceSection}>
           <section className={`${layout.serviceSection}`}>
-            <div className={`${layout.serviceSection} `}>
-              <div className={layout.serviceSectionImg}>
+            <div className={`relative`}>
+              <img src={g_5} className="absolute bottom-0 z-[-1]" alt="" />
+              <div className={``}>
+                <p
+                  className={`${styles.paragraph} text-justify md:px-8 px-1 max-w-full my-1`}
+                >
+                  Our Security Documents Departments takes robust measures to
+                  safeguard its prints from the threats of counterfeiting and
+                  forgery. With a steadfast commitment to authenticity, we
+                  employ cutting-edge technologies and stringent security
+                  protocols to ensure the integrity of our products.
+                </p>
+
+                <div className="my-9">
+                  <FeatureCard
+                    title={`Paper Based Security Features`}
+                    content={`Embedding security features like  incorporate watermarks, invisible fibres, planchettes, barcodes, sequential numbers, QR codes and more.`}
+                  />
+
+                  <FeatureCard
+                    title={`Ink Based Security Features`}
+                    content={`Covert (Invisible) & Overt (Visible) features that can be read via specialised mahinery or UV lighting.`}
+                  />
+
+                  <FeatureCard
+                    title={`Software Based Security Features`}
+                    content={`Web & Mobile Based Applications that are utilized for authentication & verification while ensuring high-end security of data.`}
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div
+        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
+      >
+        <div className="flex flex-col items-center justify-center">
+          <div
+            className={`${styles.paragraph} text-[34px] text-center text-forest font-semibold`}
+          >
+            Our Competitive Edge
+          </div>
+        </div>
+      </div>
+      <div className={`${styles.boxWidth} ${styles.flexCenter}`}>
+        <div className={layout.serviceSection}>
+          <section className={`${layout.serviceSection}`}>
+            <div className={`${layout.serviceSectionReverse} `}>
+              <div className={`w-1/2`}>
                 <div className={`slide-left-container group`}>
                   <img src={sp2} alt="" className={styles.imgCard} />
                 </div>
@@ -58,59 +195,46 @@ const SecurityPrints = () => {
                 <p
                   className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
                 >
-                  Equipped with the Advanced Machinery and team of Skilled and
-                  Devoted Engineers, we stay ahead of evolving threats by
-                  consistently innovating our security features. Our R&D teams
+                  The Nigerian Security Printing & Minting Plc is equipped with
+                  the Advanced Machinery and team of Skilled and Devoted
+                  Engineers, we stay ahead of evolving threats by consistently
+                  innovating our security features. Our Research & Design tea
                   tirelessly explore new technologies, ensuring that our clients
                   benefit from the latest advancements in anti-counterfeiting
                   solutions. Beyond just protection, our security features are a
                   testament to our commitment to maintaining trust in an
                   interconnected world.
                 </p>
-
                 <p
                   className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
                 >
-                  Whether it's secure identification documents, or valuable
-                  certificates, our printing with security features stands as a
-                  resolute shield against fraudulent activities. Explore the
-                  realm where intricate designs marry impenetrable protection, a
-                  testament to our dedication to fortifying the reliability of
-                  printed materials in an ever-evolving landscape.
+                  We have also done lots of research with leading experts in the
+                  printing field to ensure that product workflow is seamless and
+                  sustainable. We assure our customers of high-end quality
+                  prints while ensuring that our print process is waste free and
+                  sustainable.
                 </p>
               </div>
             </div>
           </section>
         </div>
       </div>
-      <div
-        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
-      >
+      <div className={`${styles.boxWidth}  ${styles.flexCenter}`}>
         <div className={layout.serviceSection}>
           <section className={`${layout.serviceSection}`}>
-            <div className={`${layout.serviceSectionReverse} `}>
+            <div className={`${layout.serviceSection} `}>
               <div className={`w-1/2`}>
                 <div className={`slide-left-container group`}>
                   <img
                     src={cannon}
                     alt=""
-                    className={`${styles.imgCard} p-3`}
+                    className={`${styles.imgCard} p-3 h-[50%] w-[50%]`}
                   />
                 </div>
               </div>
               <div className={`w-1/2`}>
                 <p
-                  className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
-                >
-                  The Nigerian Security Printing & Minting has done lots of
-                  research with leading experts in the printing field to ensure
-                  that product workflow is seamless and sustainable. We assure
-                  our customers of high-end quality prints while ensuring that
-                  our print process is waste free and sustainable.
-                </p>
-
-                <p
-                  className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
+                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
                 >
                   The production process in the security document division
                   usually starts with the highly skilled and innovative graphic
@@ -118,26 +242,25 @@ const SecurityPrints = () => {
                   techniques and materials to counteract forgery and
                   adulteration, but are aware of the current capabilities of
                   criminals. This knowledge combined with information on the
-                  latest international counterfeiting methods enable our
-                  designers to continually upgrade the security features and
-                  materials to ensure that our products are constantly ahead of
-                  potential counterfeiters. The company uses modern local
-                  letter-assembly facilities to add the require text matter to
-                  these designs. The MINT attaches to the security and integrity
-                  of its products.
+                  latest international counterfeiting methods and machineries
+                  enable our designers to continually upgrade the security
+                  features and materials to ensure that our products are
+                  constantly ahead of potential counterfeiters. The company uses
+                  modern local letter-assembly facilities to add the require
+                  text matter to these designs. The MINT attaches to the
+                  security and integrity of its products.
                 </p>
-                {/* 
-              <p
-                className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
-              >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                molestiae beatae fugit dolorum ipsam possimus, voluptate ratione
-                aperiam, ipsa officia fugiat et voluptatum doloremque nobis.
-                Facere nihil magni velit ex.
-              </p> */}
               </div>
             </div>
           </section>
+        </div>
+      </div>
+
+      {/* Video */}
+
+      <div className={`${styles.paddingY} ${styles.flexCenter}`}>
+        <div className="flex flex-col items-center justify-center">
+          <VideoPlayer />
         </div>
       </div>
 

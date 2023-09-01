@@ -7,6 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   const [showNav, setshowNav] = useState(false)
   const [showServices, setshowServices] = useState(false)
+  const [showValues, setshowValues] = useState(false)
 
   const handleHistoryClick = () => {
     setshowNav(!showNav)
@@ -14,6 +15,10 @@ const Navbar = () => {
 
   const handleServiceClick = () => {
     setshowServices(!showServices)
+  }
+
+  const handleValuesClick = () => {
+    setshowValues(!showValues)
   }
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
@@ -51,6 +56,20 @@ const Navbar = () => {
                       src={showServices ? up_arrow : down_arrow}
                       onMouseEnter={
                         nav.title === 'Our Services' ? handleServiceClick : null
+                      }
+                      // onMouseLeave={
+                      //   nav.title === 'Our Services' ? handleServiceClick : null
+                      // }
+                      className="width-[12px]"
+                      alt="dropdown"
+                    />
+                  ) : null}
+
+                  {nav.dropdown && nav.title === 'Our Values' ? (
+                    <img
+                      src={showValues ? up_arrow : down_arrow}
+                      onMouseEnter={
+                        nav.title === 'Our Values' ? handleValuesClick : null
                       }
                       // onMouseLeave={
                       //   nav.title === 'Our Services' ? handleServiceClick : null
@@ -104,6 +123,28 @@ const Navbar = () => {
                     </ul>
                   </div>
                 ) : null}
+
+                {showValues && nav.title === 'Our Values' ? (
+                  <div
+                    onMouseLeave={handleValuesClick}
+                    className={`p-6 bg-forest-gradient z-10 absolute rounded ease-in-out ${
+                      showNav ? 'animate_dropdown' : ''
+                    }`}
+                  >
+                    <ul className="list-none flex flex-col items-left flex-1">
+                      {nav.historyLinks.map((nav, index) => (
+                        <li
+                          key={nav.id}
+                          className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-[17px] ${
+                            index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
+                          } text-forest hover:text-dimWhite mr-1`}
+                        >
+                          <Link to={`/${nav.link}`}>{nav.title}</Link>{' '}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
               </div>
             ) : (
               <Link to={`/${nav.link}`}>{nav.title} </Link>
@@ -139,6 +180,7 @@ const Navbar = () => {
                   <div>
                     <div className="flex flex-row items-center justify-between">
                       <div> {nav.title} </div>
+                      {/* History */}
                       {nav.title === 'History' && nav.dropdown ? (
                         <img
                           src={showNav ? up_arrow : down_arrow}
@@ -150,17 +192,29 @@ const Navbar = () => {
                         />
                       ) : null}
 
-                      {nav.dropdown && nav.title === 'Our Services' ? (
+                      {/* Services */}
+                      {nav.title === 'Our Services' && nav.dropdown ? (
                         <img
                           src={showServices ? up_arrow : down_arrow}
                           onClick={
-                            nav.title === 'Our Services'
+                            nav.title === 'Our Values'
                               ? handleServiceClick
                               : null
                           }
-                          // onMouseLeave={
-                          //   nav.title === 'Our Services' ? handleServiceClick : null
-                          // }
+                          className="width-[12px]"
+                          alt="dropdown"
+                        />
+                      ) : null}
+
+                      {/* Values */}
+                      {nav.title === 'Our Values' && nav.dropdown ? (
+                        <img
+                          src={showValues ? up_arrow : down_arrow}
+                          onClick={
+                            nav.title === 'Our Values'
+                              ? handleValuesClick
+                              : null
+                          }
                           className="width-[12px]"
                           alt="dropdown"
                         />
@@ -172,6 +226,28 @@ const Navbar = () => {
                         onMouseLeave={handleServiceClick}
                         className={`p-6 bg-forest-gradient z-10 absolute rounded ease-in-out ${
                           showNav ? 'animate_dropdown' : ''
+                        }`}
+                      >
+                        <ul className="list-none flex flex-col items-left flex-1">
+                          {nav.historyLinks.map((nav, index) => (
+                            <li
+                              key={nav.id}
+                              className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-[17px] ${
+                                index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
+                              } text-forest hover:text-dimWhite mr-1`}
+                            >
+                              <Link to={`/${nav.link}`}>{nav.title}</Link>{' '}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
+
+                    {showValues && nav.title === 'Our Values' ? (
+                      <div
+                        onMouseLeave={handleValuesClick}
+                        className={`p-6 bg-forest-gradient z-10 absolute rounded ease-in-out ${
+                          showValues ? 'animate_dropdown' : ''
                         }`}
                       >
                         <ul className="list-none flex flex-col items-left flex-1">
