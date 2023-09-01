@@ -8,7 +8,7 @@ import {
   ProductAbout,
   ProductHeader,
 } from '../component'
-import { cp_3 } from '../assets'
+import { new_note_add } from '../assets'
 
 const CurrencyProduct = () => {
   return (
@@ -23,27 +23,39 @@ const CurrencyProduct = () => {
         <div className={`${styles.boxWidth}`}>
           <ProductHeader
             title="We ensure the Security of the Nigerian Notes"
-            content1={`The MINT has been in charge of the production of local currency notes since they were introduced in 1965. It does this on behalf of the Central Bank of Nigeria.The Naira being the enabler of the Nigerian physical economy and the official unit of exchange, there is need to take preventive measures against counterfeiting and currency imitation this is where
-              the MINT comes in. 
-          
+            content1={`The Nigerian Security Printing and Minting Plc is responsible for the production of Nigeria's Naira banknotes and coins. Since their introduction in 1965, the MINT has been entrusted with this important task on behalf of the Central Bank of Nigeria.`}
+            content2={`Given these crucial roles, safeguarding the Naira against counterfeiting is of utmost importance. Nigeria's monetary authorities are committed to ensuring the integrity of the national currency and have implemented measures to secure the notes. Each year, thousands of counterfeit Naira notes are detected and removed from circulation.
+            Counterfeiters employ various techniques, including scanning and printing, to mimic the notes, often at different resolutions. While many fake currencies can be identified with the naked eye, some require advanced light-based examination and authentication machines for detection.
+            We, at the MINT, take pride in our decades-long responsibility for producing Nigeria's Naira notes. These notes are renowned for their exceptional security features, making them among the most secure in the world. Replicating these features outside our production systems is nearly impossible."
+            This revised version maintains the original information while providing a clearer and more structured narrative.
             `}
-            content2={`To ensure we protect our National Symbol, the Nigerian Security Printing and Minting take great strides with top grade security inks, and other non publicly communicated security features`}
+            // content1={`The banknotes production facilities consist of the most up-to-date machines available in the industry. Our high-tech electronically controlled machines, sophisticated inks and highly skilled personnel all go to show that we keep pace with the most current trend in the industry world-wide. To support our operations and satisfy our clients’ individual demands, The Nigerian Security Printing and Minting Plc reproduces its printing plates here in Nigeria while the sophisticated production machines and key raw materials are imported from diversified but highly reliable dealers overseas.`}
+            // content2={`To ensure we protect our National Symbol, the Nigerian Security Printing and Minting take great strides with top grade security inks, and other non publicly communicated security features`}
           />
         </div>
       </div>
 
       <div
-        className={`bg-dimWhite  ${styles.flexStart} ${styles.paddingX} mt-7`}
+        className={`bg-dimWhite  ${styles.flexCenter} ${styles.paddingX} mt-7`}
       >
         <div className={`${styles.boxWidth}`}>
-          <Image logo={cp_3} alt="vac" />
+          <Image logo={new_note_add} alt="vac" />
         </div>
       </div>
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <ProductAbout
-            title="We Source Raw Materials locally"
+            title="We Ensure the Security of Naira Notes"
+            content={`The banknotes production facilities consist of the most up-to-date machines available in the industry. Our high-tech electronically controlled machines, sophisticated inks and highly skilled personnel all go to show that we keep pace with the most current trend in the industry world-wide. To support our operations and satisfy our clients’ individual demands, The Nigerian Security Printing and Minting Plc reproduces its printing plates here in Nigeria while the sophisticated production machines and key raw materials are imported from diversified but highly reliable dealers overseas.`}
+            //   content1={`The MINT has been in charge of the production of local currency notes since they were introduced in 1965. It does this on behalf of the Central Bank of Nigeria.The Naira being the enabler of the Nigerian physical economy and the official unit of exchange, there is need to take preventive measures against counterfeiting and currency imitation this is where
+            //   the MINT comes in.
+
+            // `}
+          />
+
+          <IdeaAction
+            header="Sustainability Through Local Raw Material Sourcing"
             content={`
             Part of our expansion strategy is to source raw materials locally as a logical first step,
              and this initiative inspired the establishment of an indigenous company in partnership with 
@@ -56,13 +68,9 @@ const CurrencyProduct = () => {
                 for the manufacture of security and commercial printing inks in Nigeria. 
             The Tawada Limited has since commenced production of high-quality security inks.
             `}
-          />
-
-          <IdeaAction
-            header="Locally Sourced Raw Materials"
-            content={`
-            The banknotes production facilities consist of the most up-to-date machines available in the industry. Our high-tech electronically controlled machines, sophisticated inks and highly skilled personnel all go to show that we keep pace with the most current trend in the industry world-wide. To support our operations and satisfy our clients’ individual demands, The MINT manufactures its offset and intaglio printing plates here in Nigeria while the sophisticated production machines and key raw materials are imported from diversified but highly reliable dealers overseas.
-            `}
+            // content={`
+            // The banknotes production facilities consist of the most up-to-date machines available in the industry. Our high-tech electronically controlled machines, sophisticated inks and highly skilled personnel all go to show that we keep pace with the most current trend in the industry world-wide. To support our operations and satisfy our clients’ individual demands, The MINT manufactures its offset and intaglio printing plates here in Nigeria while the sophisticated production machines and key raw materials are imported from diversified but highly reliable dealers overseas.
+            // `}
           />
         </div>
       </div>

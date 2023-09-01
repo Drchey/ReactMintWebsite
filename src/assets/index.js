@@ -123,6 +123,15 @@ import g_4 from './guilloche/g-4.svg'
 import g_5 from './guilloche/g-5.svg'
 
 import privacy from './privacy_policy_two.jpg'
+import values from './values.jpg'
+import cash from './money_cash.png'
+import contact_img from './contact_img.jpg'
+import new_note_add from './new_note_add.jpg'
+
+// 
+import d_print from './d_print.jpg'
+import d_conventional from './d_conventional.jpg'
+import d_offering from './d_offering.jpg'
 
 export {
   airbnb,
@@ -243,4 +252,11 @@ export {
   g_5,
   privacy,
   video,
+  values,
+  contact_img,
+  cash,
+  new_note_add,
+  d_offering,
+  d_print,
+  d_conventional
 }

@@ -363,10 +363,37 @@ export const digital_division = [
           'In conjunction with higher institutions of learning in Nigeria, we assist in verifying and authenticating the genuineness of certificates presented by graduates of tertiary institutions and professional bodies. We also assist graduates in transmitting transcripts securely from their alma mater to end-users anywhere in the world',
       },
       {
+        name: 'SmartCards & IDs',
+        link: 'track_trace',
+        content:
+          "We produce payment cards, ID cards, voter's cards, state resident cards, etc that is value, data and brand by nature. These also ensures digital service offerings.",
+      },
+      {
         name: 'Track and Trace Solutions',
         link: 'track_trace',
         content:
           'We offer track and trace solutions for your products with improved safety that eliminates fakes from the supply chain. Also, a track and trace solution can conveniently monitor your products throughout their lifecycle. This solution ensures efficiency in service delivery and curbs the challenges of revenue loss due to product counterfeiting',
+      },
+    ],
+  },
+]
+
+export const physical_division = [
+  {
+    id: 'division-1',
+    links: [
+      {
+        name: 'Digitalized Certificates',
+        content:
+          'The Nigerian Security Printing & Minting Plc prints certificates embedded with security features which deterrent to forgers, and  counterfeiters.',
+        link: 'certificates',
+      },
+
+      {
+        name: 'QR codes on Documents',
+        content:
+          'We embed our print products with quick response codes QR codes (with concealed information) which can be decrypted and the information revealed with smart phones. ',
+        link: 'letterhead',
       },
     ],
   },
@@ -379,7 +406,7 @@ export const conventional_division = [
       {
         name: 'Certificates',
         content:
-          'The Mint produces all certificates, particularly academic, birth, death, and marriage certificates. These certificates are printed with security features embedded that prevent forgery, cloning, or counterfeiting.',
+          'We print academic institutions certificates, indigenes certificates,marriage, birth & death certificates etc.',
         link: 'certificates',
       },
 
@@ -398,7 +425,7 @@ export const conventional_division = [
       },
 
       {
-        name: 'Revenue Receipts',
+        name: 'Revenue Receipts / Invoices',
         content:
           'As a highly sensitive document for generating revenue for public and private sector organizations, our revenue receipts can be printed on customized paper embedded with various customized overt, covert, and forensic security features. These features minimize and eliminate any form of malpractice that may arise.',
         link: 'receipts',
@@ -416,20 +443,6 @@ export const conventional_division = [
         content:
           'The Mint produces election materials for the Independent National Electoral Commission and the Independent Electoral Commission in various states in Nigeria. Our prints can be location specific to local/ward voting units. This feature helps eliminate or minimize cross-border malpractices.',
         link: 'electoral',
-      },
-
-      {
-        name: 'Labels',
-        content:
-          'Labels (like stickers) can be used to show information about contents, prevent tampering, or show usage. Firefighters, police, and airline operators all use security labels to prevent indiscriminate usage of their equipment or instrument.',
-        link: 'labels',
-      },
-
-      {
-        name: 'Professional Seals',
-        content:
-          'NSPM produces secure and traceable seals that provide authentication, approval, and credibility of the documents when affixed.',
-        link: 'seals',
       },
 
       {

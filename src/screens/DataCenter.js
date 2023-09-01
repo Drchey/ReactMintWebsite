@@ -24,7 +24,7 @@ const DataCenter = () => {
           <ProductHeader
             image_type={db}
             title="Tier II Data Center"
-            content1="The Nigerian Security Printing and Minting is Completing a state-of-the-art data center  designed to meet the standard of a Tier II scalable to a Tier 3 in a very near future.In today's growing digital economy, 
+            content1="The Nigerian Security Printing and Minting is completing a state-of-the-art data center  designed to meet the standard of a Tier II scalable to a Tier 3 in a very near future.In today's growing digital economy, 
            we are strategically positioned to collaborate with private and public sector companies to meet their goals for digital security and transformation. "
             content2="The Well Mannered Data Center is purposed to ensuring services such as enterprise storage, disaster recovery strategies, backup and data collation, and other cloud services for organizations yearning for a reliable and efficient IT platforms who may wish to digitize these aspects aforementioned with limited costs. "
           />

@@ -177,9 +177,7 @@ const SecurityPrints = () => {
         <div className="flex flex-col items-center justify-center">
           <div
             className={`${styles.paragraph} text-[34px] text-center text-forest font-semibold`}
-          >
-            Our Competitive Edge
-          </div>
+          ></div>
         </div>
       </div>
       <div className={`${styles.boxWidth} ${styles.flexCenter}`}>

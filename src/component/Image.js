@@ -2,8 +2,12 @@ import React from 'react'
 
 const Image = ({ logo, alt }) => {
   return (
-    <div>
-      <img src={logo} alt={alt} className="w-full h-[500px] object-cover" />
+    <div className="">
+      <img
+        src={logo}
+        alt={alt}
+        className="w-full h-[500px] object-contain transition ease-in-out duration-500"
+      />
     </div>
   )
 }

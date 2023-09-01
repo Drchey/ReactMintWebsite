@@ -2,7 +2,11 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from '../style'
 import { close, star } from '../assets'
-import { conventional_division, digital_division } from '../constants'
+import {
+  conventional_division,
+  digital_division,
+  physical_division,
+} from '../constants'
 export const Modal = ({ isOpen, toggleModal1, toggleModal2, title }) => {
   return (
     isOpen && (
@@ -55,21 +59,23 @@ export const Modal = ({ isOpen, toggleModal1, toggleModal2, title }) => {
                   </div>
                 ))}
               </div>
-            ) : (
+            ) : null}
+
+            {title === 'Digital Print Solutions' ? (
               <div className="mt-5 w-full">
-                {digital_division.map((divisionIndex, index) => (
+                {physical_division.map((divisionIndex, index) => (
                   <div key={index}>
                     {divisionIndex.links.map((link, index) => (
                       <span>
                         <div
-                          className={` feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+                          className={` feature-card flex sm:flex-row flex-col p-6 rounded-[20px] "mb-6": "mb-0`}
                         >
                           <div
-                            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue none`}
+                            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue  sm:flex hidden`}
                           >
                             <img
                               src={star}
-                              alt="icon"
+                              alt="i6on"
                               className="w-[50%] h-[50%] object-contain"
                             />
                           </div>
@@ -88,7 +94,42 @@ export const Modal = ({ isOpen, toggleModal1, toggleModal2, title }) => {
                   </div>
                 ))}
               </div>
-            )}
+            ) : null}
+
+            {title === 'Digital Security Offerings' ? (
+              <div className="mt-5 w-full">
+                {digital_division.map((divisionIndex, index) => (
+                  <div key={index}>
+                    {divisionIndex.links.map((link, index) => (
+                      <span>
+                        <div
+                          className={` feature-card flex sm:flex-row flex-col p-6 rounded-[20px] "mb-6": "mb-0`}
+                        >
+                          <div
+                            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue  sm:flex hidden`}
+                          >
+                            <img
+                              src={star}
+                              alt="i6on"
+                              className="w-[50%] h-[50%] object-contain"
+                            />
+                          </div>
+                          <div className="flex-1 flex flex-col ml-3">
+                            {' '}
+                            <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
+                              {link.name}
+                            </h4>
+                            <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
+                              {link.content}
+                            </p>
+                          </div>
+                        </div>{' '}
+                      </span>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            ) : null}
           </div>
         </div>
       </div>

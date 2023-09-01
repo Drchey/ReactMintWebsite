@@ -22,6 +22,7 @@ import SmartCard from './screens/SmartCard'
 import DigitalStamps from './screens/DigitalStamps'
 import ConsentCookies from './component/ConsentCookies'
 import Privacy from './screens/Privacy'
+import Values from './screens/Values'
 
 const App = () => {
   const [loading, setLoading] = useState(true)
@@ -56,6 +57,7 @@ const App = () => {
         <Route path="currency_service" element={<CurrencyPrints />} />
         <Route path="our_partners" element={<Partners />} />
         <Route path="privacy" element={<Privacy />} />
+        <Route path="values" element={<Values />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

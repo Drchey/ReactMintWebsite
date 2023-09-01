@@ -1,15 +1,17 @@
 import React from 'react'
 import { Footer, Navbar, Testimonial } from '../component'
 import styles, { layout } from '../style'
-import { cbn_building, hand, hand_1, sharedc1, sharedc2 } from '../assets'
+import { hand, hand_1, hero } from '../assets'
 
 const HistoryHeader = () => (
-  <div className={`bg-dimWhite  ${styles.flexStart}`}>
-    <div className={`${styles.boxWidth}`}>
+  <div
+    className={`${styles.boxWidth} flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
+  >
+    <div className="flex-1 ml-4 group">
       <img
-        src={cbn_building}
-        className={`w-full h-[55vh] object-center object-fit object-fill`}
+        src={hero}
         alt=""
+        className={`${styles.imgCard} h-[50vh] object-cover`}
       />
     </div>
   </div>
