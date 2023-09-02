@@ -5,31 +5,23 @@ import {
   facebook,
   instagram,
   linkedin,
-  twitter,
   airbnb,
   binance,
   coinbase,
   dropbox,
-  // send,
-  // shield,
   star,
-  // chairman,
-  md,
   edcs,
   ed_ops,
   ed_ops_lagos,
   ed_sd,
-  // adviser,
   oldkobo,
   justme,
   secure,
   access,
   trust,
-  acting_cbn,
   aisha_board,
   edward_board,
   obiora_board,
-  adviser,
 } from '../assets'
 import { layout } from '../style'
 
@@ -283,12 +275,12 @@ export const footerLinks = [
     links: [
       {
         name: 'Our Values',
-        link: 'our_values',
+        link: 'values',
       },
 
       {
         name: 'Our Team',
-        link: 'team',
+        link: 'teams',
       },
       {
         name: 'Explore Our History',

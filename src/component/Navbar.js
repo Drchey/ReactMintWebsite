@@ -197,7 +197,7 @@ const Navbar = () => {
                         <img
                           src={showServices ? up_arrow : down_arrow}
                           onClick={
-                            nav.title === 'Our Values'
+                            nav.title === 'Our Services'
                               ? handleServiceClick
                               : null
                           }

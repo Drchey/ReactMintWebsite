@@ -136,6 +136,11 @@ import d_offering from './d_offering.jpg'
 // Brochure
 import vac_slide from './brochures/vacDoc.pdf'
 
+// History
+import history_1 from './history/hist_old_notes.png'
+import history_2 from './history/cowries.jpg'
+import history_3 from './history/50kobo.png'
+
 export {
   airbnb,
   bill,
@@ -263,4 +268,7 @@ export {
   d_print,
   d_conventional,
   vac_slide,
+  history_1,
+  history_2,
+  history_3,
 }

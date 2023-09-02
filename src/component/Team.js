@@ -1,8 +1,8 @@
-import { boards, boards_cbn, boards_nspm } from '../constants'
+import { boards_cbn, boards_nspm } from '../constants'
 import styles from '../style'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import { acting_cbn, lines, logo, md } from '../assets'
+import { acting_cbn, lines, md } from '../assets'
 // import { useState } from 'react'
 
 const Team = () => {
