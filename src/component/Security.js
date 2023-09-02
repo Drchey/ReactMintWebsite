@@ -36,7 +36,7 @@ const Security = ({ isVisible }) => {
       <div className={`${layout.sectionImg} flex-col relative`}>
         <img
           src={g_4}
-          className="w-[200%] h-[200%] object-contain absolute top-30 left-0 opacity-60"
+          className="object-contain absolute top-30 left-0 opacity-60"
           alt=""
         />
         {features.map((feature, index) => (

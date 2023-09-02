@@ -8,7 +8,7 @@ import {
   IdeaAction,
   Footer,
 } from '../component'
-import { hero, standard_vac } from '../assets'
+import { standard_vac } from '../assets'
 
 const VACProduct = () => {
   return (
@@ -28,6 +28,7 @@ const VACProduct = () => {
               Targeted at interfacing with School records and providing digital verification responses while keeping the hiring organization informed. 
             `}
             content2={`The Solution was designed to address the cumbersome process of background checks, in many ways loss pf employment opportunities. The Nigerian Security Printing and Minting visualizes a future where these concerns are a thing of the past and as thus stepped to the challenge.`}
+            is_vac={true}
           />
         </div>
       </div>
@@ -36,14 +37,14 @@ const VACProduct = () => {
         className={`bg-dimWhite  ${styles.flexStart} ${styles.paddingX} mt-7`}
       >
         <div className={`${styles.boxWidth}`}>
-          <Image logo={standard_vac} alt="vac" />
+          <Image logo={standard_vac} alt="vac" lar_obj={true} />
         </div>
       </div>
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <ProductAbout
-            title="The Ultimate Solution for
+            title="The Ultimate Solution 
         for Credential Verification"
             content={`Our years of experience and state-of-the-art machinery used in the production of currency and various security documents have led to our ability to deliver and exceed the demands of tertiary institutions and professional bodies in the country. Being NDPR compliant, we have embedded best practices to ensure this service caters to your need for round the clock access and with a reliable customer service at your beck and call.  `}
           />
@@ -51,6 +52,7 @@ const VACProduct = () => {
           <IdeaAction
             header="Real-Time Access"
             content={`We have ensured that your inquisitions are handled and forwarded to you in real time. hence, no need to wait weeks upon weeks for feedback. Whether you're an employer seeking to verify candidate credentials, a lending institution confirming financial information, or a background screening agency validating records, our cutting-edge technology offers a swift and reliable solution. Say goodbye to manual verification delays and welcome the convenience of a streamlined online process`}
+            // is_vac={true}
           />
         </div>
       </div>

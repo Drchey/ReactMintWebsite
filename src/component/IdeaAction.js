@@ -8,6 +8,7 @@ const IdeaAction = ({
   content2,
   image_type,
   isInit,
+  is_vac,
 }) => (
   <div className={`${layout.section} flex flex-row mb-5`}>
     {/* <h4 className={`${styles.heading2} uppercase text-gradient text-left`}>
@@ -18,6 +19,7 @@ const IdeaAction = ({
       <h1 className={`${styles.heading2} uppercase text-gradient`}>{header}</h1>
       <p className={styles.paragraph}>{content}</p>
       <p className={`${styles.paragraph} mt-4`}>{content2}</p>
+
       {/* 
       <div className="flex flex-wrap mt-10">
         {vac_stats.map((stat) => (

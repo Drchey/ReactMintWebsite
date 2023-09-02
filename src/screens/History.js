@@ -39,7 +39,7 @@ export const CurrenyHistory = () => {
     <div className="w-full md:px-1 px-1">
       <section className="my-1">
         <div>
-          <h6 className={`${styles.heading3} uppercase`}>
+          <h6 className={`${styles.text_heading} uppercase`}>
             Currency: Tracing Our Remarkable History
           </h6>
           <p className={`${styles.paragraph} text-justify`}>
@@ -249,7 +249,7 @@ const History = () => {
             The Nigerian Mint Came to Existence since
           </div>
           <div
-            className={`${styles.paragraph} font-weight-700 text-[40px]  text-gradient font-bold`}
+            className={`${styles.paragraph} font-weight-700 text-[49px]  text-gradient font-bold`}
           >
             1963
           </div>

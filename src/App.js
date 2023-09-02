@@ -43,10 +43,10 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/vac" element={<VACProduct />} />
         <Route path="/currency" element={<CurrencyProduct />} />
-        <Route path="/certificates" element={<Certificates />} />
+        <Route path="/conventional_prints" element={<Certificates />} />
         <Route path="/datacenter" element={<DataCenter />} />
         <Route path="/smartcard" element={<SmartCard />} />
-        <Route path="/stamps" element={<DigitalStamps />} />
+        <Route path="/digital_prints" element={<DigitalStamps />} />
         <Route path="/contactus" element={<Contact />} />
         <Route path="/history" element={<History />} />
         <Route path="/teams" element={<Team />} />

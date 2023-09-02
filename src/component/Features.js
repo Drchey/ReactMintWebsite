@@ -5,7 +5,6 @@ import {
   certificate,
   db,
   feature_img,
-  money,
   signature,
   smartcard,
   verify,
@@ -124,14 +123,14 @@ const Features = ({ isVisible }) => {
             />
           </div>
           <div className="flex-1 flex flex-col ml-3">
-            <Link to="/certificates">
+            <Link to="/conventional_prints">
               {' '}
               <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
-                Certificate Prints
+                Conventional Security Prints
               </h4>
             </Link>
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
-              Security Features for Certificates for Professional bodies,
+              We Print Certificates & Documents for Professional bodies,
               commissions and ministries alike.
             </p>
           </div>
@@ -150,10 +149,10 @@ const Features = ({ isVisible }) => {
             />
           </div>
           <div className="flex-1 flex flex-col ml-3">
-            <Link to="/stamps">
+            <Link to="/digital_prints">
               {' '}
               <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
-                Digital Stamps
+                Digital Prints
               </h4>
             </Link>
 
