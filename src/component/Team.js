@@ -1,8 +1,8 @@
-import { boards } from '../constants'
+import { boards, boards_cbn, boards_nspm } from '../constants'
 import styles from '../style'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import { lines } from '../assets'
+import { acting_cbn, lines, logo, md } from '../assets'
 // import { useState } from 'react'
 
 const Team = () => {
@@ -38,32 +38,53 @@ const Team = () => {
       <div className={`bg-dimWhite justify-center items-start mt-9 relative`}>
         <img src={lines} className="absolute h-full w-full opacity-60" alt="" />
         <div className="p-6">
+          <div className="flex items-center  my-2 flex-col  justify-between  rounded-[20px]">
+            <img
+              src={acting_cbn}
+              alt=""
+              className="h-[260px] w-[260px] border-4 rounded-[50%] object-cover mb-5 border-teal-900 "
+            />
+            <div className="flex flex-col items-center">
+              <p className="font-bold text-[20px] text-teal-800">
+                Mr. Folashodun Adebisi Shonubi
+              </p>
+
+              <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
+                Acting Chairman, Board of Directors
+              </p>
+              <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
+                {/* {board.is_cbn ? 'CBN' : 'NSPM PLC'} */}
+                CBN
+              </p>
+            </div>
+          </div>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-4 cursor-pointer ">
-            {boards.map((board, index) => (
-              <div
-                id={index}
-                key={index}
-                className="flex flex-col items-center justify-between mb-5 rounded-[20px] relative"
-              >
-                <img
-                  src={board.logo}
-                  alt=""
-                  className="h-[260px] w-[260px] border-4 rounded-[50%] object-cover mb-5 border-teal-900"
-                />
-                <div className="flex flex-col items-center">
-                  <p className="font-bold text-[20px] text-teal-800">
-                    {board.name}
-                  </p>
+            {boards_cbn.map((board, index) => (
+              <>
+                <div
+                  id={index}
+                  key={index}
+                  className="flex flex-col items-center justify-between mb-5 rounded-[20px] relative"
+                >
+                  <img
+                    src={board.logo}
+                    alt=""
+                    className="h-[260px] w-[260px] border-4 rounded-[50%] object-cover mb-5 border-teal-900"
+                  />
+                  <div className="flex flex-col items-center">
+                    <p className="font-bold text-[20px] text-teal-800">
+                      {board.name}
+                    </p>
 
-                  <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
-                    {board.title}
-                  </p>
-                  <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
-                    {board.is_cbn ? 'CBN' : 'NSPM PLC'}
-                  </p>
-                </div>
+                    <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
+                      {board.title}
+                    </p>
+                    <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
+                      {board.is_cbn ? 'CBN' : 'NSPM PLC'}
+                    </p>
+                  </div>
 
-                {/* <div className="absolute top-0 right-0">
+                  {/* <div className="absolute top-0 right-0">
                   <img
                     src={info}
                     className="h-[20px] hover:h-[21px] ease-in-out transition-all duration-300"
@@ -71,7 +92,69 @@ const Team = () => {
                     // onClick={() => showPopUp}
                   />
                 </div> */}
-              </div>
+                </div>
+              </>
+            ))}
+          </div>
+        </div>
+        {/* NSPM */}
+        <div className="p-6">
+          <div className="flex items-center  my-2 flex-col  justify-between  rounded-[20px]">
+            <img
+              src={md}
+              alt=""
+              className="h-[260px] w-[260px] border-4 rounded-[50%] object-cover mb-5 border-teal-900 "
+            />
+            <div className="flex flex-col items-center">
+              <p className="font-bold text-[20px] text-teal-800">
+                Mr. Ahmed Halilu Mni
+              </p>
+
+              <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
+                Managing Director & Chief Executive
+              </p>
+              <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
+                {/* {board.is_cbn ? 'CBN' : 'NSPM PLC'} */}
+                NSPM PLC
+              </p>
+            </div>
+          </div>
+          <div className="grid md:grid-cols-4 grid-cols-1 gap-4 cursor-pointer ">
+            {boards_nspm.map((board, index) => (
+              <>
+                <div
+                  id={index}
+                  key={index}
+                  className="flex flex-col items-center justify-between mb-5 rounded-[20px] relative"
+                >
+                  <img
+                    src={board.logo}
+                    alt=""
+                    className="h-[260px] w-[260px] border-4 rounded-[50%] object-cover mb-5 border-teal-900"
+                  />
+                  <div className="flex flex-col items-center">
+                    <p className="font-bold text-[20px] text-teal-800">
+                      {board.name}
+                    </p>
+
+                    <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
+                      {board.title}
+                    </p>
+                    <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
+                      {board.is_cbn ? 'CBN' : 'NSPM PLC'}
+                    </p>
+                  </div>
+
+                  {/* <div className="absolute top-0 right-0">
+                  <img
+                    src={info}
+                    className="h-[20px] hover:h-[21px] ease-in-out transition-all duration-300"
+                    alt="information"
+                    // onClick={() => showPopUp}
+                  />
+                </div> */}
+                </div>
+              </>
             ))}
           </div>
         </div>
