@@ -1,7 +1,58 @@
-import { close } from '../assets'
+import { useRef, useState } from 'react'
+import { close_white } from '../assets'
 import SurveryForm from './SurveryForm'
+import emailjs from '@emailjs/browser'
+import Swal from 'sweetalert'
 
 const SurveyModal = ({ isOpen, toggleModal }) => {
+  const form = useRef()
+
+  const [formData, setFormData] = useState({
+    name: '',
+    company_type: '',
+    message: '',
+  })
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }))
+  }
+  const handleSubmit = (e) => {
+    const userName = form.current['name'].value
+
+    if (!userName.trim()) {
+      alert('Please fill Your Company Name. Other Fields are not Required')
+      return
+    }
+    e.preventDefault()
+    emailjs
+      .sendForm(
+        'service_4y2gp3k',
+        'template_nuz0xys',
+        form.current,
+        'lmLeSVsssYM6TLFcj',
+      )
+      .then(
+        (result) => {
+          Swal(
+            'Email Sent',
+            'We have Taken in your Feedback. Thank You',
+            'success',
+          )
+        },
+        (error) => {
+          Swal(
+            'Email Not Sent',
+            'We could not receive your email at this time',
+            'warning',
+          )
+        },
+      )
+    toggleModal()
+  }
   return (
     <div>
       {isOpen && (
@@ -9,27 +60,36 @@ const SurveyModal = ({ isOpen, toggleModal }) => {
           <div className="modal-overlay fixed inset-0 bg-gray-500 opacity-75"></div>
           <div className="modal-container fixed inset-0 flex items-center justify-center">
             <div className="modal-content bg-white w-3/4 rounded shadow-lg p-4 overflow-y-scroll h-[640px]">
-              <div className="flex align-center justify-between my-4">
+              <div className="flex align-center justify-between my-4 bg-teal-700 p-4 rounded-[20px]">
                 <h3 className="text-lg font-semibold mb-2 text-orange-500 ">
                   Share Your Experiences With Us{' '}
                 </h3>
 
                 <img
-                  src={close}
+                  src={close_white}
                   alt=""
                   onClick={toggleModal}
-                  className="cursor-pointer"
+                  className="cursor-pointer text-orange-500 font-bold"
                 />
               </div>
 
               <hr />
               <div className="mt-5 w-full">
-                <form action="">
+                <form
+                  id="contact-form"
+                  ref={form}
+                  action="/contact"
+                  method="GET"
+                  onSubmit={handleSubmit}
+                >
                   <div className="mb-2">
                     <input
                       className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
                       type="text"
+                      name="name"
                       placeholder="Enter your Company name"
+                      onChange={handleInputChange}
+                      required
                     />
                   </div>
                   <SurveryForm
@@ -249,7 +309,11 @@ const SurveyModal = ({ isOpen, toggleModal }) => {
               </div>
 
               <div className="flex align-right justify-end">
-                <button className="bg-dimForest mr-4 hover:bg-dimForest text-white font-bold py-2 px-4 rounded mt-4">
+                <button
+                  className="bg-dimForest mr-4 hover:bg-dimForest text-white font-bold py-2 px-4 rounded mt-4"
+                  type="submit"
+                  onClick={handleSubmit}
+                >
                   Share Your Review With Us
                 </button>
                 <button

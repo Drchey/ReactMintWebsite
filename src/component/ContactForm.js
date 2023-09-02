@@ -1,48 +1,125 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { contact_data } from '../constants'
 import styles from '../style'
 import { send } from '../assets'
 import Swal from 'sweetalert'
 import SurveyModal from './SurveyModal'
+import emailjs from '@emailjs/browser'
 
 export const Form = () => {
+  const form = useRef()
+
   const [formData, setFormData] = useState({
     name: '',
+    email: '',
     company_type: '',
+    message: '',
+  })
+
+  const [formErrors, setFormErrors] = useState({
+    name: '',
+    email: '',
     message: '',
   })
 
   const handleInputChange = (e) => {
     const { name, value } = e.target
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }))
+    const errors = {}
+    if (formData.name.trim() === '') {
+      errors.name = 'Name is required'
+    }
+    if (formData.company_type.trim() === '') {
+      errors.email = 'Email is required'
+    }
+    if (formData.company_type.trim() === '') {
+      errors.email = 'Email is required'
+    }
+    if (formData.message.trim() === '') {
+      errors.message = 'Message is required'
+    }
+
+    if (Object.keys(errors).length > 0) {
+      setFormErrors(errors)
+    } else
+      setFormData((prevData) => ({
+        ...prevData,
+        [name]: value,
+      }))
   }
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // // Use Formspree to send the message
-    // const form = document.getElementById('contact-form')
-    // form.submit()
-    Swal('Email Sent', 'We have Taken in your Feedback. Thank You', 'success')
+    const userName = form.current['user_name'].value
+    const userEmail = form.current['user_email'].value
+    const company_type = form.current['company_type'].value
+    const message = form.current['message'].value
+
+    if (
+      !userName.trim() ||
+      !userEmail.trim() ||
+      !company_type.trim() ||
+      !message()
+    ) {
+      alert('Please fill out all required fields.')
+      return
+    }
+    emailjs
+      .sendForm(
+        'service_4y2gp3k',
+        'template_dic5jo4',
+        form.current,
+        'lmLeSVsssYM6TLFcj',
+      )
+      .then(
+        (result) => {
+          Swal(
+            'Email Sent',
+            'We have Taken in your Feedback. Thank You',
+            'success',
+          )
+        },
+        (error) => {
+          Swal(
+            'Email Not Sent',
+            'We could not receive your email at this time',
+            'warning',
+          )
+        },
+      )
   }
   return (
     <div>
       <form
         id="contact-form"
+        ref={form}
         // className="max-w-md w-full mx-auto p-6"
         action="/contact"
         method="GET"
+        onSubmit={handleSubmit}
       >
         <input
           className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
           type="text"
           placeholder="Enter your Company name"
           id="name"
-          name="name"
-          value={formData.name}
+          name="user_name"
+          // value={formData.name}
           onChange={handleInputChange}
+          required
+        />
+        {formErrors.name && (
+          <p className="text-red-500 text-sm">{formErrors.name}</p>
+        )}
+
+        <input
+          className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
+          type="email"
+          placeholder="Enter your Company's Email: Help Us Reach back to you"
+          id="email"
+          name="user_email"
+          // value={formData.name}
+          onChange={handleInputChange}
+          required
         />
 
         <select
@@ -51,24 +128,25 @@ export const Form = () => {
           value={formData.company_type}
           onChange={handleInputChange}
           className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
+          required
         >
           <option value="" className="">
             Choose ...
           </option>
-          <option value="govt" className="">
+          <option value="Government_Agency" className="">
             Government Agencies
           </option>
-          <option value="" className="">
+          <option value="Academic_Institution" className="">
             Academic Institution
           </option>
-          <option value="" className="">
+          <option value="Security_Agency" className="">
             Security Agency
           </option>
-          <option value="" className="">
+          <option value="Financial_Institution" className="">
             Financial Institution
           </option>
 
-          <option value="" className="">
+          <option value="Manufacturing_Agency" className="">
             Manufacturing
           </option>
         </select>
@@ -82,6 +160,7 @@ export const Form = () => {
           rows="10"
           className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
           placeholder="Tell Us How we Can Serve You"
+          required
         ></textarea>
 
         <button

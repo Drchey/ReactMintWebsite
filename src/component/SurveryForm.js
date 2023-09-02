@@ -1,6 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const SurveryForm = ({ name, form_id, group }) => {
+  const [formData, setFormData] = useState({
+    name: '',
+    company_type: '',
+    message: '',
+  })
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }))
+  }
+
   return (
     <div className="mt-6">
       <h5 className="text-grey-900 font-semibold text-green-700">{name} </h5>
@@ -13,6 +27,8 @@ const SurveryForm = ({ name, form_id, group }) => {
             name={group}
             class="form-radio h-5 w-5 text-indigo-600"
             value="1"
+            onChange={handleInputChange}
+            required
           />
           <label for="radioButton" className="ml-2 text-gray-700">
             Very Dissatisfied

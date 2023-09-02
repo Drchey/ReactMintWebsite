@@ -11,6 +11,7 @@ import shield from './Shield.svg'
 import star from './Star.svg'
 import menu from './menu.svg'
 import close from './close.svg'
+import close_white from './close_white.svg'
 import google from './google.svg'
 import apple from './apple.svg'
 import arrowUp from './arrow-up.svg'
@@ -166,6 +167,7 @@ export {
   twitter,
   people01,
   people02,
+  close_white,
   people03,
   hero,
   phone,
