@@ -14,11 +14,11 @@ import styles from '../style'
 const Features = ({ isVisible }) => {
   return (
     <div
-      className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 mt-12 z-10`}
+      className={`${styles.flexCenter} flex-col md:flex-row flex-wrap sm:mb-20 mb-6 mt-12 z-10`}
     >
       <div className={`flex-1 flex flex-col ml-3`}>
         <div
-          className={` feature-card min-h-[60px] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+          className={` feature-card min-h-[130px] w-[100%] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
           <div
             className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
@@ -37,13 +37,13 @@ const Features = ({ isVisible }) => {
               </h4>
             </Link>
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
-              We Print the Naira for the Nigerian Federation.
+              We Print the Naira Currency for the Nigerian Federation.
             </p>
           </div>
         </div>
 
         <div
-          className={` feature-card min-h-[60px] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+          className={` feature-card min-h-[130px] w-[100%] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
           <div
             className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
@@ -73,7 +73,7 @@ const Features = ({ isVisible }) => {
           className={`feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
           <div
-            className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
+            className={`w-[64px] min-h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
           >
             <img
               src={smartcard}
@@ -111,7 +111,7 @@ const Features = ({ isVisible }) => {
 
       <div className={`flex-1 flex flex-col ml-3`}>
         <div
-          className={` feature-card min-h-[60px] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+          className={` feature-card min-h-[130px] w-[100%] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
           <div
             className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
@@ -137,7 +137,7 @@ const Features = ({ isVisible }) => {
         </div>
 
         <div
-          className={` feature-card min-h-[60px] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+          className={` feature-card min-h-[130px] w-[100%] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
           <div
             className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
@@ -164,7 +164,7 @@ const Features = ({ isVisible }) => {
         </div>
 
         <div
-          className={`feature-card flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
+          className={` feature-card min-h-[130px] w-[100%] flex flex-row p-6 rounded-[20px] "mb-6": "mb-0 `}
         >
           <div
             className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
@@ -177,6 +177,7 @@ const Features = ({ isVisible }) => {
           </div>
           <div className="flex-1 flex flex-col ml-3">
             <Link to="/vac">
+              {' '}
               <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
                 Verification & Authentication of Certificates
               </h4>
