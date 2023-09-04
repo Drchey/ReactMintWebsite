@@ -8,7 +8,7 @@ import {
   IdeaAction,
   Footer,
 } from '../component'
-import { standard_vac } from '../assets'
+import { vac_sure } from '../assets'
 
 const VACProduct = () => {
   return (
@@ -37,7 +37,7 @@ const VACProduct = () => {
         className={`bg-dimWhite  ${styles.flexStart} ${styles.paddingX} mt-7`}
       >
         <div className={`${styles.boxWidth}`}>
-          <Image logo={standard_vac} alt="vac" lar_obj={true} />
+          <Image logo={vac_sure} alt="vac" lar_obj={true} />
         </div>
       </div>
 

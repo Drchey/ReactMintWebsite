@@ -89,8 +89,8 @@ const Features = ({ isVisible }) => {
             </Link>
 
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
-              Personalize payment and smartcard for the planned launch of a
-              Nigerian card scheme
+              Perso Bureau with state-of-the-art machines: Personalized AfriGo
+              cards, Smart Cards, Loyalty Cards and other chip-embedded cards.
             </p>
           </div>
         </div>

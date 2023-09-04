@@ -24,8 +24,8 @@ const SmartCard = () => {
           <ProductHeader
             // image_type={db}
             title="SmartCard Perso Bureau"
-            content1="At the heart of our innovation lies the meticulous craft of designing security chips for smart cards. With a steadfast commitment to safeguarding data integrity and user privacy, we engineer these intricate components to serve as the fortress of protection within each smart card."
-            content2=" From conception to realization, our dedication to excellence drives us to craft security chips that empower our clients with the highest level of confidence in their smart card solutions."
+            content1=" Our Perso Bureau with state-of-the-art machines, cutting-edge technology and highly skilled workforce will deliver high quality personalized smart cards. The processes are continually reviewed and updated to comply to applicable Standards and best practice."
+            content2="At the heart of our smartcard product, we've meticulously designed and implemented a robust business continuity architecture that stands as a testament to our unwavering commitment to customer satisfaction. We understand that in today's fast-paced and interconnected world, uninterrupted service delivery is paramount. With this in mind, we've spared no effort in building a system that not only meets but exceeds customer demands at all times, regardless of external challenges or disruptions."
           />
         </div>
       </div>
@@ -41,8 +41,8 @@ const SmartCard = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <ProductAbout
-            title="Committed to SafeGuarding Our Users"
-            content="With a steadfast commitment to safeguarding data integrity and user privacy, we engineer these intricate components to serve as the fortress of protection within each smart card. Our expert team meticulously architects every aspect of the security chip, meticulously addressing vulnerabilities and fortifying against potential threats. Through cutting-edge technology and rigorous testing, we ensure that these chips stand as bastions of defense, enabling secure transactions, access control, and identity verification."
+            title="Committed to delivering High Quality Personalized Smart Card"
+            content="Our business continuity architecture is a comprehensive and multi-layered approach that combines cutting-edge technology, redundant systems, and meticulous planning to ensure that our customers' needs are continually met, without compromise. We've leveraged the latest advancements in smartcard technology and data security to provide a seamless and secure experience for our users, ensuring that their transactions and interactions remain smooth and reliable, even in the face of unforeseen circumstances."
           />
 
           <IdeaAction

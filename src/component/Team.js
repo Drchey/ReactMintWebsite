@@ -98,8 +98,8 @@ const Team = () => {
           </div>
         </div>
         {/* NSPM */}
-        <div className="p-6">
-          <div className="flex items-center  my-2 flex-col  justify-between  rounded-[20px]">
+        <div className="p-6 relative">
+          <div className="flex items-center  my-2 flex-col z-10 justify-between  rounded-[20px]">
             <img
               src={md}
               alt=""

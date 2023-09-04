@@ -133,6 +133,7 @@ import new_note_add from './new_note_add.jpg'
 import d_print from './d_print.jpg'
 import d_conventional from './d_conventional.jpg'
 import d_offering from './d_offering.jpg'
+import vac_sure from './vac_sure.png'
 
 // Brochure
 import vac_slide from './brochures/vacDoc.pdf'
@@ -141,8 +142,10 @@ import vac_slide from './brochures/vacDoc.pdf'
 import history_1 from './history/hist_old_notes.png'
 import history_2 from './history/cowries.jpg'
 import history_3 from './history/50kobo.png'
+import sharpen_money from './sharpen_money.png'
 
 export {
+  sharpen_money,
   airbnb,
   bill,
   binance,
@@ -244,6 +247,7 @@ export {
   smartcard_background,
   stamps,
   hero_image,
+  vac_sure,
   picture,
   guilloche_1,
   guilloche_2,

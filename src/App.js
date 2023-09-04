@@ -51,7 +51,7 @@ const App = () => {
         <Route path="/history" element={<History />} />
         <Route path="/teams" element={<Team />} />
         <Route path="/services" element={<Service />} />
-        <Route path="/history_structure" element={<StructureData />} />
+        {/* <Route path="/history_structure" element={<StructureData />} /> */}
         <Route path="/history_sharedcapital" element={<HistoryData />} />
         <Route path="security_prints" element={<SecurityPrints />} />
         <Route path="currency_service" element={<CurrencyPrints />} />

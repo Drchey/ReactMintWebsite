@@ -80,11 +80,11 @@ export const navLinks = [
     title: 'History',
     dropdown: true,
     historyLinks: [
-      {
-        id: 'history-1',
-        title: 'Holding Structure',
-        link: 'history_structure',
-      },
+      // {
+      //   id: 'history-1',
+      //   title: 'Holding Structure',
+      //   link: 'history_structure',
+      // },
       {
         id: 'history-2',
         title: 'Shared Capital',
