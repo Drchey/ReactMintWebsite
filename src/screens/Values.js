@@ -36,7 +36,7 @@ const Values = () => {
       </div>
 
       <div
-        className={`${styles.boxWidth} flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
+        className={`w-[100%] flex md:flex-row flex-col flex-1 align-items pt-5 justify-between items-center ${styles.paddingX}`}
       >
         <div className="flex-1 ml-4 group">
           <img
@@ -47,9 +47,7 @@ const Values = () => {
         </div>
       </div>
 
-      <div
-        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
-      >
+      <div className={`w-[100%]`}>
         <div className="flex flex-col items-center justify-center">
           <div
             className={`${styles.paragraph} text-[39px] text-center my-5 text-forest font-semibold `}

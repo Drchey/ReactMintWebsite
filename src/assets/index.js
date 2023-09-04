@@ -143,9 +143,11 @@ import history_1 from './history/hist_old_notes.png'
 import history_2 from './history/cowries.jpg'
 import history_3 from './history/50kobo.png'
 import sharpen_money from './sharpen_money.png'
+import sp from './sp.png'
 
 export {
   sharpen_money,
+  sp,
   airbnb,
   bill,
   binance,

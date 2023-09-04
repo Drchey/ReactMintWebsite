@@ -1,7 +1,7 @@
 import React from 'react'
 import styles, { layout } from '../style'
 import { Footer, Navbar } from '../component'
-import { cannon, g_5, shop_floor, sp2, star, video } from '../assets'
+import { cannon, g_5, sp, sp2, star, video } from '../assets'
 import { features } from '../constants'
 
 const VideoPlayer = () => (
@@ -45,7 +45,7 @@ const SecurityPrints = () => {
       </div>
 
       <div
-        className={`${styles.boxWidth} flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
+        className={`w-[100%] flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
       >
         <div className="flex-1">
           <hr className="w-[100%] h-[20px] bg-teal-700 p-2" />
@@ -60,15 +60,13 @@ const SecurityPrints = () => {
           </p>
         </div>
         <div className="flex-1 ml-4 group">
-          <img src={shop_floor} alt="" className={styles.imgCard} />
+          <img src={sp} alt="" className={styles.imgCard} />
         </div>
       </div>
 
       {/* Background  */}
 
-      <div
-        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
-      >
+      <div className={`w-[100%] ${styles.paddingY} ${styles.flexCenter}`}>
         <div className="flex flex-col items-center justify-center">
           <div
             className={`${styles.paragraph} text-[34px] text-center text-forest font-semibold`}
@@ -77,7 +75,7 @@ const SecurityPrints = () => {
           </div>
         </div>
       </div>
-      <div className={`${styles.boxWidth}  ${styles.flexCenter}`}>
+      <div className={`w-[100%] ${styles.flexCenter}`}>
         <div className={layout.serviceSection}>
           <section className={`${layout.serviceSection}`}>
             <div className={``}>
@@ -122,9 +120,7 @@ const SecurityPrints = () => {
 
       {/* Competition */}
 
-      <div
-        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
-      >
+      <div className={`w-[100%] ${styles.paddingY} ${styles.flexCenter}`}>
         <div className="flex flex-col items-center justify-center">
           <div
             className={`${styles.paragraph} text-[34px] text-center text-forest font-semibold`}
@@ -140,7 +136,7 @@ const SecurityPrints = () => {
               <img src={g_5} className="absolute bottom-0 z-[-1]" alt="" />
               <div className={``}>
                 <p
-                  className={`${styles.paragraph} text-justify md:px-8 px-1 max-w-full my-1`}
+                  className={`${styles.paragraph} text-justify md:px-8 px-1 w-[100%] my-1`}
                 >
                   Our Security Documents Departments takes robust measures to
                   safeguard its prints from the threats of counterfeiting and

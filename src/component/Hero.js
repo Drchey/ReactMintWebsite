@@ -1,4 +1,4 @@
-import { lines, picture, sharpen_money } from '../assets'
+import { lines, sharpen_money } from '../assets'
 import styles from '../style'
 
 const Hero = () => (

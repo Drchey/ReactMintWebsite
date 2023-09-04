@@ -5,7 +5,7 @@ import { Footer, Navbar } from '../component'
 
 const HistoryHeader = () => (
   <div
-    className={`${styles.boxWidth} flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
+    className={`w-[100%] flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
   >
     <div className="flex-1 ml-4 group">
       <img
