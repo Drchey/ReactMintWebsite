@@ -57,7 +57,7 @@ const CurrencyPrints = () => {
             <div className={`${layout.serviceSection} `}>
               <div className={`w-1/2`}>
                 <div className={`slide-left-container group`}>
-                  <img src={cp_2} alt="" className={styles.imgCard} />
+                  <img src={cp_3} alt="" className={styles.imgCard} />
                 </div>
               </div>
               <div className={`w-1/2`}>
@@ -96,7 +96,7 @@ const CurrencyPrints = () => {
             <div className={`${layout.serviceSectionReverse} `}>
               <div className={`w-1/2`}>
                 <div className={`slide-left-container group`}>
-                  <img src={cp_3} alt="" className={`${styles.imgCard} px-4`} />
+                  <img src={cp_2} alt="" className={`${styles.imgCard} px-4`} />
                 </div>
               </div>
               <div className={`w-1/2`}>
