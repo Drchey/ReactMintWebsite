@@ -8,7 +8,7 @@ import {
   ProductAbout,
   ProductHeader,
 } from '../component'
-import { data_center_2, smartcard_background } from '../assets'
+import { data_center_2, sdcard_1 } from '../assets'
 
 const SmartCard = () => {
   return (
@@ -34,7 +34,7 @@ const SmartCard = () => {
         className={`bg-dimWhite  ${styles.flexStart} ${styles.paddingX} mt-7`}
       >
         <div className={`${styles.boxWidth}`}>
-          <Image logo={smartcard_background} alt="vac" />
+          <Image logo={sdcard_1} alt="vac" lar_obj={true} />
         </div>
       </div>
 

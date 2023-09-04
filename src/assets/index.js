@@ -145,8 +145,12 @@ import history_3 from './history/50kobo.png'
 import sharpen_money from './sharpen_money.png'
 import sp from './sp.png'
 import image_hero from './image_nspm.png'
+import sdcard_1 from './sd_card1.jpeg'
+import sdcard_2 from './sd_card2.jpeg'
 
 export {
+  sdcard_1,
+  sdcard_2,
   image_hero,
   sharpen_money,
   sp,
