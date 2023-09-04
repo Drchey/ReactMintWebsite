@@ -247,14 +247,14 @@ const History = () => {
       </div>
 
       <div
-        className={`${styles.boxWidth} flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
+        className={`w-[100%] flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
       >
         <div className="flex-1">
           <hr className="w-[100%] h-[20px] bg-teal-700 p-2" />
           <h2 className={`${styles.headingTitle} text-gradient uppercase mt-5`}>
             The Nigerian Currency <br /> through the years
           </h2>
-          <p className={`${styles.paragraph} mt-2`}>
+          <p className={`${styles.paragraph} mt-2 text-[20px]`}>
             Our history is a journey of innovation, growth, and transformative
             milestones that have shaped our identity and purpose.
           </p>
@@ -264,9 +264,7 @@ const History = () => {
         </div>
       </div>
 
-      <div
-        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
-      >
+      <div className={`w-[100%] ${styles.paddingY} ${styles.flexCenter}`}>
         <div className="flex flex-col items-center justify-center">
           <div className={styles.paragraph}>
             The Nigerian Mint Came to Existence since

@@ -52,7 +52,9 @@ const SecurityPrints = () => {
           <h2 className={`${styles.heading2} text-gradient uppercase mt-5`}>
             Explore Our Collection of High-Quality Security DOCUMENTS
           </h2>
-          <p className={`${styles.paragraph} mt-2 text-justify p-2`}>
+          <p
+            className={`${styles.paragraph} mt-2 text-justify p-2 text-[21px]`}
+          >
             From Intricate Patterns to cutting-edge features and technologies,
             each print embodies our commitment to bolstering security measures
             and new aesthetics in a blend that are developed to meet and exceed
@@ -86,7 +88,7 @@ const SecurityPrints = () => {
               </div> */}
               <div className={``}>
                 <p
-                  className={`${styles.paragraph} text-justify md:px-8 px-1 max-w-full my-1`}
+                  className={`${styles.paragraph} text-justify md:px-8 px-1 max-w-full my-1 text-[21px]`}
                 >
                   The Nigerian Security Printing & Minting Plc began full
                   production of Security Documents in the year 1965 as the
@@ -99,7 +101,7 @@ const SecurityPrints = () => {
                 </p>
 
                 <p
-                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
+                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5 text-[21px]`}
                 >
                   The use of Ink-based and watermark paper solutions has been
                   threatened by fraudsters hence the need to fortify our
@@ -136,7 +138,7 @@ const SecurityPrints = () => {
               <img src={g_5} className="absolute bottom-0 z-[-1]" alt="" />
               <div className={``}>
                 <p
-                  className={`${styles.paragraph} text-justify md:px-8 px-1 w-[100%] my-1`}
+                  className={`${styles.paragraph} text-justify md:px-8 px-1 w-[100%] my-1 text-[21px]`}
                 >
                   Our Security Documents Departments takes robust measures to
                   safeguard its prints from the threats of counterfeiting and
@@ -176,7 +178,7 @@ const SecurityPrints = () => {
           ></div>
         </div>
       </div>
-      <div className={`${styles.boxWidth} ${styles.flexCenter}`}>
+      <div className={`w-[100%] ${styles.flexCenter}`}>
         <div className={layout.serviceSection}>
           <section className={`${layout.serviceSection}`}>
             <div className={`${layout.serviceSectionReverse} `}>
@@ -187,7 +189,7 @@ const SecurityPrints = () => {
               </div>
               <div className={layout.serviceSectionInfo}>
                 <p
-                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
+                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5 text-[21px]`}
                 >
                   The Nigerian Security Printing & Minting Plc is equipped with
                   the Advanced Machinery and team of Skilled and Devoted
@@ -200,7 +202,7 @@ const SecurityPrints = () => {
                   interconnected world.
                 </p>
                 <p
-                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
+                  className={`${styles.paragraph} text-justify md:px-10 px-6 max-w-full my-5 text-[21px]`}
                 >
                   We have also done lots of research with leading experts in the
                   printing field to ensure that product workflow is seamless and
@@ -213,7 +215,7 @@ const SecurityPrints = () => {
           </section>
         </div>
       </div>
-      <div className={`${styles.boxWidth}  ${styles.flexCenter}`}>
+      <div className={`w-[100%]  ${styles.flexCenter}`}>
         <div className={layout.serviceSection}>
           <section className={`${layout.serviceSection}`}>
             <div className={`${layout.serviceSection} `}>
@@ -228,7 +230,7 @@ const SecurityPrints = () => {
               </div>
               <div className={`w-1/2`}>
                 <p
-                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
+                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5 text-[21px]`}
                 >
                   The production process in the security document division
                   usually starts with the highly skilled and innovative graphic

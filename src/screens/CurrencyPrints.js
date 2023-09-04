@@ -13,7 +13,7 @@ const CurrencyPrints = () => {
       </div>
 
       <div
-        className={`${styles.boxWidth}  flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
+        className={`w-[100%]  flex md:flex-row flex-col flex-1 align-items pt-5 justify-between ${styles.paddingX}`}
       >
         <div className="flex-1 ml-4 group">
           <img
@@ -28,8 +28,10 @@ const CurrencyPrints = () => {
           <h2 className={`${styles.heading2} text-gradient uppercase mt-5`}>
             Celebrating the Art & Precision of our Currency Minting
           </h2>
-          <p className={`${styles.paragraph} mt-2 text-justify p-2`}>
-            SInce our emergence to the Nigerian Market in the year 1965, we have
+          <p
+            className={`${styles.paragraph} mt-2 text-justify p-2 text-[21px]`}
+          >
+            Since our emergence to the Nigerian Market in the year 1965, we have
             since been the gemstone of artistry and precision giving value of
             the Naira Currency. We have ensured that the Nigerian History and
             Culture is meet with state-of-the-art techniques that ensure the
@@ -39,9 +41,7 @@ const CurrencyPrints = () => {
         </div>
       </div>
 
-      <div
-        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
-      >
+      <div className={`w-[100%] ${styles.paddingY} ${styles.flexCenter}`}>
         <div className="flex flex-col items-center justify-center">
           <div
             className={`${styles.paragraph} text-[34px] text-center text-forest font-semibold`}
@@ -51,9 +51,7 @@ const CurrencyPrints = () => {
         </div>
       </div>
 
-      <div
-        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
-      >
+      <div className={`$w-[100%] ${styles.paddingY} ${styles.flexCenter}`}>
         <div className={layout.serviceSection}>
           <section className={`${layout.serviceSection}`}>
             <div className={`${layout.serviceSection} `}>
@@ -64,7 +62,7 @@ const CurrencyPrints = () => {
               </div>
               <div className={`w-1/2`}>
                 <p
-                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
+                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5 text-[21px]`}
                 >
                   Our banknote facilities are a testament to our commitment to
                   technological advancement and the safeguarding of economies.
@@ -76,7 +74,7 @@ const CurrencyPrints = () => {
                 </p>
 
                 <p
-                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5`}
+                  className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5 text-[21px]`}
                 >
                   At the heart of our facilities lies a fusion of innovation and
                   tradition. Our engraving techniques, color mastery, and
@@ -92,9 +90,7 @@ const CurrencyPrints = () => {
         </div>
       </div>
 
-      <div
-        className={`${styles.boxWidth} ${styles.paddingY} ${styles.flexCenter}`}
-      >
+      <div className={`w-[100%] ${styles.paddingY} ${styles.flexCenter}`}>
         <div className={layout.serviceSection}>
           <section className={`${layout.serviceSection}`}>
             <div className={`${layout.serviceSectionReverse} `}>
@@ -105,7 +101,7 @@ const CurrencyPrints = () => {
               </div>
               <div className={`w-1/2`}>
                 <p
-                  className={`${styles.paragraph} text-justify max-w-full my-5`}
+                  className={`${styles.paragraph} text-justify max-w-full my-5 text-[21px]`}
                 >
                   We have the most up-to-date machines available in the
                   industry. Our high-tech electronically controlled machines,
@@ -115,7 +111,7 @@ const CurrencyPrints = () => {
                 </p>
 
                 <p
-                  className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5`}
+                  className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5 text-[21px]`}
                 >
                   To support our operations and satisfy our clients’ individual
                   demands, The MINT manufactures its offset and intaglio

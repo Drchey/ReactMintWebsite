@@ -43,7 +43,7 @@ const Section = () => {
         <Widget
           title="Digital Security Offerings"
           image={d_offering}
-          info="Digital Security Solutions that may not produce any physically printed documents/materials but offers services."
+          info="Security Solutions that may not produce any physically printed documents/materials but offers services."
           type="digital"
           hasModal={true}
         />

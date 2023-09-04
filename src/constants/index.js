@@ -167,7 +167,7 @@ export const features = [
     icon: access,
     title: 'Accessibility',
     content:
-      'We have Set Up a Tier II Data Center, with an Uptime of 99%. You Data is Accessible to you where you need it. When you need it.',
+      'We have Set Up a Tier II Data Center, with an Uptime of 99%. Your data is accessible to you where and when you need it.',
   },
   {
     id: 'feature-3',

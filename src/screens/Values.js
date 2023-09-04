@@ -70,8 +70,8 @@ const Values = () => {
       <div className="w-full md:px-10 px-4 relative">
         <img src={g_5} alt="" className="absolute top-0 z-[-1]" />
 
-        <section className="my-2">
-          <h2 className={`uppercase text-[20px] font-bold text-red-600 my-1`}>
+        <section className="my-4">
+          <h2 className={`uppercase text-[20px] font-bold text-teal-600 my-1 `}>
             OUR MISSION STATEMENT
           </h2>
           <p className={`${styles.paragraph} text-justify my-4`}>

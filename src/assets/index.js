@@ -144,8 +144,10 @@ import history_2 from './history/cowries.jpg'
 import history_3 from './history/50kobo.png'
 import sharpen_money from './sharpen_money.png'
 import sp from './sp.png'
+import image_hero from './image_nspm.png'
 
 export {
+  image_hero,
   sharpen_money,
   sp,
   airbnb,
