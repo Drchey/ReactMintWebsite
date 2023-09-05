@@ -1,7 +1,7 @@
 import React from 'react'
 import styles, { layout } from '../style'
 import { Footer, Navbar } from '../component'
-import { cannon, g_5, sp, sp2, star, video } from '../assets'
+import { cannon, cp_person, g_5, sp, star, video } from '../assets'
 import { features } from '../constants'
 
 const VideoPlayer = () => (
@@ -188,7 +188,7 @@ const SecurityPrints = () => {
             <div className={`${layout.serviceSectionReverse} `}>
               <div className={`w-1/2`}>
                 <div className={`slide-left-container group`}>
-                  <img src={sp2} alt="" className={styles.imgCard} />
+                  <img src={cannon} alt="" className={styles.imgCard} />
                 </div>
               </div>
               <div className={layout.serviceSectionInfo}>
@@ -223,7 +223,7 @@ const SecurityPrints = () => {
               <div className={`w-1/2`}>
                 <div className={`slide-left-container group`}>
                   <img
-                    src={cannon}
+                    src={cp_person}
                     alt=""
                     className={`${styles.imgCard} p-3 h-[50%] w-[50%]`}
                   />

@@ -70,6 +70,7 @@ import division_1 from './division_img_1.png'
 import division_2 from './division-img-2.png'
 import division_3 from './division_img_3.png'
 import mint_building from './sharpen_mint_building.jpg'
+import cp_person from './cp_person.jpg'
 import cp_2 from './cp_2.jpg'
 import cp_3 from './cp_3.png'
 import cbn_building from './CBN.jpg'
@@ -148,8 +149,11 @@ import image_hero from './image_nspm.png'
 import sdcard_1 from './sd_card1.jpeg'
 import sdcard_2 from './sd_card2.jpeg'
 import sharpen_image from './sharpen_image_nspm.png'
+import cp_prints from './cp_prints.jpg'
 
 export {
+  cp_prints,
+  cp_person,
   sdcard_1,
   sharpen_image,
   sdcard_2,

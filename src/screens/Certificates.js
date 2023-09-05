@@ -8,7 +8,7 @@ import {
   ProductHeader,
 } from '../component'
 import styles from '../style'
-import { hero } from '../assets'
+import { cp_prints } from '../assets'
 
 const Certificates = () => {
   return (
@@ -32,7 +32,7 @@ const Certificates = () => {
         className={`bg-dimWhite  ${styles.flexStart} ${styles.paddingX} mt-7`}
       >
         <div className={`${styles.boxWidth}`}>
-          <Image logo={hero} alt="central image" lar_obj={true} />
+          <Image logo={cp_prints} alt="central image" lar_obj={true} />
         </div>
       </div>
 
