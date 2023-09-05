@@ -140,7 +140,7 @@ const SecurityPrints = () => {
                 <p
                   className={`${styles.paragraph} text-justify md:px-8 px-1 w-[100%] my-1 text-[21px]`}
                 >
-                  Our Security Documents Departments takes robust measures to
+                  Our Security Documents Department takes robust measures to
                   safeguard its prints from the threats of counterfeiting and
                   forgery. With a steadfast commitment to authenticity, we
                   employ cutting-edge technologies and stringent security
@@ -150,17 +150,21 @@ const SecurityPrints = () => {
                 <div className="my-9">
                   <FeatureCard
                     title={`Paper Based Security Features`}
-                    content={`Embedding security features like  incorporate watermarks, invisible fibres, planchettes, barcodes, sequential numbers, QR codes and more.`}
+                    content={`Embedding security features like corporate logo watermarks, invisible fibres, treated papers and more.`}
                   />
 
                   <FeatureCard
                     title={`Ink Based Security Features`}
-                    content={`Covert (Invisible) & Overt (Visible) features that can be read via specialised mahinery or UV lighting.`}
+                    content={`Covert (Invisible) & Overt (Visible) ink features that can be read via specialised handheld e.g UV lamp.`}
                   />
 
                   <FeatureCard
                     title={`Software Based Security Features`}
-                    content={`Web & Mobile Based Applications that are utilized for authentication & verification while ensuring high-end security of data.`}
+                    content={`Computer based generated features & web-based applications that are utilized for authentication & verification while ensuring high-end security of data.`}
+                  />
+                  <FeatureCard
+                    title={`Forensic Analysis`}
+                    content={`Our Research and Design team is fully equipped to handling deep forensic analysis of the security documents and ascertain its credibility.`}
                   />
                 </div>
               </div>
@@ -192,14 +196,11 @@ const SecurityPrints = () => {
                   className={`${styles.paragraph} text-justify md:px-10 px-1 max-w-full my-5 text-[21px]`}
                 >
                   The Nigerian Security Printing & Minting Plc is equipped with
-                  the Advanced Machinery and team of Skilled and Devoted
-                  Engineers, we stay ahead of evolving threats by consistently
-                  innovating our security features. Our Research & Design tea
-                  tirelessly explore new technologies, ensuring that our clients
-                  benefit from the latest advancements in anti-counterfeiting
-                  solutions. Beyond just protection, our security features are a
-                  testament to our commitment to maintaining trust in an
-                  interconnected world.
+                  the Advanced Machinery and team of devoted engineers,
+                  designers and researchers, we stay ahead of evolving threats
+                  by consistently innovating our security features. Beyond just
+                  protection, our security features are a testament to our
+                  commitment to maintaining trust in an interconnected world.
                 </p>
                 <p
                   className={`${styles.paragraph} text-justify md:px-10 px-6 max-w-full my-5 text-[21px]`}
@@ -241,10 +242,13 @@ const SecurityPrints = () => {
                   latest international counterfeiting methods and machineries
                   enable our designers to continually upgrade the security
                   features and materials to ensure that our products are
-                  constantly ahead of potential counterfeiters. The company uses
-                  modern local letter-assembly facilities to add the require
-                  text matter to these designs. The MINT attaches to the
-                  security and integrity of its products.
+                  constantly ahead of potential counterfeiters. This goes hand
+                  to hand with our Research & Design team, who are tirelessly
+                  exploring new technologies, and ensuring that our clients
+                  benefit from the latest advancements in anti-counterfeiting
+                  solutions. We utilize modern local letter-assembly facilities
+                  to add the require text matter to these designs. The MINT
+                  attaches to the security and integrity of its products.
                 </p>
               </div>
             </div>

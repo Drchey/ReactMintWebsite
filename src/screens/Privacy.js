@@ -71,10 +71,10 @@ const Privacy = () => {
             We Care About Your Privacy
           </h6>
           <p className={`${styles.paragraph} text-justify`}>
-            We at the Nigerian Security Printing & Minting Plc Plc takes
-            information security as a priority for all its stakeholders and are
-            committed to the protection of information assets in carrying out
-            the company’s operations, both internally and externally.
+            We at the Nigerian Security Printing & Minting Plc takes information
+            security as a priority for all its stakeholders and are committed to
+            the protection of information assets in carrying out the company’s
+            operations, both internally and externally.
           </p>
           <p className={`${styles.paragraph} text-justify mt-3`}>
             Our commitment to protecting the integrity and processing throughout
@@ -100,22 +100,22 @@ const Privacy = () => {
           </p>
 
           <FeatureCard
-            content={`The establishment and maintenance of adequate Information Security shall be achieved by identifying, assessing, evaluating, and controlling information-related risks, providing adequate resources in alignment with the NSPM’s Risk Management Strategy.`}
+            content={`The establishment and maintenance of adequate information security shall be achieved by identifying, assessing, evaluating, and controlling information-related risks, providing adequate resources in alignment with the company risk management strategy.`}
           />
           <FeatureCard
-            content={`NSPM’s information security controls are always fully effective by maintaining compliance matrix to continually monitor how information security risks are controlled.`}
+            content={`Our information security controls are always fully effective by maintaining compliance matrix to continually monitor how information security risks are controlled.`}
           />
           <FeatureCard
-            content={`Information security continuity and contingency plans, data backup procedures, malware protection, access control to systems and information security incident reporting are fundamental to this Policy. All employees of the NSPM and third-party vendor/contractor/suppliers/stakeholders shall have the responsibility of reporting information security breaches.`}
+            content={`Information security continuity and contingency plans, data backup procedures, malware protection, access control to systems and information security incident reporting are fundamental to this Policy.`}
           />
           <FeatureCard
-            content={`NSPM promotes an environment where all employees are aware of their Information Security responsibilities.`}
+            content={`We promote an environment where all employees are aware of their Information Security responsibilities.`}
           />
           <FeatureCard
             content={`All employees and relevant stakeholders shall comply with this Policy.`}
           />
           <FeatureCard
-            content={`The NSPM is committed to complying with applicable legal, regulatory, contractual, and other requirements on Information Security.`}
+            content={`We are committed to complying with applicable legal, regulatory, contractual, and other requirements on Information Security.`}
           />
           <FeatureCard
             content={`This Policy will be communicated and made available to all employees of the company and relevant interested parties.`}

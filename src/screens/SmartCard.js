@@ -42,7 +42,7 @@ const SmartCard = () => {
         <div className={`${styles.boxWidth}`}>
           <ProductAbout
             title="Committed to delivering High Quality Personalized Smart Card"
-            content="Our business continuity architecture is a comprehensive and multi-layered approach that combines cutting-edge technology, redundant systems, and meticulous planning to ensure that our customers' needs are continually met, without compromise. We've leveraged the latest advancements in smartcard technology and data security to provide a seamless and secure experience for our users, ensuring that their transactions and interactions remain smooth and reliable, even in the face of unforeseen circumstances."
+            content="Our business continuity architecture is a comprehensive and multi-layered approach that combines cutting-edge technology, redundant systems, and meticulous planning to ensure that our customers' needs are continually met, without compromise.We've leveraged the latest advancements in smartcard technology and data security to provide a seamless and secure experience for our users, ensuring that their transactions and interactions remain smooth and reliable, even in the face of unforeseen circumstances."
           />
 
           <IdeaAction

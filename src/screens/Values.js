@@ -118,10 +118,9 @@ const Values = () => {
               title={`Efficiency`}
               content={`We make best use of human & material resources to boost efficiency, avoid waste & increase output speed.`}
             />
-
             <FeatureCard
               title={`Sustainability`}
-              content={`We must always think of a better tomorrow.Hence, we take strategic and futuristic approach in all our decision making. For us and for the environment`}
+              content={`We must always think of a better tomorrow. Hence, we take strategic and futuristic approach in all our decision making. For us and for the environment`}
             />
           </div>
         </section>

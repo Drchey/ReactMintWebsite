@@ -378,7 +378,7 @@ export const physical_division = [
       {
         name: 'Digitalized Certificates',
         content:
-          'The Nigerian Security Printing & Minting Plc prints certificates embedded with security features which deterrent to forgers, and  counterfeiters.',
+          'We print certificates embedded with security features which serve as a deterrent to forgers, and  counterfeiters.',
         link: 'certificates',
       },
 
@@ -399,7 +399,7 @@ export const conventional_division = [
       {
         name: 'Certificates',
         content:
-          'We print academic institutions certificates, indigenes certificates,marriage, birth & death certificates etc.',
+          'We print academic institutions certificates, indigenes certificates, marriage, birth & death certificates etc.',
         link: 'certificates',
       },
 

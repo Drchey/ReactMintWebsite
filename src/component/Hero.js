@@ -1,4 +1,4 @@
-import { image_hero, lines } from '../assets'
+import { lines, sharpen_image } from '../assets'
 import styles from '../style'
 
 const Hero = () => (
@@ -44,7 +44,7 @@ const Hero = () => (
 
     <div className={`flex flex-1  ${styles.flexCenter} md:my-0 my-10 relative`}>
       <img
-        src={image_hero}
+        src={sharpen_image}
         alt=""
         className="w-[140%] h-[100%] relative z-4 object-cover"
       />

@@ -71,7 +71,7 @@ const Partners = () => {
         <section className="my-12 mt-10">
           <h6 className={`${styles.heading3} uppercase`}>Knowledge Sharing</h6>
           <p className={`${styles.paragraph} text-justify`}>
-            . In a world where information evolves rapidly, we believe in the
+            In a world where information evolves rapidly, we believe in the
             power of disseminating insights for collective growth. At our core,
             we are not just a company; we are a hub of intellectual exchange.
             With an unwavering commitment to openness, we foster an environment
