@@ -34,7 +34,7 @@ const Partners = () => {
           </div>
 
           <div
-            className={` md:text-[20px] text-[16px]  md:text-center text-justify  px-5 my-5 font-light italic`}
+            className={`${styles.paddingX} ${styles.flexStart} md:text-[20px] text-[16px]  md:text-center text-justify  px-5 my-5 font-light italic`}
           >
             "Over the Past 50 Years, The Nigerian Security Printing & Minting
             Plc has forged enduring bonds with organizations with a foundation
@@ -47,7 +47,7 @@ const Partners = () => {
         </div>
       </div>
 
-      <div className="w-full md:px-10 px-4">
+      <div className={`md:px-10 px-4 `}>
         <section className="my-5">
           <h6 className={`${styles.heading3} uppercase`}>
             Transforming Concepts to Visual Prints

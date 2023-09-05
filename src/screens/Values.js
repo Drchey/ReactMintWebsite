@@ -28,7 +28,7 @@ const FeatureCard = ({ title, content, index }) => (
 
 const Values = () => {
   return (
-    <div className="bg-dimWhite w-full overflow-hidden">
+    <div className={`bg-dimWhite overflow-hidden`}>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -36,7 +36,7 @@ const Values = () => {
       </div>
 
       <div
-        className={`w-[100%] flex md:flex-row flex-col flex-1 align-items pt-5 justify-between items-center ${styles.paddingX}`}
+        className={`w-[100%] flex md:flex-row flex-col flex-1 align-items pt-5 justify-between items-center ${styles.paddingX} ${styles.flexStart}`}
       >
         <div className="flex-1 ml-4 group">
           <img
@@ -47,7 +47,7 @@ const Values = () => {
         </div>
       </div>
 
-      <div className={`w-[100%]`}>
+      <div className={`${styles.paddingX} ${styles.flexStart}`}>
         <div className="flex flex-col items-center justify-center">
           <div
             className={`${styles.paragraph} text-[39px] text-center my-5 text-forest font-semibold `}
