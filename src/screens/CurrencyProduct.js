@@ -46,7 +46,7 @@ const CurrencyProduct = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <ProductAbout
-            title="We elevate the Naira Security with up-to-date machinery"
+            title="We propagate sophistication & technological advancement in our craft"
             content={`The banknotes production facilities consist of the most up-to-date machines available in the industry. Our high-tech electronically controlled machines, sophisticated inks and highly skilled personnel all go to show that we keep pace with the most current trend in the industry world-wide. To support our operations and satisfy our clients’ individual demands, The Nigerian Security Printing and Minting Plc reproduces its printing plates here in Nigeria while the sophisticated production machines and key raw materials are imported from diversified but highly reliable dealers overseas.`}
             //   content1={`The MINT has been in charge of the production of local currency notes since they were introduced in 1965. It does this on behalf of the Central Bank of Nigeria.The Naira being the enabler of the Nigerian physical economy and the official unit of exchange, there is need to take preventive measures against counterfeiting and currency imitation this is where
             //   the MINT comes in.
