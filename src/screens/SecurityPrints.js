@@ -155,7 +155,7 @@ const SecurityPrints = () => {
 
                   <FeatureCard
                     title={`Ink Based Security Features`}
-                    content={`Covert (Invisible) & Overt (Visible) ink features that can be read via specialised handheld e.g UV lamp.`}
+                    content={`Covert (Invisible) & Overt (Visible) ink features that can be read via specialized handheld instruments e.g UV lamp.`}
                   />
 
                   <FeatureCard
@@ -164,7 +164,7 @@ const SecurityPrints = () => {
                   />
                   <FeatureCard
                     title={`Forensic Analysis`}
-                    content={`Our Research and Design team is fully equipped to handling deep forensic analysis of the security documents and ascertain its credibility.`}
+                    content={`Our Research and Development team is fully equipped to handling deep forensic analysis of the security documents and banknotes to ascertain its credibility.`}
                   />
                 </div>
               </div>
