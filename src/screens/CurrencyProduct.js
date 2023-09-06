@@ -22,7 +22,7 @@ const CurrencyProduct = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <ProductHeader
-            title="We ensure the security of the nigerian notes"
+            title="We ensure the security of the nigerian banknotes"
             content1={`The Nigerian Security Printing and Minting Plc is responsible for the production of Nigeria's Naira banknotes and coins. Since their introduction in 1965, We have been entrusted with this important task on behalf of the Central Bank of Nigeria.`}
             content2={`Given these crucial roles, safeguarding the Naira against counterfeiting is of utmost importance. Nigeria's monetary authorities are committed to ensuring the integrity of the national currency and have implemented measures to secure the notes. Each year, thousands of counterfeit Naira notes are detected and removed from circulation.
             Counterfeiters employ various techniques, including scanning and printing, to mimic the notes, often at different resolutions. While many fake currencies can be identified with the naked eye, some require advanced light-based examination and authentication machines for detection.
@@ -46,7 +46,7 @@ const CurrencyProduct = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <ProductAbout
-            title="We ensure the security of naira notes"
+            title="We elevate security in the currency with up-to-date machineries"
             content={`The banknotes production facilities consist of the most up-to-date machines available in the industry. Our high-tech electronically controlled machines, sophisticated inks and highly skilled personnel all go to show that we keep pace with the most current trend in the industry world-wide. To support our operations and satisfy our clients’ individual demands, The Nigerian Security Printing and Minting Plc reproduces its printing plates here in Nigeria while the sophisticated production machines and key raw materials are imported from diversified but highly reliable dealers overseas.`}
             //   content1={`The MINT has been in charge of the production of local currency notes since they were introduced in 1965. It does this on behalf of the Central Bank of Nigeria.The Naira being the enabler of the Nigerian physical economy and the official unit of exchange, there is need to take preventive measures against counterfeiting and currency imitation this is where
             //   the MINT comes in.
