@@ -22,7 +22,7 @@ const CurrencyProduct = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <ProductHeader
-            title="We ensure the security of the nigerian banknotes"
+            title="We ensure the security of the Nigerian banknotes"
             content1={`The Nigerian Security Printing and Minting Plc is responsible for the production of Nigeria's Naira banknotes and coins. Since their introduction in 1965, We have been entrusted with this important task on behalf of the Central Bank of Nigeria.`}
             content2={`Given these crucial roles, safeguarding the Naira against counterfeiting is of utmost importance. Nigeria's monetary authorities are committed to ensuring the integrity of the national currency and have implemented measures to secure the notes. Each year, thousands of counterfeit Naira notes are detected and removed from circulation.
             Counterfeiters employ various techniques, including scanning and printing, to mimic the notes, often at different resolutions. While many fake currencies can be identified with the naked eye, some require advanced light-based examination and authentication machines for detection.
