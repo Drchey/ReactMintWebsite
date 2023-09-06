@@ -152,7 +152,7 @@ const Features = ({ isVisible }) => {
             <Link to="/digital_prints">
               {' '}
               <h4 className="font-poppins font-semibold text-teal-700 text-[18px] leading-[23px] mb-1">
-                Digital Prints
+                Digital Prints & Services
               </h4>
             </Link>
 
