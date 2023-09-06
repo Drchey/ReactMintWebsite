@@ -16,35 +16,19 @@ export const Form = () => {
     message: '',
   })
 
-  const [formErrors, setFormErrors] = useState({
-    name: '',
-    email: '',
-    message: '',
-  })
+  // const [formErrors, setFormErrors] = useState({
+  //   name: '',
+  //   email: '',
+  //   message: '',
+  // })
 
   const handleInputChange = (e) => {
     const { name, value } = e.target
-    const errors = {}
-    if (formData.name.trim() === '') {
-      errors.name = 'Name is required'
-    }
-    if (formData.company_type.trim() === '') {
-      errors.email = 'Email is required'
-    }
-    if (formData.company_type.trim() === '') {
-      errors.email = 'Email is required'
-    }
-    if (formData.message.trim() === '') {
-      errors.message = 'Message is required'
-    }
 
-    if (Object.keys(errors).length > 0) {
-      setFormErrors(errors)
-    } else
-      setFormData((prevData) => ({
-        ...prevData,
-        [name]: value,
-      }))
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }))
   }
 
   const handleSubmit = (e) => {
@@ -92,7 +76,7 @@ export const Form = () => {
       <form
         id="contact-form"
         ref={form}
-        // className="max-w-md w-full mx-auto p-6"
+        className="w-[100%] mx-auto p-6"
         action="/contact"
         method="GET"
         onSubmit={handleSubmit}
@@ -107,9 +91,6 @@ export const Form = () => {
           onChange={handleInputChange}
           required
         />
-        {formErrors.name && (
-          <p className="text-red-500 text-sm">{formErrors.name}</p>
-        )}
 
         <input
           className="border border-gray-400 rounded py-2 px-4 w-full mb-3"
@@ -234,21 +215,21 @@ const ContactForm = () => {
             </div>
           ))}
 
-          <div className='className="shadow-md p-3 ring-2 ring-gray-200 h-[100px] mb-5 flex justify-center items-center p-[12px]"'>
+          <div className='className="shadow-md p-3 ring-2 ring-teal-800 hover:bg-teal-100 transition duration-100 ease-in-out h-[100px] mb-5 flex justify-center items-center p-[12px]"'>
             <div
-              className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
+              className={`w-[64px] h-[64px] rounded-full border-orange-4 ${styles.flexCenter} bg-dimBlue `}
             >
               <img
                 src={send}
                 alt="icon"
-                className="w-[50%] h-[50%] object-contain"
+                className="w-[50%] h-[50%] object-contain "
               />
             </div>
             <div
               className="flex-1 flex flex-col ml-3 cursor-pointer"
               onClick={openModal}
             >
-              <h4 className="font-poppins font-semibold text-gray-600 text-[17px] leading-[23px] mb-2">
+              <h4 className="font-poppins font-semibold  text-gray-600 text-[17px] leading-[23px] mb-2">
                 Fill In Our Survey Form
               </h4>
               <p className="font-poppins font-normal text-gray-600 text-[15px] leading-[23px] mb-1">
