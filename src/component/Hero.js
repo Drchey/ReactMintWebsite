@@ -46,7 +46,7 @@ const Hero = () => (
       <img
         src={sharpen_image}
         alt=""
-        className="w-[140%] h-[100%] relative z-4 object-cover"
+        className="w-[140%] h-[100%] relative z-4 md:object-cover object-fit"
       />
       {/* <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
