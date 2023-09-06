@@ -160,14 +160,14 @@ export const features = [
     icon: secure,
     title: 'Security',
     content:
-      'With the potential to generate most up-to-date security features,  We take proactive steps make sure your information is secured.',
+      'With the potential to generate most up-to-date security features, we take proactive steps make sure your information is secured.',
   },
   {
     id: 'feature-2',
     icon: access,
     title: 'Accessibility',
     content:
-      'We have Set Up a Tier II Data Center, with an Uptime of 99%. Your data is accessible to you where and when you need it.',
+      'We have Set Up a Tier II Data Center, with an uptime of 99%. Your data is accessible to you where and when you need it.',
   },
   {
     id: 'feature-3',

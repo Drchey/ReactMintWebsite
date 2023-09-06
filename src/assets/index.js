@@ -127,7 +127,7 @@ import g_5 from './guilloche/g-5.svg'
 import privacy from './privacy_policy_two.jpg'
 import values from './values.jpg'
 import cash from './money_cash.png'
-import contact_img from './contact_img.jpg'
+import contact_img from './image_con.jpg'
 import new_note_add from './new_note_add.jpg'
 
 //

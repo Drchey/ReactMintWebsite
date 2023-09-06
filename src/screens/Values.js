@@ -75,18 +75,18 @@ const Values = () => {
             OUR MISSION STATEMENT
           </h2>
           <p className={`${styles.paragraph} text-justify my-4`}>
-            To Be Passionate In Delighting Customers by Providing Innovative &
-            Superior Security Solutions For The Benefit of Stakeholders.
+            To Be passionate In delighting customers by providing innovative &
+            superior security solutions for the benefit of stakeholders.
           </p>
         </section>
 
         <section className="my-4">
-          <h5 className={`uppercase text-[20px] font-bold text-red-600 my-1`}>
+          <h5 className={`uppercase text-[20px] font-bold text-teal-600 my-1`}>
             OUR VISION
           </h5>
           <p className={`${styles.paragraph} text-justify mt-4`}>
-            To be the Leading Provider of Conventional & Digital Security
-            Solutions.
+            To be the leading provider of conventional & digital security
+            solutions.
           </p>
         </section>
 
