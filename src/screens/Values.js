@@ -42,7 +42,7 @@ const Values = () => {
           <img
             src={values}
             alt=""
-            className={`${styles.imgCard} h-[50vh] object-cover`}
+            className={`${styles.imgCard} h-[77vh] object-cover w-full`}
           />
         </div>
       </div>
