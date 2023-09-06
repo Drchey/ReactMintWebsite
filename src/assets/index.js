@@ -148,7 +148,7 @@ import sp from './sp.png'
 import image_hero from './image_nspm.png'
 import sdcard_1 from './sd_card1.jpeg'
 import sdcard_2 from './sd_card2.jpeg'
-import sharpen_image from './sharpen_image_nspm.png'
+import sharpen_image from './sharpen_august_image.png'
 import cp_prints from './cp_prints.jpg'
 import digital_prints from './digital_products.jpg'
 
