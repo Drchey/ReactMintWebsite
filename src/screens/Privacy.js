@@ -37,7 +37,7 @@ const Privacy = () => {
         <div className="flex-1 ml-4 group">
           <img
             src={privacy}
-            alt=""
+            alt="way home studio"
             className={`${styles.imgCard} h-[50vh] object-cover`}
           />
         </div>

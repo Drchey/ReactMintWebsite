@@ -225,7 +225,7 @@ const SecurityPrints = () => {
                   <img
                     src={cp_person}
                     alt=""
-                    className={`${styles.imgCard} p-3 h-[50%] w-[50%]`}
+                    className={`${styles.imgCard} p-3 h-[40%] w-[50%]`}
                   />
                 </div>
               </div>

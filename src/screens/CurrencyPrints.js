@@ -34,7 +34,7 @@ const CurrencyPrints = () => {
             Since our emergence to the Nigerian Market in the year 1965, we have
             since been the gemstone of artistry and precision giving value of
             the Naira Currency. We have ensured that the Nigerian History and
-            Culture is meet with state-of-the-art techniques that ensure the
+            Culture is met with state-of-the-art techniques that ensure the
             security and authenticity symbolizing the country's wealth and
             value.
           </p>
