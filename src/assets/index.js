@@ -103,7 +103,7 @@ import picture from './pic.png'
 import money_2 from './currency_2.png'
 
 // Video
-import video from './video/canonvideo.mp4'
+import video from './video/cannon.mp4'
 
 // Gilloche Patterns
 import guilloche_1 from './guilloche/1.svg'
