@@ -84,9 +84,9 @@ const Privacy = () => {
           </p>
 
           <p className={`${styles.paragraph} text-justify`}>
-            We are also ISO (International Standard of Organization)
-            Certified.Following the best standards to ensuring the quality,
-            safety and efficiency of products, services, and systems.
+            We are also ISO (International Standard of Organization) Certified.
+            Following the best standards to ensuring the quality, safety and
+            efficiency of products, services, and systems.
           </p>
 
           <p className={`${styles.paragraph} text-justify mt-3`}>

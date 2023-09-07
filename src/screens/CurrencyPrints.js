@@ -67,7 +67,7 @@ const CurrencyPrints = () => {
                   technological advancement and the safeguarding of economies.
                   By utilizing the latest printing techniques, we create
                   currency notes that are not only visually captivating but also
-                  exceptionally resistant to counterfeiting. Our dedicated teams
+                  exceptionally resistant to counterfeiting. Our dedicated team
                   of experts ensure that every banknote from our facilities
                   meets the stringent standards of authenticity and integrity.
                 </p>

@@ -106,7 +106,7 @@ const Values = () => {
 
             <FeatureCard
               title={`TeamWork`}
-              content={`We work together as a team. Ensuring that our output meet, and exceeds the requirements of our valued customers.`}
+              content={`We work together as a team. Ensuring that our output meets, and exceeds the requirements of our valued customers.`}
             />
 
             <FeatureCard
