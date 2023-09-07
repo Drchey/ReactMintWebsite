@@ -1,7 +1,7 @@
 import React from 'react'
 import { Footer, Navbar } from '../component'
 import styles, { layout } from '../style'
-import { cp_2, cp_3, mint_building } from '../assets'
+import { cp_3, komori, mint_building } from '../assets'
 
 const CurrencyPrints = () => {
   return (
@@ -95,7 +95,11 @@ const CurrencyPrints = () => {
             <div className={`${layout.serviceSectionReverse} `}>
               <div className={`w-1/2`}>
                 <div className={`slide-left-container group`}>
-                  <img src={cp_2} alt="" className={`${styles.imgCard} px-4`} />
+                  <img
+                    src={komori}
+                    alt=""
+                    className={`${styles.imgCard} px-4`}
+                  />
                 </div>
               </div>
               <div className={`w-1/2`}>

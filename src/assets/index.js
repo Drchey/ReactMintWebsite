@@ -104,6 +104,7 @@ import money_2 from './currency_2.png'
 
 // Video
 import video from './video/cannon.mp4'
+import komori from './komori.jpg'
 
 // Gilloche Patterns
 import guilloche_1 from './guilloche/1.svg'
@@ -153,6 +154,7 @@ import cp_prints from './cp_prints.jpg'
 import digital_prints from './digital_products.jpg'
 
 export {
+  komori,
   digital_prints,
   cp_prints,
   cp_person,
