@@ -26,7 +26,7 @@ const DataCenter = () => {
             title="Tier II Data Center"
             content1="The Nigerian Security Printing and Minting is completing a state-of-the-art data center  designed to meet the standard of a Tier II scalable to a Tier 3 in a very near future. In today's growing digital economy, 
            we are strategically positioned to collaborate with private and public sector companies to meet their goals for digital security and transformation. "
-            content2="The Well Manned Data Center is purposed to ensuring services such as enterprise storage, disaster recovery strategies, backup and data collation, and other cloud services for organizations yearning for a reliable and efficient IT platforms who may wish to digitize these aspects aforementioned with limited costs. "
+            content2="The Well Manned Data Center is purposed to ensuring services such as enterprise storage, disaster recovery strategies, backup and data collation, and other cloud services for organizations yearning for a reliable and efficient IT platforms who may wish to digitize these aspects with limited costs. "
           />
         </div>
       </div>
@@ -50,7 +50,7 @@ const DataCenter = () => {
             image_type={data_center_2}
             header="Disaster Recovery"
             content="In line with the need for a  Disaster Recovery Planning Approach (DRP), We are providing an offsite cloud service to ensure that companies within Nigeria adequately prepare and mitigate business downtime, data damage and maintain business uptime."
-            content2="All these Needs come at a cost, hence the necessity for a Data Center Service with marginalized cost."
+            content2="All these 'needs' come at a cost, hence the necessity for a Data Center Service where the cost of storage is marginal."
           />
         </div>
       </div>

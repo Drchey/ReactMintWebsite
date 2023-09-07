@@ -49,7 +49,7 @@ const SmartCard = () => {
             image_type={data_center_2}
             header="Security, Sovereignty & Excellence"
             content=" By integrating smart cards into various government systems and public services, Nigeria can enhance its capacity to manage data securely and efficiently. These cards, equipped with advanced security features, can authenticate identities, streamline processes, and facilitate secure access to essential services. "
-            content2="This not only bolsters Nigeria's sovereignty by enabling precise control over identity and service delivery but also ushers in a new era of cost-effective solutions. Smart cards empower citizens to access a range of services seamlessly, from healthcare and education to financial services, ultimately leading to reduced administrative costs and improved resource allocation. As Nigeria progresses towards a future of digital governance and inclusivity, the adoption of smart cards emerges as a pivotal step in advancing both national sovereignty and affordability for its dynamic and diverse population."
+            content2="This not only bolsters Nigeria's sovereignty by enabling precise control over identity and service delivery but also ushers in a new era of cost-effective solutions. Smart cards empower citizens to access a range of services seamlessly, from healthcare and education to financial services, ultimately leading to reduced administrative costs and improved resource allocation. As Nigeria progresses towards a future of digital governance and inclusivity, the adoption of smart cards emerges as a pivotal step in advancing both National sovereignty and affordability for its dynamic and diverse population."
           />
         </div>
       </div>

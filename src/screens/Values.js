@@ -106,17 +106,17 @@ const Values = () => {
 
             <FeatureCard
               title={`TeamWork`}
-              content={`We work together a team. Ensuring that our output meet and exceeds the requirements of our valued customers.`}
+              content={`We work together as a team. Ensuring that our output meet, and exceeds the requirements of our valued customers.`}
             />
 
             <FeatureCard
               title={`Innovation`}
-              content={`We thrive towards seeking out new methods, products, services & strategies that would make us more efficient and provide us with a competitive edge.`}
+              content={`We thrive towards seeking out new methods, products, services & strategies that would make us more efficient and competitive.`}
             />
 
             <FeatureCard
               title={`Efficiency`}
-              content={`We make best use of human & material resources to boost efficiency, avoid waste & increase output speed.`}
+              content={`We make the best use of human & material resources to boost efficiency, avoid waste & increase output.`}
             />
             <FeatureCard
               title={`Sustainability`}

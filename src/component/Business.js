@@ -1,5 +1,5 @@
 import styles, { layout } from '../style'
-import { g_1, g_2, g_3, g_4, money_2 } from '../assets'
+import { g_3, money_2 } from '../assets'
 import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -37,8 +37,8 @@ const Business = () => {
           No1 Security Prints in <br className="sm:block hidden" /> Nigeria
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With a legacy of craftsmanship spanning decades, we stand at the
-          forefront of producing authentic and intricate currency notes that
+          With a legacy of craftsmanship spanning over 6 decades, we stand at
+          the forefront of producing authentic and intricate currency notes that
           uphold the highest standards of security and design in Nigeria.
         </p>
       </div>

@@ -81,10 +81,10 @@ export const CurrenyHistory = () => {
               >
                 The years 1977 and 1991 witnessed the addition of N20 and N50
                 note denominations, respectively, responding to rapid economic
-                growth brought about by the oil boom. Economic expansion and
-                cost-effectiveness prompted the introduction of higher
-                denomination notes: 100 Naira (1999), 200 Naira (2000), 500
-                Naira (2001), and 1000 Naira (2005).
+                growth brought about by the oil boom. Economic expansion
+                prompted the introduction of higher denomination notes: 100
+                Naira (1999), 200 Naira (2000), 500 Naira (2001), and 1000 Naira
+                (2005).
               </p>
             </div>
           </section>

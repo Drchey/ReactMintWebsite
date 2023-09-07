@@ -167,7 +167,7 @@ export const features = [
     icon: access,
     title: 'Accessibility',
     content:
-      'We have Set Up a Tier II Data Center, with an uptime of 99%. Your data is accessible to you where and when you need it.',
+      'We have Set Up a Tier II Data Center, with an uptime of 99%. Your data is accessible to you, where and when you need it.',
   },
   {
     id: 'feature-3',
@@ -397,7 +397,7 @@ export const conventional_division = [
     id: 'division-1',
     links: [
       {
-        name: 'Certificates',
+        name: 'Security Certificates',
         content:
           'We print academic institutions certificates, indigenes certificates, marriage, birth & death certificates etc.',
         link: 'certificates',

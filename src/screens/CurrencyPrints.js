@@ -33,10 +33,9 @@ const CurrencyPrints = () => {
           >
             Since our emergence to the Nigerian Market in the year 1965, we have
             since been the gemstone of artistry and precision giving value of
-            the Naira Currency. We have ensured that the Nigerian History and
-            Culture is met with state-of-the-art techniques that ensure the
-            security and authenticity symbolizing the country's wealth and
-            value.
+            the Naira Currency. We have ensured meet with the state-of-the-art
+            techniques that ensure the security and authenticity of products
+            symbolizing the country's wealth and value.
           </p>
         </div>
       </div>
@@ -66,10 +65,10 @@ const CurrencyPrints = () => {
                 >
                   Our banknote facilities are a testament to our commitment to
                   technological advancement and the safeguarding of economies.
-                  Utilizing the latest printing techniques, we create currency
-                  notes that are not only visually captivating but also
+                  By utilizing the latest printing techniques, we create
+                  currency notes that are not only visually captivating but also
                   exceptionally resistant to counterfeiting. Our dedicated teams
-                  of experts ensure that every banknote leaving our facilities
+                  of experts ensure that every banknote from our facilities
                   meets the stringent standards of authenticity and integrity.
                 </p>
 
@@ -103,21 +102,20 @@ const CurrencyPrints = () => {
                 <p
                   className={`${styles.paragraph} text-justify max-w-full my-5 text-[21px]`}
                 >
-                  We have the most up-to-date machines available in the
-                  industry. Our high-tech electronically controlled machines,
-                  sophisticated inks and highly skilled personnel all go to show
-                  that we keep pace with the most current trend in the industry
-                  world-wide.
+                  We have the up-to-date machines available in the industry. Our
+                  high-tech electronically controlled machines, sophisticated
+                  inks and highly skilled personnel all go to show that we keep
+                  pace with the current trend in the industry world-wide.
                 </p>
 
                 <p
                   className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5 text-[21px]`}
                 >
-                  To support our operations and satisfy our clients’ individual
-                  demands, The MINT manufactures its offset and intaglio
-                  printing plates here in Nigeria while the sophisticated
-                  production machines and key raw materials are imported from
-                  diversified but highly reliable dealers overseas.
+                  To support our operations and satisfy our clients’ demands,
+                  The MINT manufactures its offset and intaglio printing plates
+                  here in Nigeria while the sophisticated production machines
+                  and key raw materials are imported from diversified but highly
+                  reliable dealers overseas.
                 </p>
               </div>
             </div>
