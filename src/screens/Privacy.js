@@ -57,7 +57,7 @@ const Privacy = () => {
           <div
             className={` md:text-[20px] text-[16px]  md:text-center text-justify  px-2 my-2 font-light italic`}
           >
-            "Our commitment to your privacy is of utmost importance. Our Privacy
+            "Our commitment to your privacy is of utmost importance.Our Privacy
             Policy outlines how we collect, use, and protect your personal
             information, ensuring your data remains secure and confidential
             while you explore our website."
@@ -76,6 +76,19 @@ const Privacy = () => {
             the protection of information assets in carrying out the company’s
             operations, both internally and externally.
           </p>
+
+          <p className={`${styles.paragraph} text-justify`}>
+            We are fully NDPR (Nigeria Data Protection Regulation) Compliant and
+            as a result we follow the regulatory best practice following
+            electronic electronic & information use.
+          </p>
+
+          <p className={`${styles.paragraph} text-justify`}>
+            We are also ISO (International Standard of Organization)
+            Certified.Following the best standards to ensuring the quality,
+            safety and efficiency of products, services, and systems.
+          </p>
+
           <p className={`${styles.paragraph} text-justify mt-3`}>
             Our commitment to protecting the integrity and processing throughout
             the organizations. This is aligned with our organizational goals and
