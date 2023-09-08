@@ -2,7 +2,7 @@ import { boards_cbn, boards_nspm } from '../constants'
 import styles from '../style'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import { acting_cbn, lines, md } from '../assets'
+import { acting_cbn, chairman, lines, md } from '../assets'
 // import { useState } from 'react'
 
 const Team = () => {
@@ -40,17 +40,17 @@ const Team = () => {
         <div className="p-6">
           <div className="flex items-center  my-2 flex-col  justify-between  rounded-[20px]">
             <img
-              src={acting_cbn}
+              src={chairman}
               alt=""
               className="h-[260px] w-[260px] border-4 rounded-[50%] object-cover mb-5 border-teal-900 "
             />
             <div className="flex flex-col items-center">
               <p className="font-bold text-[20px] text-teal-800">
-                Mr. Folashodun Adebisi Shonubi
+                Mr. Godwin Emefiele
               </p>
 
               <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
-                Acting Chairman, Board of Directors
+                Chairman, Board of Directors
               </p>
               <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
                 {/* {board.is_cbn ? 'CBN' : 'NSPM PLC'} */}
@@ -58,7 +58,7 @@ const Team = () => {
               </p>
             </div>
           </div>
-          <div className="grid md:grid-cols-3 grid-cols-1 gap-4 cursor-pointer ">
+          <div className="grid md:grid-cols-4 grid-cols-1 gap-4 cursor-pointer ">
             {boards_cbn.map((board, index) => (
               <>
                 <div

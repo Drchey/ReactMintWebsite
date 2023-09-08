@@ -22,6 +22,7 @@ import {
   aisha_board,
   edward_board,
   obiora_board,
+  acting_cbn,
 } from '../assets'
 import { layout } from '../style'
 
@@ -519,16 +520,16 @@ export const boards_nspm = [
 ]
 
 export const boards_cbn = [
-  // {
-  //   id: 'board-1',
-  //   logo: acting_cbn,
-  //   is_cbn: true,
+  {
+    id: 'board-1',
+    logo: acting_cbn,
+    is_cbn: true,
 
-  //   title: 'Acting Chairman, Board of Directors',
-  //   name: 'Mr. Folashodun Adebisi Shonubi',
-  //   content:
-  //     'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
-  // },
+    title: 'Acting Chairman, Board of Directors',
+    name: 'Mr. Folashodun Adebisi Shonubi',
+    content:
+      'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
+  },
   {
     id: 'board-1-1',
     logo: aisha_board,
