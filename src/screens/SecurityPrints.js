@@ -247,7 +247,7 @@ const SecurityPrints = () => {
                   exploring new technologies, and ensuring that our clients
                   benefit from the latest advancements in anti-counterfeiting
                   solutions. We utilize modern local letter-assembly facilities
-                  to add the require text matter to these designs. The MINT
+                  to add the require text matter to these designs. The Nspm Plc
                   attaches to the security and integrity of its products.
                 </p>
               </div>

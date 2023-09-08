@@ -16,10 +16,12 @@ const Hero = () => (
       </div>
       <div className="relative">
         <img src={lines} alt="" className="absolute left-0 z-[-1]" />
-        <h1 className="font-bold md:text-[70px] text-[20px] ">
-          WELCOME TO THE NIGERIAN <br className="sm:block hidden" />
-          <span className="text-forest"> MINT</span>
-        </h1>
+        <h2 className="font-bold md:text-[50px] text-[20px] ">
+          WELCOME TO THE NIGERIAN SECURITY <br className="sm:block hidden" />
+          <span className="text-forest"> PRINTING & MINTING </span>
+          <br className="sm:block hidden" />
+          <span className="text-forest"> PLC</span>
+        </h2>
       </div>
 
       <div className={`${styles.paragraph} mt-5`}>

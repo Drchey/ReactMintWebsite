@@ -116,10 +116,10 @@ const CurrencyPrints = () => {
                   className={`${styles.paragraph} text-justify md:px-2 px-1 max-w-full my-5 text-[21px]`}
                 >
                   To support our operations and satisfy our clients’ demands,
-                  The MINT manufactures its offset and intaglio printing plates
-                  here in Nigeria while the sophisticated production machines
-                  and key raw materials are imported from diversified but highly
-                  reliable dealers overseas.
+                  The NSPM Plc manufactures its offset and intaglio printing
+                  plates here in Nigeria while the sophisticated production
+                  machines and key raw materials are imported from diversified
+                  but highly reliable dealers overseas.
                 </p>
               </div>
             </div>

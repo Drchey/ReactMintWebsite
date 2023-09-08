@@ -7,7 +7,7 @@ const Image = ({ logo, alt, lar_obj }) => {
         <img
           src={logo}
           alt={alt}
-          className="w-full h-[500px] object-cover transition ease-in-out duration-500"
+          className="w-full h-[100%] object-cover transition ease-in-out duration-500"
         />
       ) : (
         <img

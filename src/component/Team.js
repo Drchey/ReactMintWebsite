@@ -2,7 +2,7 @@ import { boards_cbn, boards_nspm } from '../constants'
 import styles from '../style'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import { acting_cbn, chairman, lines, md } from '../assets'
+import { chairman, lines, md } from '../assets'
 // import { useState } from 'react'
 
 const Team = () => {
