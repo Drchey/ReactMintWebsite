@@ -22,7 +22,7 @@ const Certificates = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <ProductHeader
-            title="Our Conventional Prints"
+            title="Conventional Security Prints"
             content1={`We specialize in range of printing techniques and features used to enhance the security of documents, currency, labels, and other printed materials to deter counterfeiting and fraud. These security prints are typically integrated into the design production process and are often not visible to the naked eye.`}
           />
         </div>
@@ -40,7 +40,7 @@ const Certificates = () => {
         <div className={`${styles.boxWidth}`}>
           <ProductAbout
             title="Printing For Over 120 Academic Institutions In Nigeria"
-            content="Each print is meticulously crafted to capture the essence of your accomplishment, ensuring that your hard-earned achievements are celebrated in a visually captivating manner. With a focus on precision and attention to detail, our prints reflect the dedication and effort you've put into your endeavors.We work hand-in-hand with stakeholders to add a personalized touch to each prints. Elevate your certificates to the next level of sophistication and proudly display your success with our security prints collection."
+            content="Each print is meticulously crafted to capture the essence of your accomplishment, ensuring that your hard-earned achievements are celebrated in a visually captivating manner. With a focus on precision and attention to detail, our prints reflect the dedication and effort you've put into your endeavors.We work hand-in-hand with stakeholders to add a personalized touch to each prints we produce. Elevate your certificates to the next level of sophistication and proudly display your success with our security prints collection."
           />
 
           <IdeaAction

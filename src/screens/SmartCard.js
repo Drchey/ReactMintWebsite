@@ -24,7 +24,7 @@ const SmartCard = () => {
           <ProductHeader
             // image_type={db}
             title="SmartCard Perso Bureau"
-            content1=" Our Perso Bureau with state-of-the-art machines, cutting-edge technology and highly skilled workforce will deliver high quality personalized smart cards. The processes are continually reviewed and updated to comply to applicable Standards and best practice."
+            content1=" Our Perso Bureau, with state-of-the-art machines, cutting-edge technology and highly skilled workforce will deliver high quality personalized smart cards. The processes are continually reviewed and updated to comply to applicable Standards and best practice."
             content2="At the heart of our smartcard product, we've meticulously designed and implemented a robust business continuity architecture that stands as a testament to our unwavering commitment to customer satisfaction. We understand that in today's fast-paced and interconnected world, uninterrupted service delivery is paramount. With this in mind, we've spared no effort in building a system that not only meets but exceeds customer demands at all times, regardless of external challenges or disruptions."
           />
         </div>
