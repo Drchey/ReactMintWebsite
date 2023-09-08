@@ -39,8 +39,8 @@ const Partners = () => {
             "Over the Past 50 Years, The Nigerian Security Printing & Minting
             Plc has forged enduring bonds with organizations with a foundation
             of transparency, integrity & shared goals. We have taken pride in
-            the trust our partners place on us. We continue to collaborate and
-            partner with emerging and long-standing institution through
+            the mutual trust with our partners. We continue to collaborate and
+            partner with emerging and long-standing institutions through
             open-communication, a shared pursuit of excellence & envisioned
             impact in the Nigerian market space."
           </div>

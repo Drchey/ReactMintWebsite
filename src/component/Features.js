@@ -37,7 +37,7 @@ const Features = ({ isVisible }) => {
               </h4>
             </Link>
             <p className="font-poppins font-normal text-teal-850 text-[16px] leading-[23px] mb-1">
-              We are the sole printers of the Nigerian Currency since 1963.
+              We are the sole producer of the Nigerian Banknotes and Coins.
             </p>
           </div>
         </div>

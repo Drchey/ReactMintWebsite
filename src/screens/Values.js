@@ -58,7 +58,7 @@ const Values = () => {
           <div
             className={` md:text-[20px] text-[16px]  md:text-center text-center  px-5 my-2 font-light italic`}
           >
-            "With collaboration as the cornerstone of our excellence, we are
+            "As collaboration is the cornerstone of our excellence, we are
             propelled towards ensuring that we deliver the highest quality in
             all that we do. These core values not only define who we are but
             also inspire us to continually push the boundaries of what's
@@ -75,8 +75,8 @@ const Values = () => {
             OUR MISSION STATEMENT
           </h2>
           <p className={`${styles.paragraph} text-justify my-4`}>
-            To Be passionate In delighting customers by providing innovative &
-            superior security solutions for the benefit of stakeholders.
+            To be passionate In Delighting Customers by Providing Innovative &
+            Superior Security Solutions for the benefit of Stakeholders.
           </p>
         </section>
 
@@ -85,8 +85,7 @@ const Values = () => {
             OUR VISION
           </h5>
           <p className={`${styles.paragraph} text-justify mt-4`}>
-            To be the leading provider of conventional & digital security
-            solutions.
+            "To be the leading Provider of Security Solutions."
           </p>
         </section>
 
