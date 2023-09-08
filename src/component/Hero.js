@@ -25,11 +25,11 @@ const Hero = () => (
       </div>
 
       <div className={`${styles.paragraph} mt-5`}>
-        The Nigerian Security Printing and Minting PLC is the foremost and only
-        full-fledged security printing organisation in the African sub-region.
-        It was established in 1963 by the Federal government of Nigeria in
-        partnership with De-La-Rue of the U.K The company is wholly Managed and
-        Operated by Nigerians.
+        The Nigerian Security Printing and Minting PLC is the only full-fledged
+        security printing organization in the West-African region. It was
+        established in 1963 by the Federal government of Nigeria in partnership
+        with De-La-Rue of the U.K The company is wholly Managed and Operated by
+        Nigerians.
       </div>
 
       <div>{/* <img src={lines} alt="" /> */}</div>
