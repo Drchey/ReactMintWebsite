@@ -479,7 +479,7 @@ export const boards_nspm = [
   {
     id: 'board-3',
     logo: edcs,
-    title: 'EXECUTIVE DIRECTOR CORPORATE SERVICES',
+    title: 'EXECUTIVE DIRECTOR, CORPORATE SERVICES',
     name: 'MALAM ADO DANJUMA',
     content:
       'ADO Danjuma is currently the Executive Director, Corporate Services of the NSPM PLC when he was appointed on 1st September, 2022. He has B.Sc. (Hons.) in Economics (Second Class Upper) in 1983/84 from Bayero University, Kano, and a Masters’ Degree in Business Administration from the same University. After graduating in 1984, he joined the services of Habib Nigeria Bank in 1985. He rose to the position of DGM/GM and Assistant to the Managing Director from 2001 – 2005. During that period, he was also on the Board of the Bank in the United Kingdom UK, United Arab Emirates UAE and Pakistan. He was Divisional Director of Bank PHB when Habib Nigeria Bank and Platinum Bank merged in 2005 – 2006 before he voluntarily retired in 2006. Malam Ado Danjuma has over 20 years’ experience in the Financial and Banking Industry with Habib Nigeria Bank and later with Bank PHB at Strategic Management Levels and over 10 years’ experience (2009 – 2019) in Management and Consulting with the Harley Reed International, UK (CIPS UK Accredited Centre in Nigeria). He was the Country Director, Nigeria for Harley Reed International, a Consulting Firm based in the United Kingdom with a network of offices in Nigeria, Ghana, South Africa and Kenya. In Nigeria, Harley Reed International provided Consultancy Services to NLNG, SPDC, NCC, NEMA and a host of World Bank Projects. Following the Consulting role, he played, he was appointed Board Member Nigerian Red Cross International (NRCI) Bida from 2017 – 2021. He was also Board Member of FIRS (Part-time) 2019 – 2023. Malam Ado Danjuma is a member of the Chartered Institute of Procurement & Supply (MCIPS) UK, and also to issues on Leadership in Johannesburg South Africa; Performance Management, UK; Cultural Change, Alexandria Egypt; Fiscal Policy UAE and a host of other Leadership issues in China, India amongst others.',
@@ -487,7 +487,7 @@ export const boards_nspm = [
   {
     id: 'board-4',
     logo: ed_ops,
-    title: 'EXECUTIVE DIRECTOR – OPERATIONS (ABUJA FACTORY)',
+    title: 'EXECUTIVE DIRECTOR, OPERATIONS (ABUJA FACTORY)',
     name: 'Mr Abubakar Sule Minjibir',
     content:
       "Abubakar is currently, the Executive Director (Operations)-Abuja factory who provides the required leadership and effective coordination of the day-to-day operations of the factory in synergy and support from other Executive committee members in line with the current Board mandate of restructuring and rejuvenating the company. Prior to this current position, he worked with the Federal civil service commission, Uni Petrol Nigeria Limited, Valtha oil & Gas, Oando PIc, Abuja Investment, Central Bank of Nigeria, and Tawada Limited. Abubakar is a Harvard-trained General Management Executive (GMP-9), Chartered Chemist with BSc in Chemistry, MSc in Financial Economics, MBA in Financial Management & Executive Masters certificate in Project Management- PMC London. He is also a recipient of a Doctor of Business Administration (DBA) - Honoris causa from commonwealth university UK. A fellow of the Institute of Management consultant with extensive cross-functional experiences of about 33 years across various industries, from Manufacturing, Oil & Gas, Investment, Project Management functions, Operations management functions, Security ink manufacturing &Security Printing. Drives high commitment to the essentials of Good Corporate Governance and turnaround. Highly skilled and well-motivated experienced manufacturing Operations expert, extremely knowledgeable with almost 20 years at Executive and Board level. He has also attended senior Executive programs at Harvard Business School USA, London Business School UK, Kellogg's School of Management USA, Oxford University UK, Peking University China, University of Columbia New York, USA, and Lagos Business School. An active member of the following International & local associations: Member, Harvard Alumni Association, Member, London Business School Alumni Association, Member, Columbia University Alumni Association, USA, Member, Institute of Chartered Chemist of Nigeria (ICCON), Fellow, Institute of Management Consultant, Nigeria, Member, Institute of Directors, Nigeria/UK, Member, National Council, Member, Manufacturer's Association of Nigeria (MAN), Chairman, Manufacturers Association of Nigeria (MAN) Abuja, Nasarawa & Niger Branch, Member, Nigerian Institute of Management (NIM), Presented various papers at both local & International conferences.",
@@ -496,7 +496,7 @@ export const boards_nspm = [
   {
     id: 'board-5',
     logo: ed_ops_lagos,
-    title: 'EXECUTIVE DIRECTOR – OPERATIONS (LAGOS FACTORY)',
+    title: 'EXECUTIVE DIRECTOR, OPERATIONS (LAGOS FACTORY)',
     name: 'Engr Chris Orewa',
     content:
       'Chris is a professional Engineer with over 34 years of extensive Leadership on managerial levels in the manufacturing industry, where he has been involved in building, implementing, overseeing systems, processes and workflows. He has had the opportunity of working in three continents in various sectors of the economy with multinational Conglomerates some of which are Betol Machinery, Luton, Unilever Canada, Sanofi Pasteur, Bayer Canada, Flour Mills of Nigeria. Engineer Chris holds a Bachelor degree in Engineering (B.Eng) and a Master’s degree in Business Administration (MBA) from the University of Benin, Benin City. He has attended various technical, project and executive management Courses. He is a member of Nigeria Society of Engineers, council of registered Engineers of Nigeria and association of Professional Engineers and geoscientists of Saskatchewan.',
@@ -504,7 +504,7 @@ export const boards_nspm = [
   {
     id: 'board-6',
     logo: ed_sd,
-    title: 'EXECUTIVE DIRECTOR – SECURITY DOCUMENTS',
+    title: 'EXECUTIVE DIRECTOR, SECURITY DOCUMENTS',
     name: 'Tunji Kazeem',
     content:
       'Mr. Tunji Kazeem is a seasoned Financial Executive with a wealth of experience spanning several years working in global financial institutions such as Citigroup, Standard and Poor’s and the Nigerian Stock Exchange. He was appointed the Executive Director (Security Documents) at the Nigerian Security Printing and Minting, where he currently works as a member of the Executive Management overseeing all the activities of the Mint and driving the company’s digital transformational agenda. Mr. Kazeem holds a Bachelor’s degree in Economics and Accounting from Rutgers University and an MBA from Columbia Business School. He has also attended several leadership, business management and strategy courses.',
