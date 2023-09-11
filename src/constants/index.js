@@ -480,7 +480,7 @@ export const boards_nspm = [
     id: 'board-3',
     logo: edcs,
     title: 'EXECUTIVE DIRECTOR, CORPORATE SERVICES',
-    name: 'MALAM ADO DANJUMA',
+    name: 'Mallam Ado Danjuma',
     content:
       'ADO Danjuma is currently the Executive Director, Corporate Services of the NSPM PLC when he was appointed on 1st September, 2022. He has B.Sc. (Hons.) in Economics (Second Class Upper) in 1983/84 from Bayero University, Kano, and a Masters’ Degree in Business Administration from the same University. After graduating in 1984, he joined the services of Habib Nigeria Bank in 1985. He rose to the position of DGM/GM and Assistant to the Managing Director from 2001 – 2005. During that period, he was also on the Board of the Bank in the United Kingdom UK, United Arab Emirates UAE and Pakistan. He was Divisional Director of Bank PHB when Habib Nigeria Bank and Platinum Bank merged in 2005 – 2006 before he voluntarily retired in 2006. Malam Ado Danjuma has over 20 years’ experience in the Financial and Banking Industry with Habib Nigeria Bank and later with Bank PHB at Strategic Management Levels and over 10 years’ experience (2009 – 2019) in Management and Consulting with the Harley Reed International, UK (CIPS UK Accredited Centre in Nigeria). He was the Country Director, Nigeria for Harley Reed International, a Consulting Firm based in the United Kingdom with a network of offices in Nigeria, Ghana, South Africa and Kenya. In Nigeria, Harley Reed International provided Consultancy Services to NLNG, SPDC, NCC, NEMA and a host of World Bank Projects. Following the Consulting role, he played, he was appointed Board Member Nigerian Red Cross International (NRCI) Bida from 2017 – 2021. He was also Board Member of FIRS (Part-time) 2019 – 2023. Malam Ado Danjuma is a member of the Chartered Institute of Procurement & Supply (MCIPS) UK, and also to issues on Leadership in Johannesburg South Africa; Performance Management, UK; Cultural Change, Alexandria Egypt; Fiscal Policy UAE and a host of other Leadership issues in China, India amongst others.',
   },
@@ -533,7 +533,7 @@ export const boards_cbn = [
   {
     id: 'board-1-1',
     logo: aisha_board,
-    title: 'Deputy Governor, Financial System Stability Directorate',
+    title: 'Deputy Governor, Financial System Stability',
     name: 'Mrs. Aishah N, Ahmad',
     is_cbn: true,
 
@@ -544,7 +544,7 @@ export const boards_cbn = [
   {
     id: 'board-1-2',
     logo: edward_board,
-    title: 'Deputy Governor, Corporate Services Directorate',
+    title: 'Deputy Governor, Corporate Services ',
     name: 'Mr. Edward L. Adamu',
     is_cbn: true,
     content:
@@ -557,7 +557,7 @@ export const boards_cbn = [
     is_cbn: true,
 
     name: 'Dr. Kingsley Obiora',
-    title: 'Deputy Governor, Economic Policy Directorate',
+    title: 'Deputy Governor, Economic Policy ',
     content:
       'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
   },
