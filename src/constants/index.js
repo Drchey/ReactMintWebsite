@@ -23,6 +23,10 @@ import {
   edward_board,
   obiora_board,
   acting_cbn,
+  cbn_epd,
+  cbn_cs,
+  cbn_od,
+  cbn_fss,
 } from '../assets'
 import { layout } from '../style'
 
@@ -527,19 +531,19 @@ export const boards_nspm = [
 export const boards_cbn = [
   {
     id: 'board-1',
-    logo: acting_cbn,
+    logo: cbn_epd,
     is_cbn: true,
 
-    title: 'Acting Chairman, Board of Directors',
-    name: 'Mr. Folashodun Adebisi Shonubi',
+    title: 'Deputy Governor, Economic Policy',
+    name: 'Mr. Muhammad Sani Abdullahi',
     content:
       'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
   },
   {
     id: 'board-1-1',
-    logo: aisha_board,
+    logo: cbn_fss,
     title: 'Deputy Governor, Financial System Stability',
-    name: 'Mrs. Aishah N, Ahmad',
+    name: 'Mr. Philip Ikeazor',
     is_cbn: true,
 
     content:
@@ -548,9 +552,9 @@ export const boards_cbn = [
 
   {
     id: 'board-1-2',
-    logo: edward_board,
-    title: 'Deputy Governor, Corporate Services ',
-    name: 'Mr. Edward L. Adamu',
+    logo: cbn_od,
+    title: 'Deputy Governor, Operations',
+    name: 'Ms. Emem Usoro',
     is_cbn: true,
     content:
       'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
@@ -558,11 +562,11 @@ export const boards_cbn = [
 
   {
     id: 'board-1-3',
-    logo: obiora_board,
+    logo: cbn_cs,
     is_cbn: true,
 
-    name: 'Dr. Kingsley Obiora',
-    title: 'Deputy Governor, Economic Policy ',
+    name: 'Dr. Bala M. Bello',
+    title: 'Deputy Governor, Corporate Services',
     content:
       'Godwin Emefiele is the Governor of the Central Bank of Nigeria (CBN). Prior to his joining the CBN, he spent over 26 years in commercial banking culminating in his tenure as Group Managing Director and Chief Executive Officer of Zenith Bank PLC, one of Nigeria’s largest banks .',
   },

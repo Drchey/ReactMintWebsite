@@ -28,7 +28,7 @@ import logo from './logo.png'
 import phone from './phone.png'
 import not_found from './not_found.svg'
 import ownership from './ownership1.png'
-import chairman from './chairman.jpeg'
+import chairman from './cbn_gov.jpg'
 import md from './md.jpg'
 import edcs from './edcs2.jpg'
 import ed_ops from './ed_ops.jpg'
@@ -76,10 +76,10 @@ import cp_3 from './cp_3.png'
 import cbn_building from './CBN.jpg'
 import gallery_1 from './gallery.jpg'
 import gallery_2 from './gallery_2.jpg'
-import acting_cbn from './acting_cbn.jpg'
-import edward_board from './edward_board.jpg'
-import aisha_board from './aisha_board.jpg'
-import obiora_board from './Obiora_board.jpg'
+import cbn_epd from './sani_epd.jpg'
+import cbn_fss from './philip_financial.jpg'
+import cbn_od from './dg_od.jpg'
+import cbn_cs from './bala_csd.jpg'
 import partners_nspm from './partners_nspm.jpg'
 import hand from './hands.jpg'
 import hand_1 from './hands-1.jpg'
@@ -244,10 +244,10 @@ export {
   cbn_building,
   gallery_1,
   gallery_2,
-  acting_cbn,
-  obiora_board,
-  aisha_board,
-  edward_board,
+  cbn_epd,
+  cbn_cs,
+  cbn_fss,
+  cbn_od,
   partners_nspm,
   hand,
   hand_1,
