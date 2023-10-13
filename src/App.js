@@ -23,6 +23,7 @@ import DigitalStamps from './screens/DigitalStamps'
 import ConsentCookies from './component/ConsentCookies'
 import Privacy from './screens/Privacy'
 import Values from './screens/Values'
+import About from './screens/About'
 
 const App = () => {
   const [loading, setLoading] = useState(true)
@@ -56,6 +57,7 @@ const App = () => {
         <Route path="security_prints" element={<SecurityPrints />} />
         <Route path="currency_service" element={<CurrencyPrints />} />
         <Route path="our_partners" element={<Partners />} />
+        <Route path="about" element={<About />} />
         <Route path="privacy" element={<Privacy />} />
         <Route path="values" element={<Values />} />
         <Route path="*" element={<NotFound />} />

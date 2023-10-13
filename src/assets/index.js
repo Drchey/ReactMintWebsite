@@ -104,6 +104,7 @@ import money_2 from './currency_2.png'
 
 // Video
 import video from './video/cannon.mp4'
+import about_nspm from './video/about_nspm_vid.mp4'
 import komori from './komori.jpg'
 
 // Gilloche Patterns
@@ -208,6 +209,7 @@ export {
   adviser,
   oldkobo,
   mint_features,
+  about_nspm,
   justme,
   lagosquarters,
   money,

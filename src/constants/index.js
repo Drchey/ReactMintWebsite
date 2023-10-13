@@ -43,6 +43,11 @@ export const navLinks = [
         title: 'Our Values',
         link: 'values',
       },
+      {
+        id: 'values-3',
+        title: 'About Us',
+        link: 'about',
+      },
 
       {
         id: 'values-2',
