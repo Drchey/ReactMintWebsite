@@ -78,7 +78,7 @@ const Privacy = () => {
           </p>
 
           <p className={`${styles.paragraph} text-justify`}>
-            We are fully NDPR (Nigeria Data Protection Regulation) Compliant and
+            We are fully NDPA (Nigeria Data Protection Act) Compliant and
             as a result we follow the regulatory best practice following
             electronic electronic & information use.
           </p>

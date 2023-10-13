@@ -35,7 +35,7 @@ const ConsentCookies = () => {
           <h2 className="text-lg font-semibold mb-3">Our Privacy Policy</h2>
           <p className="mb-4">
             We use cookies to give you a better and more inclusive experience.
-            We only use your information in accordance with <br></br> NDPR and
+            We only use your information in accordance with <br></br> NDPA, ISO and
             other applicable regulations as explained in our
             <Link to="/privacy" target="_blank">
               <span className="underline text-teal-500 cursor-pointer ml-1">
