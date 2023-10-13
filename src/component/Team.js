@@ -46,7 +46,7 @@ const Team = () => {
             />
             <div className="flex flex-col items-center">
               <p className="font-bold text-[20px] text-teal-800">
-                Mr. Godwin Emefiele
+              Mr. Olayemi Cardoso
               </p>
 
               <p className="font-bold text-[14px] text-teal-800 uppercase text-center">
