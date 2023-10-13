@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { contact_data } from '../constants'
 import styles from '../style'
-import { send } from '../assets'
+import { mint_building, qrcode, send } from '../assets'
 import Swal from 'sweetalert'
 import SurveyModal from './SurveyModal'
 import emailjs from '@emailjs/browser'
@@ -215,7 +215,11 @@ const ContactForm = () => {
             </div>
           ))}
 
-          <div className='className="shadow-md p-3 ring-2 ring-teal-800 hover:bg-teal-100 transition duration-100 ease-in-out h-[100px] mb-5 flex justify-center items-center p-[12px]"'>
+        
+
+        
+          <a href='https://forms.office.com/Pages/ShareFormPage.aspx?id=eDR5K6myeEiPKBYgnjpSrtdiAZvHeApGuiXDR91rje1UM1ZPS0Y3TklTSVpaNDlHUks1Q0pQSTVCNy4u&sharetoken=YYOP6IwjIKMPI2KDRy4j' target='_blank'> 
+             <div className='className="shadow-md p-3 ring-2 ring-teal-800 hover:bg-teal-100 transition duration-100 ease-in-out h-[100px] mb-5 flex justify-center items-center p-[12px]"'>
             <div
               className={`w-[64px] h-[64px] rounded-full border-orange-4 ${styles.flexCenter} bg-dimBlue `}
             >
@@ -227,7 +231,7 @@ const ContactForm = () => {
             </div>
             <div
               className="flex-1 flex flex-col ml-3 cursor-pointer"
-              onClick={openModal}
+              
             >
               <h4 className="font-poppins font-semibold  text-gray-600 text-[17px] leading-[23px] mb-2">
                 Fill In Our Survey Form
@@ -239,6 +243,11 @@ const ContactForm = () => {
 
             <SurveyModal isOpen={isOpen} toggleModal={toggleModal} />
           </div>
+          </a>  
+        </div>
+
+        <div>
+          <img src={qrcode} alt="" height="100px" className='sm:block hidden h-[400px]' />
         </div>
       </div>
       <div className="flex-1">

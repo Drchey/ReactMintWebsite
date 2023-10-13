@@ -106,6 +106,7 @@ import money_2 from './currency_2.png'
 import video from './video/cannon.mp4'
 import about_nspm from './video/about_nspm_vid.mp4'
 import komori from './komori.jpg'
+import qrcode from './qrcode.png'
 
 // Gilloche Patterns
 import guilloche_1 from './guilloche/1.svg'
@@ -155,6 +156,7 @@ import cp_prints from './cp_prints.jpg'
 import digital_prints from './digital_products.jpg'
 
 export {
+  qrcode,
   komori,
   digital_prints,
   cp_prints,
