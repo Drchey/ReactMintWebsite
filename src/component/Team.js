@@ -69,7 +69,7 @@ const Team = () => {
                   <img
                     src={board.logo}
                     alt=""
-                    className="h-[260px] w-[260px] border-4 rounded-[50%] object-cover mb-5 border-teal-900"
+                    className="h-[260px] w-[260px] border-4 rounded-[50%] object-fit mb-5 border-teal-900"
                   />
                   <div className="flex flex-col items-center">
                     <p className="font-bold text-[20px] text-teal-800">
